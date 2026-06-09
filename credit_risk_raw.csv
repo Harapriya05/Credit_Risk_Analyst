@@ -1,0 +1,2001 @@
+customer_id,age,income,region,account_type,loan_type,account_open_date,balance,days_past_due,monthly_payment,credit_limit,status,bucket
+1,23,63527,East,Credit Card,Mortgage,2017-01-18,421988,35,7513,481031,Delinquent,30-60
+2,49,45827,East,Current,Auto Loan,2022-01-15,197938,95,4391,286382,Charged-off,90+
+3,55,76476,North,Loan,Personal Loan,2019-12-04,222253,120,21034,335671,Charged-off,90+
+4,59,118912,South,Loan,Credit Card,2022-02-07,38958,35,42379,188862,Delinquent,30-60
+5,38,126580,West,Savings,Personal Loan,2023-11-22,268200,0,38754,322395,Current,Current
+6,40,151547,South,Savings,Credit Card,2022-03-29,245613,120,41745,83081,Charged-off,90+
+7,63,75750,East,Savings,Auto Loan,2017-08-12,773377,20,23456,222059,Delinquent,0-30
+8,43,141833,West,Current,Mortgage,2023-11-04,210159,0,49011,357931,Current,Current
+9,54,164942,South,Loan,Credit Card,2024-07-11,613454,70,27868,409336,Charged-off,60-90
+10,53,197972,West,Savings,Credit Card,2024-10-07,733065,10,42773,183502,Delinquent,0-30
+11,30,49583,West,Credit Card,Personal Loan,2018-11-11,49952,70,43200,94738,Charged-off,60-90
+12,53,162846,South,Loan,Credit Card,2019-12-10,465589,0,23586,414031,Current,Current
+13,53,75711,North,Credit Card,Personal Loan,2021-05-04,213071,70,20242,254591,Charged-off,60-90
+14,46,163974,North,Credit Card,Auto Loan,2018-05-19,748570,10,40413,189382,Delinquent,0-30
+15,40,132797,East,Credit Card,Mortgage,2023-12-28,443013,20,5711,477202,Delinquent,0-30
+16,35,186085,East,Credit Card,Auto Loan,2021-02-15,755105,35,13075,308545,Delinquent,30-60
+17,57,184331,East,Savings,Credit Card,2024-10-23,298307,35,25044,353878,Delinquent,30-60
+18,53,50875,West,Credit Card,Credit Card,2023-07-22,113085,0,12718,100050,Current,Current
+19,37,78285,West,Credit Card,Mortgage,2019-01-09,25904,0,32703,465989,Current,Current
+20,25,53558,South,Credit Card,Credit Card,2024-01-12,582714,70,48430,117800,Charged-off,60-90
+21,24,29864,West,Credit Card,Personal Loan,2023-06-21,197513,0,12915,88315,Current,Current
+22,23,98656,West,Loan,Auto Loan,2017-03-15,182924,0,48585,172566,Current,Current
+23,41,55592,North,Current,Credit Card,2021-07-13,400177,20,44585,94123,Delinquent,0-30
+24,60,151723,East,Loan,Mortgage,2023-12-01,5780,50,47960,373820,Delinquent,30-60
+25,23,173598,East,Savings,Mortgage,2018-07-06,705915,0,25706,272588,Current,Current
+26,41,113241,West,Current,Personal Loan,2017-09-27,744535,35,24671,107678,Delinquent,30-60
+27,28,181402,West,Savings,Mortgage,2025-01-10,795372,0,30665,147859,Current,Current
+28,62,124357,East,Savings,Personal Loan,2017-05-08,338680,0,35472,333383,Current,Current
+29,56,145336,South,Current,Credit Card,2018-03-18,432534,0,8123,38126,Current,Current
+30,49,69779,North,Current,Personal Loan,2021-09-08,338029,35,18539,103329,Delinquent,30-60
+31,59,149408,East,Current,Personal Loan,2019-11-11,418889,50,1874,144938,Delinquent,30-60
+32,54,104784,South,Loan,Personal Loan,2023-01-26,757522,0,30438,152381,Current,Current
+33,42,97086,North,Loan,Mortgage,2018-01-24,746905,0,16502,207384,Current,Current
+34,51,169047,West,Loan,Credit Card,2017-10-02,396098,50,10447,402706,Delinquent,30-60
+35,48,67397,North,Loan,Mortgage,2024-10-09,337309,120,30604,297274,Charged-off,90+
+36,55,138531,West,Savings,Mortgage,2017-05-30,146270,0,9703,481982,Current,Current
+37,54,137832,North,Credit Card,Auto Loan,2021-12-06,524446,10,10819,327783,Delinquent,0-30
+38,33,103233,East,Loan,Credit Card,2020-10-17,354888,10,41742,320575,Delinquent,0-30
+39,61,54102,North,Savings,Auto Loan,2022-09-14,167331,20,40122,396370,Delinquent,0-30
+40,24,112228,South,Loan,Personal Loan,2018-06-26,508219,10,43910,118874,Delinquent,0-30
+41,63,70556,North,Credit Card,Auto Loan,2020-07-28,609152,0,45185,358846,Current,Current
+42,26,81402,South,Credit Card,Credit Card,2022-05-23,498733,10,37196,335755,Delinquent,0-30
+43,21,149744,South,Loan,Personal Loan,2017-11-30,222745,10,18120,498384,Delinquent,0-30
+44,32,69936,South,Credit Card,Personal Loan,2019-01-21,796046,35,14413,192824,Delinquent,30-60
+45,55,130363,North,Savings,Credit Card,2020-05-14,440628,50,41687,196314,Delinquent,30-60
+46,31,195057,South,Credit Card,Personal Loan,2023-02-25,699579,95,47090,187537,Charged-off,90+
+47,43,156241,South,Loan,Credit Card,2018-10-30,496114,95,12151,52714,Charged-off,90+
+48,34,133699,East,Savings,Auto Loan,2024-09-25,39616,0,27267,464786,Current,Current
+49,39,68772,North,Current,Credit Card,2017-07-23,414032,0,45743,369185,Current,Current
+50,57,34814,South,Savings,Auto Loan,2018-03-25,666568,20,15578,83158,Delinquent,0-30
+51,36,61881,West,Savings,Credit Card,2024-06-28,579257,0,21605,426770,Current,Current
+52,64,37232,East,Credit Card,Personal Loan,2018-12-26,445210,0,1167,158391,Current,Current
+53,48,115194,South,Current,Auto Loan,2019-04-02,752878,10,47431,117645,Delinquent,0-30
+54,51,110657,East,Current,Personal Loan,2023-07-28,634115,70,2769,183087,Charged-off,60-90
+55,27,162791,North,Credit Card,Mortgage,2018-09-28,709685,0,37242,248320,Current,Current
+56,47,56284,West,Current,Credit Card,2017-06-19,379814,70,40329,201531,Charged-off,60-90
+57,37,113133,South,Loan,Mortgage,2022-11-07,517007,0,44502,465997,Current,Current
+58,27,51563,South,Credit Card,Auto Loan,2024-09-11,480501,0,42096,162533,Current,Current
+59,35,44654,West,Credit Card,Auto Loan,2017-03-30,792793,0,22266,156501,Current,Current
+60,60,90463,North,Savings,Mortgage,2021-12-09,86130,70,42057,48017,Charged-off,60-90
+61,32,51563,North,Loan,Personal Loan,2022-09-02,258414,0,49617,455355,Current,Current
+62,28,144172,East,Credit Card,Auto Loan,2019-05-11,658033,0,41290,121772,Current,Current
+63,22,124628,East,Loan,Mortgage,2022-10-29,64214,0,37170,476005,Current,Current
+64,64,101816,South,Savings,Mortgage,2019-04-28,39320,10,14430,235032,Delinquent,0-30
+65,58,165647,West,Credit Card,Auto Loan,2023-03-04,696398,20,39092,178487,Delinquent,0-30
+66,46,129756,South,Credit Card,Personal Loan,2024-04-21,373472,35,18657,336415,Delinquent,30-60
+67,41,103234,South,Loan,Auto Loan,2019-06-02,693967,20,29631,152067,Delinquent,0-30
+68,33,62297,South,Credit Card,Personal Loan,2024-01-29,87033,0,1495,40765,Current,Current
+69,39,101516,East,Credit Card,Personal Loan,2022-10-31,688066,20,24676,300758,Delinquent,0-30
+70,38,52979,West,Credit Card,Credit Card,2018-06-18,253868,0,35899,295133,Current,Current
+71,22,122234,North,Credit Card,Personal Loan,2022-10-22,210727,10,6662,278449,Delinquent,0-30
+72,62,120922,West,Current,Mortgage,2019-03-16,332570,0,16511,223037,Current,Current
+73,48,178637,West,Credit Card,Credit Card,2022-10-17,788486,0,15690,154585,Current,Current
+74,43,81022,West,Credit Card,Auto Loan,2024-02-20,741965,70,4777,152762,Charged-off,60-90
+75,24,141449,West,Credit Card,Mortgage,2018-08-24,710080,95,6567,312987,Charged-off,90+
+76,24,122930,West,Savings,Mortgage,2020-03-26,251249,70,41914,359593,Charged-off,60-90
+77,32,38325,East,Credit Card,Mortgage,2022-04-20,228503,50,10104,163647,Delinquent,30-60
+78,42,99904,East,Loan,Auto Loan,2022-09-14,612325,50,17021,108081,Delinquent,30-60
+79,46,39116,West,Current,Mortgage,2018-06-21,575683,0,5771,112082,Current,Current
+80,60,120482,North,Credit Card,Personal Loan,2023-12-26,564859,35,10619,179184,Delinquent,30-60
+81,62,33465,West,Credit Card,Credit Card,2020-03-05,294678,120,48643,325876,Charged-off,90+
+82,55,80306,South,Loan,Credit Card,2020-07-13,718227,35,44843,355367,Delinquent,30-60
+83,24,131399,South,Savings,Personal Loan,2021-10-17,146280,120,22130,357878,Charged-off,90+
+84,32,75889,North,Current,Credit Card,2024-07-30,252968,0,44325,214594,Current,Current
+85,24,25400,North,Loan,Credit Card,2017-03-07,57372,50,19101,159971,Delinquent,30-60
+86,51,91317,East,Loan,Credit Card,2018-01-17,448400,20,45249,128755,Delinquent,0-30
+87,27,76664,North,Current,Credit Card,2020-10-28,541297,50,43439,451017,Delinquent,30-60
+88,30,142955,South,Loan,Personal Loan,2022-05-22,651659,0,46391,215997,Current,Current
+89,44,144616,North,Savings,Mortgage,2021-11-22,392851,0,40744,352047,Current,Current
+90,35,29851,North,Current,Auto Loan,2017-12-08,798549,20,6578,467221,Delinquent,0-30
+91,59,172380,North,Current,Mortgage,2019-11-01,142503,35,35730,182190,Delinquent,30-60
+92,40,168460,West,Credit Card,Credit Card,2023-02-16,529029,0,29356,373865,Current,Current
+93,27,129089,South,Credit Card,Credit Card,2017-10-31,729840,70,23326,147943,Charged-off,60-90
+94,33,42871,West,Loan,Personal Loan,2019-02-26,149442,0,12437,370648,Current,Current
+95,48,75791,North,Savings,Mortgage,2022-06-28,316797,0,34053,350739,Current,Current
+96,59,128258,South,Savings,Mortgage,2023-07-28,724649,70,41007,476670,Charged-off,60-90
+97,38,179239,South,Current,Auto Loan,2019-08-12,97448,0,27492,408829,Current,Current
+98,31,147932,North,Current,Mortgage,2025-02-04,713203,0,33293,485140,Current,Current
+99,56,30525,West,Current,Auto Loan,2020-05-11,735357,20,23167,273064,Delinquent,0-30
+100,56,43390,South,Current,Personal Loan,2018-06-18,144022,0,24807,336721,Current,Current
+101,22,173528,East,Loan,Personal Loan,2020-12-04,282077,20,17448,373397,Delinquent,0-30
+102,37,132701,North,Savings,Credit Card,2021-06-20,153314,35,14905,130972,Delinquent,30-60
+103,26,182125,East,Current,Auto Loan,2021-04-03,732486,50,39141,469907,Delinquent,30-60
+104,61,27603,North,Current,Auto Loan,2024-02-02,714709,50,10947,33782,Delinquent,30-60
+105,43,149152,West,Savings,Auto Loan,2020-11-19,623463,20,10297,182622,Delinquent,0-30
+106,36,111163,East,Credit Card,Mortgage,2021-07-04,773122,50,14540,230640,Delinquent,30-60
+107,61,177065,West,Savings,Personal Loan,2019-09-23,437656,20,10739,294006,Delinquent,0-30
+108,46,156223,East,Current,Auto Loan,2020-12-11,724385,35,13773,77684,Delinquent,30-60
+109,21,73971,North,Loan,Personal Loan,2022-05-05,273840,0,14600,122108,Current,Current
+110,56,153894,South,Credit Card,Auto Loan,2020-11-26,44401,0,18518,112810,Current,Current
+111,50,179372,South,Credit Card,Personal Loan,2024-12-03,643034,0,47853,392814,Current,Current
+112,22,127136,North,Savings,Mortgage,2021-09-23,450119,70,41038,459896,Charged-off,60-90
+113,40,95490,North,Loan,Credit Card,2023-09-10,474880,50,39384,250228,Delinquent,30-60
+114,25,83954,West,Savings,Credit Card,2020-05-12,400660,10,1695,324773,Delinquent,0-30
+115,51,88579,North,Credit Card,Mortgage,2019-07-29,256270,120,8401,113102,Charged-off,90+
+116,28,51811,South,Savings,Auto Loan,2021-12-26,773086,35,7815,150255,Delinquent,30-60
+117,50,120583,North,Credit Card,Auto Loan,2018-08-04,593750,70,8241,372332,Charged-off,60-90
+118,59,62842,West,Loan,Credit Card,2020-04-21,798053,35,35534,407836,Delinquent,30-60
+119,22,199032,North,Credit Card,Mortgage,2019-10-23,44069,0,8415,325953,Current,Current
+120,33,181986,North,Current,Credit Card,2017-09-21,52249,20,34572,167062,Delinquent,0-30
+121,24,29269,East,Current,Credit Card,2021-08-09,455355,0,2296,375717,Current,Current
+122,28,196800,North,Current,Mortgage,2019-12-15,495326,95,41459,281945,Charged-off,90+
+123,59,104855,West,Savings,Credit Card,2023-10-18,651656,35,18342,405434,Delinquent,30-60
+124,45,179295,West,Savings,Mortgage,2018-09-14,754688,70,23352,43930,Charged-off,60-90
+125,27,115704,West,Current,Personal Loan,2017-12-07,734926,0,19936,187765,Current,Current
+126,34,54427,North,Credit Card,Mortgage,2019-11-03,796178,0,34536,27629,Current,Current
+127,49,127861,South,Current,Credit Card,2019-08-19,359582,70,45403,344701,Charged-off,60-90
+128,41,147771,North,Credit Card,Mortgage,2022-01-30,699929,95,15386,325232,Charged-off,90+
+129,57,63138,South,Loan,Mortgage,2019-07-25,386202,0,35955,30256,Current,Current
+130,53,88518,North,Credit Card,Credit Card,2025-03-16,309969,0,9214,339615,Current,Current
+131,61,99757,West,Credit Card,Credit Card,2021-07-09,711884,0,12070,262130,Current,Current
+132,45,126465,East,Savings,Personal Loan,2020-03-30,504440,50,1790,485541,Delinquent,30-60
+133,34,193282,South,Credit Card,Mortgage,2022-08-14,469229,0,28786,124905,Current,Current
+134,29,154038,East,Credit Card,Auto Loan,2022-09-02,5497,10,20053,352681,Delinquent,0-30
+135,35,71026,West,Savings,Credit Card,2025-03-10,474264,70,46537,252239,Charged-off,60-90
+136,27,177229,South,Credit Card,Mortgage,2019-08-13,375901,0,36551,126288,Current,Current
+137,22,179583,South,Savings,Personal Loan,2021-07-25,104800,0,33094,142859,Current,Current
+138,51,114178,West,Current,Credit Card,2024-08-31,527685,95,38274,167802,Charged-off,90+
+139,27,198526,East,Current,Mortgage,2020-08-15,687860,0,43904,298525,Current,Current
+140,61,54998,North,Loan,Credit Card,2020-01-14,689687,120,34957,496045,Charged-off,90+
+141,31,127015,South,Loan,Auto Loan,2024-01-16,609068,0,40689,402259,Current,Current
+142,33,189369,East,Credit Card,Mortgage,2022-06-05,260880,20,30335,490637,Delinquent,0-30
+143,33,158040,East,Savings,Mortgage,2021-08-25,741049,20,2693,230492,Delinquent,0-30
+144,46,62507,North,Credit Card,Mortgage,2021-07-04,44763,50,39798,270855,Delinquent,30-60
+145,63,189369,South,Credit Card,Mortgage,2023-02-09,526524,35,9171,402555,Delinquent,30-60
+146,28,184508,North,Credit Card,Personal Loan,2017-01-31,107128,0,30956,358577,Current,Current
+147,34,78078,North,Credit Card,Auto Loan,2022-08-23,172068,0,14482,438058,Current,Current
+148,22,111734,North,Credit Card,Auto Loan,2018-10-03,763534,10,9377,176643,Delinquent,0-30
+149,62,69630,South,Savings,Credit Card,2023-06-06,534835,0,29131,85115,Current,Current
+150,35,78005,South,Credit Card,Personal Loan,2019-01-23,205207,50,22387,435120,Delinquent,30-60
+151,44,47422,West,Credit Card,Auto Loan,2022-06-18,267001,20,32154,134338,Delinquent,0-30
+152,54,176950,East,Savings,Mortgage,2022-09-13,500843,35,24938,434084,Delinquent,30-60
+153,24,84589,East,Savings,Personal Loan,2020-10-03,579441,0,42564,69098,Current,Current
+154,38,165916,East,Loan,Mortgage,2021-07-08,637344,0,29624,249853,Current,Current
+155,45,184178,North,Current,Credit Card,2024-04-13,350202,70,49445,457994,Charged-off,60-90
+156,44,67454,East,Savings,Mortgage,2023-05-08,689142,0,36366,122537,Current,Current
+157,26,55491,East,Savings,Auto Loan,2022-04-20,661423,50,32323,47153,Delinquent,30-60
+158,54,145126,West,Current,Credit Card,2017-11-27,295322,20,11496,414538,Delinquent,0-30
+159,58,137214,South,Loan,Auto Loan,2022-06-20,687342,120,36321,51098,Charged-off,90+
+160,23,161336,North,Current,Credit Card,2021-06-11,542214,0,26543,22881,Current,Current
+161,39,40044,West,Savings,Mortgage,2019-01-23,193233,0,13399,214655,Current,Current
+162,56,65137,West,Current,Mortgage,2018-02-06,46752,95,42158,338963,Charged-off,90+
+163,39,47202,West,Loan,Personal Loan,2025-01-21,259716,0,27110,67635,Current,Current
+164,48,143323,North,Current,Personal Loan,2017-01-23,49618,20,12917,338013,Delinquent,0-30
+165,30,32638,West,Savings,Personal Loan,2018-09-11,736499,0,32412,98243,Current,Current
+166,38,91672,North,Savings,Mortgage,2017-08-24,695477,10,28699,228866,Delinquent,0-30
+167,24,122769,North,Loan,Mortgage,2023-12-06,651276,120,48030,303071,Charged-off,90+
+168,32,110908,East,Savings,Credit Card,2024-08-31,103620,0,30501,360768,Current,Current
+169,47,127091,West,Savings,Mortgage,2022-10-19,86401,0,47648,483230,Current,Current
+170,49,136553,East,Loan,Auto Loan,2018-08-31,504517,120,13811,185536,Charged-off,90+
+171,32,142414,East,Credit Card,Mortgage,2022-09-29,726947,0,26414,454642,Current,Current
+172,31,46399,West,Savings,Mortgage,2018-12-14,642302,95,33950,77891,Charged-off,90+
+173,24,50672,South,Loan,Mortgage,2020-05-04,312870,35,17832,131262,Delinquent,30-60
+174,44,112319,South,Credit Card,Auto Loan,2020-06-10,151192,70,12120,22710,Charged-off,60-90
+175,46,77113,West,Current,Personal Loan,2024-09-11,305501,10,20386,72625,Delinquent,0-30
+176,48,125872,West,Loan,Mortgage,2017-05-16,374827,0,11529,419950,Current,Current
+177,24,124190,North,Credit Card,Mortgage,2024-04-06,177609,35,18956,393842,Delinquent,30-60
+178,56,43041,North,Loan,Mortgage,2017-04-12,463332,35,9384,417655,Delinquent,30-60
+179,35,31235,North,Credit Card,Auto Loan,2017-06-20,13286,0,45683,328726,Current,Current
+180,42,49409,North,Credit Card,Mortgage,2021-07-22,670703,0,27552,222082,Current,Current
+181,44,35926,South,Credit Card,Personal Loan,2020-01-29,734763,0,3652,324744,Current,Current
+182,44,126850,West,Credit Card,Auto Loan,2024-08-18,743256,50,38721,488862,Delinquent,30-60
+183,57,179652,North,Savings,Personal Loan,2021-01-30,266815,35,21035,315977,Delinquent,30-60
+184,25,85853,West,Savings,Personal Loan,2018-09-10,442137,0,40954,104168,Current,Current
+185,26,105362,North,Loan,Mortgage,2021-08-14,541995,0,30211,480920,Current,Current
+186,30,57166,West,Current,Mortgage,2018-11-10,155298,0,15394,143427,Current,Current
+187,23,29837,South,Current,Auto Loan,2018-09-20,266477,10,20213,24775,Delinquent,0-30
+188,58,78738,South,Savings,Credit Card,2024-06-19,762928,50,12718,61502,Delinquent,30-60
+189,54,118701,North,Credit Card,Credit Card,2022-01-14,274629,0,30740,229655,Current,Current
+190,26,180056,West,Loan,Credit Card,2021-02-25,706103,0,30932,405637,Current,Current
+191,30,142736,West,Current,Credit Card,2017-10-24,583767,70,16144,471956,Charged-off,60-90
+192,36,72456,East,Loan,Personal Loan,2024-09-04,637422,0,9032,398771,Current,Current
+193,49,140210,West,Credit Card,Credit Card,2021-09-24,623080,0,49732,244410,Current,Current
+194,23,92236,North,Credit Card,Auto Loan,2020-01-05,106875,50,29945,79574,Delinquent,30-60
+195,31,100346,South,Loan,Personal Loan,2023-11-06,512185,0,26787,305410,Current,Current
+196,57,118553,West,Current,Mortgage,2018-05-27,737520,50,38039,250115,Delinquent,30-60
+197,24,196022,North,Current,Credit Card,2023-05-28,743550,0,2782,249654,Current,Current
+198,24,34726,West,Current,Credit Card,2017-04-23,553558,20,44286,23857,Delinquent,0-30
+199,44,121098,East,Credit Card,Credit Card,2020-07-29,242125,120,30052,329067,Charged-off,90+
+200,48,198052,West,Credit Card,Credit Card,2022-05-07,285325,0,31317,196039,Current,Current
+201,55,47329,West,Loan,Auto Loan,2021-01-20,338910,35,9661,427966,Delinquent,30-60
+202,58,155732,South,Savings,Auto Loan,2019-07-05,609072,0,1213,90332,Current,Current
+203,44,26015,South,Current,Personal Loan,2020-06-10,640518,35,29619,452640,Delinquent,30-60
+204,42,63625,West,Loan,Mortgage,2017-06-10,279257,35,12356,128591,Delinquent,30-60
+205,46,131549,South,Loan,Credit Card,2017-06-16,523390,0,31973,149407,Current,Current
+206,38,117526,East,Loan,Mortgage,2023-11-27,32550,10,29350,495177,Delinquent,0-30
+207,23,163402,West,Savings,Credit Card,2021-10-29,310491,50,5152,352784,Delinquent,30-60
+208,31,90549,East,Loan,Personal Loan,2019-01-02,331790,50,9669,80185,Delinquent,30-60
+209,29,144861,East,Credit Card,Auto Loan,2024-05-24,74466,0,14542,312810,Current,Current
+210,53,195587,East,Savings,Mortgage,2018-09-25,797129,0,8171,394506,Current,Current
+211,46,76681,West,Loan,Mortgage,2022-07-25,606088,20,2001,342347,Delinquent,0-30
+212,56,142931,East,Credit Card,Personal Loan,2024-07-25,264803,10,15733,372895,Delinquent,0-30
+213,24,119672,North,Savings,Credit Card,2020-07-08,53995,70,45840,22828,Charged-off,60-90
+214,22,84719,East,Savings,Credit Card,2022-08-28,592101,50,22139,240120,Delinquent,30-60
+215,28,191745,North,Current,Mortgage,2019-04-01,556686,35,23565,254774,Delinquent,30-60
+216,27,80722,West,Savings,Mortgage,2025-01-19,24912,10,29161,322592,Delinquent,0-30
+217,56,26536,North,Savings,Auto Loan,2019-06-28,60249,95,37213,60609,Charged-off,90+
+218,54,163194,East,Current,Personal Loan,2019-05-16,19682,35,39747,408285,Delinquent,30-60
+219,60,191467,North,Loan,Credit Card,2017-01-23,749626,120,31265,85351,Charged-off,90+
+220,39,81883,North,Current,Personal Loan,2020-12-12,598611,10,3493,38070,Delinquent,0-30
+221,49,141782,North,Credit Card,Personal Loan,2023-10-28,144944,120,44362,265373,Charged-off,90+
+222,59,76532,West,Loan,Credit Card,2017-05-25,192889,120,14705,146837,Charged-off,90+
+223,26,151916,West,Savings,Credit Card,2021-12-06,562843,35,14523,377190,Delinquent,30-60
+224,30,75479,North,Current,Mortgage,2017-05-10,239685,0,37212,204100,Current,Current
+225,61,156473,South,Savings,Credit Card,2018-03-12,478725,0,49699,433604,Current,Current
+226,62,181308,West,Loan,Auto Loan,2017-06-18,548976,20,15019,409075,Delinquent,0-30
+227,25,136892,East,Credit Card,Credit Card,2018-02-01,59471,0,45858,120930,Current,Current
+228,44,41410,East,Savings,Personal Loan,2019-04-15,440371,0,39029,213593,Current,Current
+229,61,64288,South,Savings,Credit Card,2019-02-13,290532,10,17176,161324,Delinquent,0-30
+230,42,180000,South,Credit Card,Auto Loan,2021-01-16,159213,70,46770,391774,Charged-off,60-90
+231,46,162875,South,Credit Card,Credit Card,2019-05-26,673235,0,45768,326092,Current,Current
+232,57,152481,North,Savings,Credit Card,2021-06-21,419078,50,3407,51500,Delinquent,30-60
+233,49,139093,South,Credit Card,Credit Card,2023-06-19,543390,70,37219,380564,Charged-off,60-90
+234,56,27240,North,Credit Card,Auto Loan,2024-09-16,42544,70,23984,156721,Charged-off,60-90
+235,40,71099,North,Credit Card,Credit Card,2017-03-21,297261,20,39293,321601,Delinquent,0-30
+236,38,94533,North,Credit Card,Mortgage,2017-12-16,59646,0,4759,106994,Current,Current
+237,60,37739,South,Credit Card,Personal Loan,2017-08-16,413593,35,38937,193246,Delinquent,30-60
+238,61,66361,North,Credit Card,Auto Loan,2021-06-03,184983,20,41289,290126,Delinquent,0-30
+239,35,62841,West,Current,Mortgage,2017-05-15,452880,0,31074,423240,Current,Current
+240,35,163147,South,Credit Card,Personal Loan,2024-10-15,648703,70,47745,201146,Charged-off,60-90
+241,44,63673,North,Current,Auto Loan,2019-12-05,710300,50,4084,266746,Delinquent,30-60
+242,49,41026,West,Credit Card,Credit Card,2020-11-24,622831,0,33797,247978,Current,Current
+243,37,185138,East,Current,Mortgage,2021-06-28,199474,20,14017,303946,Delinquent,0-30
+244,45,119756,West,Savings,Mortgage,2021-09-16,404901,70,29513,260943,Charged-off,60-90
+245,36,108626,West,Credit Card,Mortgage,2023-11-13,285070,0,24125,85493,Current,Current
+246,37,79213,East,Current,Credit Card,2017-05-18,55350,20,30286,493695,Delinquent,0-30
+247,41,70845,East,Loan,Credit Card,2017-08-29,362633,10,37596,53693,Delinquent,0-30
+248,64,161929,South,Savings,Mortgage,2021-05-06,742223,70,35482,297824,Charged-off,60-90
+249,47,159632,South,Credit Card,Credit Card,2024-09-05,369524,20,5983,493215,Delinquent,0-30
+250,25,25906,West,Loan,Credit Card,2023-03-14,692747,20,23800,196604,Delinquent,0-30
+251,42,118052,South,Savings,Mortgage,2022-06-01,173002,0,26333,430923,Current,Current
+252,53,164397,East,Savings,Auto Loan,2024-10-20,289039,0,8062,158145,Current,Current
+253,60,102508,South,Loan,Credit Card,2018-11-12,586892,10,18851,50168,Delinquent,0-30
+254,22,76073,West,Credit Card,Mortgage,2019-04-14,775963,0,42882,38947,Current,Current
+255,55,75650,East,Savings,Credit Card,2018-01-03,556430,35,21069,177165,Delinquent,30-60
+256,63,113114,North,Savings,Mortgage,2023-08-01,299720,70,3144,61059,Charged-off,60-90
+257,39,134293,East,Credit Card,Personal Loan,2021-10-19,481254,0,22820,288553,Current,Current
+258,60,100722,East,Savings,Mortgage,2019-01-10,76347,50,44919,408887,Delinquent,30-60
+259,47,97185,North,Credit Card,Personal Loan,2019-10-18,424479,120,5817,64814,Charged-off,90+
+260,60,196701,West,Credit Card,Personal Loan,2021-07-04,94609,50,32250,337737,Delinquent,30-60
+261,56,112725,North,Loan,Mortgage,2023-05-05,360288,10,5807,76738,Delinquent,0-30
+262,59,75758,East,Loan,Auto Loan,2021-02-24,63417,70,7643,189965,Charged-off,60-90
+263,22,74418,West,Loan,Personal Loan,2021-08-06,314498,0,40459,245960,Current,Current
+264,61,116143,South,Loan,Credit Card,2018-11-18,453039,35,30759,91254,Delinquent,30-60
+265,38,130899,South,Savings,Personal Loan,2019-07-25,375082,0,14430,389274,Current,Current
+266,43,172226,South,Credit Card,Personal Loan,2018-02-02,743858,0,30166,89985,Current,Current
+267,46,179413,West,Savings,Credit Card,2020-04-23,536693,0,5281,305287,Current,Current
+268,31,76630,South,Credit Card,Personal Loan,2023-12-11,438216,0,28968,364286,Current,Current
+269,21,36889,West,Credit Card,Personal Loan,2017-10-30,50894,0,5815,365258,Current,Current
+270,56,143658,West,Loan,Mortgage,2021-10-13,685599,35,32150,251576,Delinquent,30-60
+271,40,199381,West,Current,Auto Loan,2017-08-08,611203,70,3297,76711,Charged-off,60-90
+272,51,141997,South,Credit Card,Credit Card,2023-08-13,520819,10,46295,101283,Delinquent,0-30
+273,28,25826,East,Savings,Credit Card,2017-02-20,394213,20,4221,453894,Delinquent,0-30
+274,60,145721,West,Credit Card,Auto Loan,2021-05-20,513935,95,18728,30952,Charged-off,90+
+275,44,120234,North,Credit Card,Credit Card,2020-05-21,33134,20,23293,256807,Delinquent,0-30
+276,40,42602,East,Current,Personal Loan,2023-10-25,207170,50,4752,353178,Delinquent,30-60
+277,35,48060,West,Current,Mortgage,2018-08-14,297407,0,3103,464538,Current,Current
+278,50,55593,South,Loan,Personal Loan,2023-07-02,516649,0,2850,388577,Current,Current
+279,40,107790,West,Loan,Mortgage,2023-03-15,477372,0,27426,206811,Current,Current
+280,58,128752,East,Credit Card,Auto Loan,2023-06-05,552312,70,38985,253583,Charged-off,60-90
+281,22,73010,South,Current,Auto Loan,2019-03-03,390835,20,42894,388314,Delinquent,0-30
+282,26,167375,North,Current,Credit Card,2018-05-22,235662,20,14033,240753,Delinquent,0-30
+283,62,37938,South,Credit Card,Auto Loan,2022-08-04,730373,70,13911,241002,Charged-off,60-90
+284,38,145461,South,Savings,Mortgage,2023-09-06,484674,70,11299,257768,Charged-off,60-90
+285,56,68625,East,Current,Personal Loan,2020-05-09,33091,35,47096,191042,Delinquent,30-60
+286,34,108584,South,Current,Credit Card,2019-03-26,211647,120,32534,80035,Charged-off,90+
+287,46,72124,North,Current,Auto Loan,2024-12-18,198424,95,34214,63353,Charged-off,90+
+288,54,143609,West,Credit Card,Personal Loan,2021-02-17,704453,0,7581,126742,Current,Current
+289,50,131807,East,Loan,Personal Loan,2018-06-18,42294,0,38669,497777,Current,Current
+290,27,183635,East,Current,Credit Card,2019-03-25,587013,0,32622,151652,Current,Current
+291,50,172945,North,Savings,Auto Loan,2020-10-02,400772,50,5340,486090,Delinquent,30-60
+292,38,166567,North,Current,Personal Loan,2022-03-25,407555,0,16741,192950,Current,Current
+293,42,196012,North,Current,Personal Loan,2019-08-29,604043,0,3465,86662,Current,Current
+294,37,83424,North,Credit Card,Personal Loan,2025-02-28,373838,0,14079,216889,Current,Current
+295,51,56295,West,Savings,Credit Card,2017-02-19,59717,20,35075,78825,Delinquent,0-30
+296,37,56276,East,Current,Mortgage,2017-02-21,308720,10,48533,262974,Delinquent,0-30
+297,51,175602,North,Current,Credit Card,2017-01-17,731064,120,43260,150904,Charged-off,90+
+298,33,96168,North,Credit Card,Mortgage,2017-10-30,308559,0,31767,237308,Current,Current
+299,47,176808,North,Savings,Auto Loan,2021-06-14,578469,0,22382,466265,Current,Current
+300,40,49978,North,Credit Card,Auto Loan,2022-10-23,678509,35,23297,101113,Delinquent,30-60
+301,37,78565,South,Credit Card,Mortgage,2017-12-06,17555,0,11759,488026,Current,Current
+302,49,67059,West,Current,Mortgage,2023-10-12,682792,50,22465,370446,Delinquent,30-60
+303,59,181953,South,Savings,Credit Card,2018-03-04,233335,0,25946,122253,Current,Current
+304,55,120079,North,Credit Card,Personal Loan,2021-06-27,425077,0,5082,393054,Current,Current
+305,28,98356,South,Loan,Auto Loan,2022-01-16,676894,95,25685,245722,Charged-off,90+
+306,63,153596,East,Credit Card,Credit Card,2018-05-15,284224,0,28236,66960,Current,Current
+307,58,130529,North,Savings,Auto Loan,2024-03-30,283247,0,35059,394943,Current,Current
+308,35,184215,South,Credit Card,Mortgage,2022-01-25,319195,10,49781,389206,Delinquent,0-30
+309,21,197207,North,Savings,Mortgage,2020-02-25,754931,0,42863,224348,Current,Current
+310,53,157475,East,Savings,Credit Card,2024-07-11,100852,0,18706,495920,Current,Current
+311,23,151641,South,Credit Card,Mortgage,2021-04-27,505230,0,4121,194361,Current,Current
+312,59,50567,North,Credit Card,Credit Card,2025-03-14,541240,10,39584,200587,Delinquent,0-30
+313,58,193042,East,Loan,Credit Card,2025-02-02,369026,0,23190,319412,Current,Current
+314,35,31416,North,Credit Card,Personal Loan,2020-12-16,255963,0,17135,254490,Current,Current
+315,62,97943,West,Credit Card,Personal Loan,2020-08-15,344575,0,14786,112547,Current,Current
+316,38,157696,West,Current,Personal Loan,2017-05-09,185742,0,6447,310917,Current,Current
+317,58,150802,East,Loan,Mortgage,2021-06-18,389997,0,39560,143314,Current,Current
+318,51,186956,North,Savings,Auto Loan,2019-03-19,296911,50,47551,467612,Delinquent,30-60
+319,40,124967,North,Credit Card,Auto Loan,2023-12-04,369801,20,46050,272453,Delinquent,0-30
+320,27,81651,South,Credit Card,Personal Loan,2019-12-16,667097,0,33082,374461,Current,Current
+321,57,105140,North,Loan,Personal Loan,2024-03-22,612471,10,1946,220352,Delinquent,0-30
+322,47,190806,West,Current,Auto Loan,2019-05-10,381725,20,34892,452406,Delinquent,0-30
+323,28,65669,West,Current,Mortgage,2017-03-07,523173,50,21113,275493,Delinquent,30-60
+324,34,187736,East,Credit Card,Personal Loan,2018-05-07,749689,120,14726,56045,Charged-off,90+
+325,35,108821,East,Loan,Mortgage,2022-07-05,789698,120,7381,378632,Charged-off,90+
+326,27,137702,East,Current,Mortgage,2020-07-28,757943,0,36881,289605,Current,Current
+327,53,154055,South,Current,Mortgage,2020-10-20,216371,50,44816,161734,Delinquent,30-60
+328,54,122952,North,Savings,Auto Loan,2021-09-05,469230,0,12088,30947,Current,Current
+329,24,52013,South,Current,Auto Loan,2019-10-07,471388,0,9303,217384,Current,Current
+330,21,194971,West,Credit Card,Mortgage,2017-03-02,557707,35,20187,241192,Delinquent,30-60
+331,61,131115,East,Savings,Credit Card,2024-12-13,536286,0,31244,291851,Current,Current
+332,34,163802,South,Credit Card,Auto Loan,2021-10-04,777167,50,42300,181422,Delinquent,30-60
+333,51,157750,West,Loan,Credit Card,2020-03-22,60123,50,26549,130014,Delinquent,30-60
+334,58,114390,North,Savings,Mortgage,2024-03-07,446721,35,45289,408588,Delinquent,30-60
+335,40,56059,East,Loan,Auto Loan,2022-06-06,687924,0,12337,39701,Current,Current
+336,23,51208,East,Credit Card,Mortgage,2024-10-28,98496,0,5924,412878,Current,Current
+337,55,120014,North,Credit Card,Auto Loan,2017-03-25,712895,35,3860,241677,Delinquent,30-60
+338,53,153073,North,Current,Personal Loan,2023-08-28,380199,95,12248,212865,Charged-off,90+
+339,35,172074,North,Savings,Personal Loan,2025-02-27,84818,35,3008,489594,Delinquent,30-60
+340,23,99977,East,Current,Credit Card,2021-11-17,798043,0,45738,140914,Current,Current
+341,48,108992,South,Credit Card,Mortgage,2019-07-01,292194,0,30249,187618,Current,Current
+342,47,105859,South,Credit Card,Credit Card,2021-12-22,507828,0,9437,429722,Current,Current
+343,53,178338,West,Credit Card,Mortgage,2023-05-19,439246,0,2189,107833,Current,Current
+344,39,151330,West,Credit Card,Mortgage,2017-02-25,92442,120,42770,104864,Charged-off,90+
+345,53,93878,West,Current,Mortgage,2021-04-10,402356,70,6083,46978,Charged-off,60-90
+346,51,107179,West,Current,Personal Loan,2024-07-16,464685,0,20407,180965,Current,Current
+347,24,49163,North,Credit Card,Credit Card,2020-03-23,481845,35,6675,292032,Delinquent,30-60
+348,52,107027,East,Savings,Personal Loan,2024-08-09,514314,10,34690,99912,Delinquent,0-30
+349,62,155968,East,Savings,Personal Loan,2017-05-01,404636,20,41086,76445,Delinquent,0-30
+350,48,58407,East,Loan,Personal Loan,2018-06-15,260466,10,34315,200763,Delinquent,0-30
+351,36,199521,South,Credit Card,Personal Loan,2018-01-23,184026,120,14341,272212,Charged-off,90+
+352,63,97738,South,Savings,Personal Loan,2024-09-06,233914,0,6517,180103,Current,Current
+353,48,135043,West,Savings,Mortgage,2024-12-15,721163,0,5464,205011,Current,Current
+354,35,36380,East,Current,Personal Loan,2023-04-22,394717,70,26023,63915,Charged-off,60-90
+355,42,166848,West,Current,Mortgage,2017-04-14,472111,0,33033,49184,Current,Current
+356,51,53677,East,Current,Auto Loan,2024-07-10,68595,35,20929,438524,Delinquent,30-60
+357,41,191495,East,Credit Card,Auto Loan,2019-06-11,153327,0,2298,189305,Current,Current
+358,52,42993,South,Credit Card,Auto Loan,2022-07-12,696454,50,25311,76854,Delinquent,30-60
+359,27,63242,South,Credit Card,Auto Loan,2017-02-05,308753,20,37939,111122,Delinquent,0-30
+360,53,96346,East,Credit Card,Mortgage,2023-08-20,564826,0,30764,459766,Current,Current
+361,28,141678,South,Credit Card,Credit Card,2024-07-10,38598,0,49955,450736,Current,Current
+362,34,161694,East,Credit Card,Credit Card,2017-05-25,328821,0,8716,229686,Current,Current
+363,45,29021,South,Credit Card,Personal Loan,2021-07-21,272762,50,25969,295544,Delinquent,30-60
+364,52,48259,East,Current,Credit Card,2020-04-23,265354,0,37641,378055,Current,Current
+365,48,35349,South,Current,Credit Card,2018-02-17,259201,0,43152,260032,Current,Current
+366,22,192591,South,Loan,Personal Loan,2024-01-29,783438,0,45673,170324,Current,Current
+367,37,58667,North,Current,Credit Card,2022-03-01,422194,70,44336,264530,Charged-off,60-90
+368,47,144142,East,Current,Personal Loan,2018-02-08,181751,10,33775,94169,Delinquent,0-30
+369,22,101558,West,Credit Card,Mortgage,2019-04-24,534949,0,35325,205779,Current,Current
+370,28,80084,East,Savings,Personal Loan,2020-09-16,497270,10,20768,373749,Delinquent,0-30
+371,58,99948,North,Loan,Mortgage,2018-08-21,404441,0,47733,399865,Current,Current
+372,40,54021,South,Credit Card,Auto Loan,2023-06-24,482316,0,42384,164748,Current,Current
+373,57,45974,North,Savings,Credit Card,2022-02-18,369071,70,1763,227012,Charged-off,60-90
+374,41,141075,North,Loan,Auto Loan,2024-10-14,621915,20,8581,58508,Delinquent,0-30
+375,46,182614,East,Credit Card,Mortgage,2018-04-21,540468,0,28366,104093,Current,Current
+376,51,195782,North,Credit Card,Auto Loan,2018-01-19,546332,10,12077,335372,Delinquent,0-30
+377,40,86659,South,Current,Credit Card,2019-09-01,692526,0,45098,254168,Current,Current
+378,26,104982,West,Savings,Mortgage,2022-07-23,243018,0,34156,427124,Current,Current
+379,35,143846,East,Credit Card,Auto Loan,2022-01-09,682558,0,19107,369017,Current,Current
+380,21,156242,North,Savings,Mortgage,2023-10-20,765439,35,34204,377682,Delinquent,30-60
+381,46,75809,South,Credit Card,Auto Loan,2018-06-07,297142,10,20894,390913,Delinquent,0-30
+382,49,161625,North,Current,Mortgage,2020-12-07,311950,0,26407,105672,Current,Current
+383,22,117183,West,Savings,Mortgage,2017-02-20,207552,0,46108,469593,Current,Current
+384,42,185137,West,Current,Auto Loan,2019-05-08,442368,50,7179,173225,Delinquent,30-60
+385,49,79685,South,Savings,Mortgage,2023-02-13,321249,0,41125,317502,Current,Current
+386,29,84385,North,Credit Card,Credit Card,2018-02-21,125336,0,37958,241388,Current,Current
+387,61,32638,East,Loan,Auto Loan,2019-05-01,746402,0,2313,119042,Current,Current
+388,41,80718,East,Current,Credit Card,2020-05-10,242439,95,24563,409912,Charged-off,90+
+389,52,29436,South,Current,Personal Loan,2017-02-14,499043,0,35468,345399,Current,Current
+390,52,180648,East,Loan,Auto Loan,2020-02-23,163393,10,16372,281372,Delinquent,0-30
+391,64,146831,South,Loan,Auto Loan,2018-08-30,629722,0,5081,274180,Current,Current
+392,60,88049,North,Current,Personal Loan,2021-02-03,521334,0,35081,415589,Current,Current
+393,46,97862,East,Savings,Personal Loan,2021-12-26,784067,120,32152,266835,Charged-off,90+
+394,33,75397,South,Credit Card,Auto Loan,2019-07-30,498887,50,7238,328114,Delinquent,30-60
+395,23,98338,East,Savings,Personal Loan,2019-07-15,209917,0,17555,462145,Current,Current
+396,52,78144,North,Credit Card,Auto Loan,2023-03-30,278001,50,11303,445987,Delinquent,30-60
+397,53,26688,South,Current,Auto Loan,2024-08-17,149476,10,45805,378974,Delinquent,0-30
+398,53,64359,East,Loan,Personal Loan,2019-10-10,609777,0,9302,305298,Current,Current
+399,62,98971,North,Current,Credit Card,2018-12-06,399173,70,5457,86151,Charged-off,60-90
+400,62,97472,West,Loan,Mortgage,2018-02-09,676444,70,26408,37874,Charged-off,60-90
+401,33,198666,West,Current,Mortgage,2025-01-30,341158,70,33205,252584,Charged-off,60-90
+402,63,139481,East,Loan,Auto Loan,2021-12-19,108977,120,41292,220896,Charged-off,90+
+403,26,187786,North,Credit Card,Personal Loan,2019-05-01,628673,50,44575,480853,Delinquent,30-60
+404,24,158282,West,Loan,Personal Loan,2017-04-12,678690,20,13973,163663,Delinquent,0-30
+405,58,84563,West,Savings,Mortgage,2018-02-16,310406,0,17390,240596,Current,Current
+406,26,56312,West,Credit Card,Mortgage,2017-01-05,377195,35,20674,259171,Delinquent,30-60
+407,23,110576,East,Savings,Auto Loan,2021-02-23,473831,0,13457,220029,Current,Current
+408,47,116494,West,Loan,Auto Loan,2019-11-20,310890,20,40346,90256,Delinquent,0-30
+409,60,25779,West,Savings,Credit Card,2017-06-10,186468,120,41777,479851,Charged-off,90+
+410,40,168895,East,Current,Auto Loan,2017-04-18,317135,50,41426,488655,Delinquent,30-60
+411,38,73149,West,Savings,Personal Loan,2021-02-03,571059,20,1950,443050,Delinquent,0-30
+412,40,157229,South,Current,Credit Card,2023-03-15,143271,0,37689,52636,Current,Current
+413,50,127980,West,Current,Mortgage,2021-04-09,470142,35,33954,457711,Delinquent,30-60
+414,30,94436,North,Current,Credit Card,2018-07-06,147926,35,47290,244270,Delinquent,30-60
+415,43,115168,West,Loan,Auto Loan,2022-06-09,74042,10,3980,220986,Delinquent,0-30
+416,23,159322,West,Loan,Personal Loan,2023-08-04,494318,10,6276,464862,Delinquent,0-30
+417,29,98167,South,Current,Credit Card,2020-08-13,359311,0,9965,317204,Current,Current
+418,39,186916,East,Loan,Auto Loan,2020-10-26,498551,120,7002,265698,Charged-off,90+
+419,56,132346,North,Credit Card,Personal Loan,2019-09-12,78525,0,36402,341088,Current,Current
+420,60,34367,East,Credit Card,Credit Card,2023-04-21,37876,0,24398,454483,Current,Current
+421,47,40976,South,Credit Card,Mortgage,2023-08-20,699311,0,41262,402215,Current,Current
+422,62,197554,North,Loan,Auto Loan,2023-12-21,735467,20,23010,300683,Delinquent,0-30
+423,48,147328,South,Current,Auto Loan,2017-02-02,28534,0,1898,221779,Current,Current
+424,63,155326,West,Credit Card,Mortgage,2021-03-29,507651,0,26845,428599,Current,Current
+425,28,98727,West,Current,Personal Loan,2020-09-03,320403,10,29640,402012,Delinquent,0-30
+426,62,126749,East,Credit Card,Mortgage,2017-07-09,373242,35,32326,241753,Delinquent,30-60
+427,28,114761,South,Savings,Mortgage,2024-08-09,382067,0,21240,436446,Current,Current
+428,38,139744,East,Current,Auto Loan,2017-04-07,208047,20,31884,260018,Delinquent,0-30
+429,41,64667,North,Current,Auto Loan,2025-03-09,170130,10,8375,159747,Delinquent,0-30
+430,33,192663,North,Credit Card,Credit Card,2022-08-21,735346,50,24358,104481,Delinquent,30-60
+431,47,108586,West,Current,Auto Loan,2023-04-04,103722,0,27359,152460,Current,Current
+432,60,135413,North,Savings,Personal Loan,2023-05-28,333162,50,14418,273952,Delinquent,30-60
+433,36,41888,South,Current,Mortgage,2024-05-16,741514,20,2728,275304,Delinquent,0-30
+434,60,177504,West,Current,Credit Card,2020-05-13,649004,0,16506,212117,Current,Current
+435,29,190168,South,Credit Card,Credit Card,2018-04-26,455198,0,30638,378834,Current,Current
+436,47,55361,West,Current,Personal Loan,2024-07-01,116732,35,34395,40919,Delinquent,30-60
+437,37,58451,South,Loan,Mortgage,2024-11-21,765832,0,44284,458598,Current,Current
+438,23,113228,North,Savings,Auto Loan,2022-04-16,611158,70,32706,328900,Charged-off,60-90
+439,24,75499,East,Loan,Personal Loan,2019-01-16,132619,35,48244,395724,Delinquent,30-60
+440,60,131426,West,Savings,Auto Loan,2019-04-22,260038,35,31047,91617,Delinquent,30-60
+441,21,111963,North,Loan,Credit Card,2020-01-08,672826,35,7141,73969,Delinquent,30-60
+442,34,128986,East,Savings,Auto Loan,2024-02-14,110287,95,30935,225910,Charged-off,90+
+443,28,92181,South,Loan,Mortgage,2018-11-10,20093,0,49896,105596,Current,Current
+444,27,175325,North,Current,Credit Card,2021-02-06,263324,20,39108,283952,Delinquent,0-30
+445,50,187676,North,Current,Personal Loan,2017-03-12,765216,50,27241,238635,Delinquent,30-60
+446,45,183520,North,Current,Auto Loan,2017-12-23,524046,0,47699,205204,Current,Current
+447,59,136662,West,Savings,Credit Card,2018-02-28,730435,10,24602,234133,Delinquent,0-30
+448,36,156747,North,Savings,Personal Loan,2018-07-25,287870,0,20878,45519,Current,Current
+449,31,117620,North,Current,Credit Card,2019-11-16,202838,10,47972,186490,Delinquent,0-30
+450,45,89219,North,Savings,Personal Loan,2017-06-15,762526,0,5151,90881,Current,Current
+451,53,189041,West,Loan,Mortgage,2017-12-08,302051,70,41550,76370,Charged-off,60-90
+452,41,160544,West,Credit Card,Credit Card,2022-10-26,459363,0,33381,362782,Current,Current
+453,30,29556,South,Credit Card,Auto Loan,2018-03-03,657235,10,18241,140121,Delinquent,0-30
+454,29,114922,South,Savings,Credit Card,2022-04-02,50356,10,27522,127772,Delinquent,0-30
+455,21,37597,South,Savings,Credit Card,2017-06-26,638962,70,17235,343373,Charged-off,60-90
+456,54,53241,North,Savings,Credit Card,2024-09-15,717527,35,34909,499331,Delinquent,30-60
+457,51,145042,South,Savings,Credit Card,2019-01-28,279607,20,36961,372975,Delinquent,0-30
+458,41,40985,West,Loan,Mortgage,2020-01-08,311191,0,18012,342901,Current,Current
+459,44,105109,East,Savings,Mortgage,2017-12-18,669663,0,37592,313186,Current,Current
+460,39,195810,South,Current,Credit Card,2022-01-23,86967,0,26291,40559,Current,Current
+461,41,87461,East,Savings,Personal Loan,2021-09-07,700474,50,37674,490325,Delinquent,30-60
+462,45,140347,East,Current,Credit Card,2019-03-15,572806,0,9967,259943,Current,Current
+463,40,103988,South,Loan,Personal Loan,2023-03-23,579494,50,17126,138949,Delinquent,30-60
+464,46,123305,South,Savings,Auto Loan,2022-07-31,647997,70,14152,334843,Charged-off,60-90
+465,27,99236,East,Loan,Mortgage,2018-01-06,69131,10,15835,208217,Delinquent,0-30
+466,23,44638,East,Current,Personal Loan,2024-12-12,359835,95,39921,215996,Charged-off,90+
+467,60,126958,East,Savings,Auto Loan,2024-12-27,703345,20,45424,37099,Delinquent,0-30
+468,28,139170,East,Loan,Auto Loan,2023-07-29,494424,120,25662,82757,Charged-off,90+
+469,50,70697,North,Loan,Auto Loan,2021-12-21,354861,50,29844,152045,Delinquent,30-60
+470,31,80508,North,Savings,Auto Loan,2017-03-25,755194,0,18466,375127,Current,Current
+471,28,164491,West,Savings,Personal Loan,2024-12-18,327538,0,8928,294008,Current,Current
+472,57,38375,West,Credit Card,Personal Loan,2017-08-26,791096,95,27620,190171,Charged-off,90+
+473,37,117917,North,Loan,Personal Loan,2024-08-06,77566,20,30135,229952,Delinquent,0-30
+474,28,179474,East,Loan,Personal Loan,2023-02-12,592200,0,8037,282457,Current,Current
+475,64,127664,West,Loan,Credit Card,2017-09-19,255575,50,49389,208029,Delinquent,30-60
+476,50,122775,East,Savings,Personal Loan,2023-07-17,204866,70,41933,293196,Charged-off,60-90
+477,63,192386,North,Loan,Mortgage,2022-12-08,377723,0,22492,176177,Current,Current
+478,63,77824,South,Loan,Personal Loan,2023-06-24,473570,0,39975,499032,Current,Current
+479,36,144578,South,Current,Mortgage,2021-03-02,306098,35,34535,166703,Delinquent,30-60
+480,24,156034,South,Savings,Credit Card,2023-11-11,395399,50,41550,268636,Delinquent,30-60
+481,41,55852,West,Credit Card,Mortgage,2025-01-16,180246,0,41697,182097,Current,Current
+482,54,178495,West,Credit Card,Mortgage,2018-02-12,239639,35,48034,59325,Delinquent,30-60
+483,60,47657,West,Credit Card,Credit Card,2019-06-03,64485,0,16975,387683,Current,Current
+484,55,35714,North,Loan,Personal Loan,2024-03-09,168731,95,6232,384297,Charged-off,90+
+485,33,82682,East,Savings,Credit Card,2024-06-11,266582,50,15370,212981,Delinquent,30-60
+486,63,81174,South,Credit Card,Personal Loan,2024-10-14,776487,0,34557,198852,Current,Current
+487,47,73852,West,Current,Mortgage,2021-07-03,708567,0,13212,154521,Current,Current
+488,28,183214,East,Credit Card,Personal Loan,2023-02-17,280922,0,37025,337352,Current,Current
+489,61,64181,South,Loan,Personal Loan,2023-08-20,577008,70,47094,108442,Charged-off,60-90
+490,62,177436,North,Credit Card,Personal Loan,2023-02-13,265426,95,12813,262730,Charged-off,90+
+491,49,154996,East,Loan,Mortgage,2018-05-17,673787,20,4291,472742,Delinquent,0-30
+492,36,167981,South,Current,Mortgage,2025-01-22,743737,10,40625,401852,Delinquent,0-30
+493,63,167414,South,Current,Personal Loan,2023-03-23,660393,70,23786,281720,Charged-off,60-90
+494,25,63495,West,Loan,Auto Loan,2022-07-22,615661,20,46856,166906,Delinquent,0-30
+495,57,78472,East,Savings,Auto Loan,2023-10-17,786130,0,10516,376358,Current,Current
+496,60,94151,East,Savings,Personal Loan,2021-10-16,766434,20,44466,206235,Delinquent,0-30
+497,60,75931,East,Loan,Credit Card,2024-05-08,267907,0,33283,261747,Current,Current
+498,62,91827,East,Credit Card,Credit Card,2020-10-19,346897,35,12945,248733,Delinquent,30-60
+499,30,154149,South,Savings,Personal Loan,2022-02-22,165838,95,34107,319973,Charged-off,90+
+500,35,50254,North,Credit Card,Mortgage,2022-11-03,506129,0,22626,200663,Current,Current
+501,41,161852,West,Current,Credit Card,2018-11-04,761222,0,28723,410871,Current,Current
+502,54,27552,East,Credit Card,Credit Card,2022-12-12,460561,20,6487,495129,Delinquent,0-30
+503,42,115326,West,Current,Personal Loan,2021-10-13,85189,35,21520,143339,Delinquent,30-60
+504,42,116097,North,Current,Mortgage,2018-07-28,409030,0,32411,339272,Current,Current
+505,29,194256,North,Savings,Personal Loan,2020-05-23,528347,95,27492,167473,Charged-off,90+
+506,46,87050,South,Savings,Personal Loan,2022-10-02,188947,0,39487,90208,Current,Current
+507,33,98134,South,Loan,Mortgage,2020-07-20,613597,0,16561,435911,Current,Current
+508,38,187444,East,Savings,Auto Loan,2022-12-29,275935,35,3047,202520,Delinquent,30-60
+509,21,62506,North,Credit Card,Mortgage,2021-08-30,552565,50,34025,415045,Delinquent,30-60
+510,43,32286,East,Credit Card,Credit Card,2019-07-31,254629,50,30209,46769,Delinquent,30-60
+511,53,162332,South,Current,Credit Card,2021-03-09,480763,10,5962,136301,Delinquent,0-30
+512,51,195400,North,Credit Card,Mortgage,2023-07-11,525564,120,6844,329199,Charged-off,90+
+513,41,77585,West,Current,Personal Loan,2022-01-14,799823,20,5983,306753,Delinquent,0-30
+514,43,98449,West,Credit Card,Auto Loan,2024-01-14,586850,10,37910,446877,Delinquent,0-30
+515,36,77225,North,Current,Auto Loan,2022-10-22,506232,50,10911,485410,Delinquent,30-60
+516,47,155536,South,Current,Credit Card,2023-12-25,133140,0,2704,218338,Current,Current
+517,57,96235,South,Savings,Credit Card,2024-11-09,592356,0,17802,194878,Current,Current
+518,58,55054,South,Loan,Mortgage,2018-04-20,785690,70,10353,350362,Charged-off,60-90
+519,34,132868,South,Credit Card,Credit Card,2020-12-28,145483,50,23401,207459,Delinquent,30-60
+520,57,67998,South,Savings,Auto Loan,2023-05-30,384292,95,7847,177458,Charged-off,90+
+521,27,186245,West,Credit Card,Credit Card,2020-03-15,668112,10,49321,63564,Delinquent,0-30
+522,32,177174,South,Current,Personal Loan,2018-05-11,480139,0,29741,46453,Current,Current
+523,48,53429,North,Current,Personal Loan,2023-01-29,513854,95,20277,30957,Charged-off,90+
+524,23,145769,West,Credit Card,Personal Loan,2021-01-12,359140,50,37068,474313,Delinquent,30-60
+525,42,183991,North,Loan,Credit Card,2023-07-23,606095,0,44766,340976,Current,Current
+526,41,29683,North,Savings,Credit Card,2017-09-23,550606,0,8595,268410,Current,Current
+527,49,61920,East,Savings,Credit Card,2020-06-05,382530,70,11039,490223,Charged-off,60-90
+528,40,125072,East,Loan,Mortgage,2022-10-16,59786,70,26533,495665,Charged-off,60-90
+529,23,35021,North,Loan,Credit Card,2017-12-23,694406,50,8818,446091,Delinquent,30-60
+530,47,97813,South,Loan,Credit Card,2020-03-24,437281,20,43699,306756,Delinquent,0-30
+531,41,35363,West,Current,Mortgage,2017-04-02,321372,0,16454,223628,Current,Current
+532,61,179654,North,Savings,Mortgage,2020-04-03,766385,35,19397,485943,Delinquent,30-60
+533,53,90644,West,Loan,Personal Loan,2017-01-12,79404,0,37702,21980,Current,Current
+534,50,103568,East,Loan,Auto Loan,2021-03-19,123383,20,41651,118492,Delinquent,0-30
+535,59,161031,West,Current,Personal Loan,2019-09-27,788019,0,41986,22256,Current,Current
+536,61,192968,East,Loan,Auto Loan,2020-03-13,479189,10,2564,110826,Delinquent,0-30
+537,29,146421,East,Credit Card,Auto Loan,2020-10-04,15386,35,37623,58611,Delinquent,30-60
+538,58,86579,East,Loan,Personal Loan,2018-05-06,669003,70,39788,151602,Charged-off,60-90
+539,43,162836,South,Current,Credit Card,2020-03-24,79397,10,7244,171381,Delinquent,0-30
+540,43,197168,North,Current,Personal Loan,2021-04-11,498814,0,47441,277080,Current,Current
+541,21,69697,South,Credit Card,Credit Card,2022-12-27,690733,0,5406,52192,Current,Current
+542,41,33522,East,Savings,Mortgage,2022-02-14,280704,95,37103,78460,Charged-off,90+
+543,52,74348,East,Savings,Auto Loan,2019-10-15,656241,0,9224,403089,Current,Current
+544,46,175752,West,Savings,Credit Card,2022-08-26,383098,0,44466,58595,Current,Current
+545,53,57232,North,Loan,Auto Loan,2017-02-26,665402,35,38441,392977,Delinquent,30-60
+546,29,106315,South,Savings,Auto Loan,2021-11-12,380622,0,9590,64949,Current,Current
+547,37,111775,North,Savings,Mortgage,2022-12-23,656111,35,49071,322931,Delinquent,30-60
+548,26,74992,West,Credit Card,Credit Card,2022-03-07,107438,50,21471,182944,Delinquent,30-60
+549,27,75329,East,Credit Card,Personal Loan,2024-07-19,738384,120,2883,283446,Charged-off,90+
+550,27,34135,North,Current,Mortgage,2019-10-20,114384,10,32473,417991,Delinquent,0-30
+551,57,167710,East,Credit Card,Credit Card,2021-08-23,151961,0,12310,398248,Current,Current
+552,25,177766,North,Current,Personal Loan,2021-07-01,565680,50,37371,399261,Delinquent,30-60
+553,53,25851,West,Loan,Credit Card,2018-09-24,206100,50,41358,302054,Delinquent,30-60
+554,30,55427,North,Credit Card,Auto Loan,2024-04-18,207380,95,28337,421877,Charged-off,90+
+555,37,160672,West,Current,Mortgage,2020-01-12,29889,0,3882,131294,Current,Current
+556,60,133247,North,Current,Mortgage,2017-09-25,352255,10,27690,361867,Delinquent,0-30
+557,48,104232,East,Current,Personal Loan,2017-05-14,225205,35,38794,97892,Delinquent,30-60
+558,42,136320,North,Current,Mortgage,2018-09-08,688447,120,19682,393783,Charged-off,90+
+559,41,59489,North,Savings,Credit Card,2019-06-07,34914,50,38901,211912,Delinquent,30-60
+560,52,166037,South,Savings,Auto Loan,2020-06-27,134963,120,24546,476879,Charged-off,90+
+561,52,74802,West,Credit Card,Credit Card,2022-03-22,380955,70,47889,242285,Charged-off,60-90
+562,56,55276,East,Current,Auto Loan,2023-06-06,632103,0,41553,282615,Current,Current
+563,51,31477,South,Savings,Personal Loan,2017-10-20,468999,70,19202,309115,Charged-off,60-90
+564,26,165625,North,Savings,Personal Loan,2023-02-14,59386,20,41458,392806,Delinquent,0-30
+565,41,162044,East,Loan,Mortgage,2021-09-13,771716,0,30823,291761,Current,Current
+566,55,42852,North,Savings,Mortgage,2019-11-22,115127,0,39458,183956,Current,Current
+567,34,50060,North,Current,Mortgage,2019-06-17,615249,0,21006,338308,Current,Current
+568,43,188949,West,Credit Card,Auto Loan,2024-11-22,291458,0,1807,200976,Current,Current
+569,62,158424,East,Savings,Personal Loan,2023-04-14,205346,10,47855,455690,Delinquent,0-30
+570,44,78430,North,Savings,Personal Loan,2020-07-26,234569,95,2170,217460,Charged-off,90+
+571,50,56038,North,Savings,Credit Card,2017-07-23,185090,35,19727,190117,Delinquent,30-60
+572,30,77676,East,Savings,Mortgage,2020-04-28,159878,10,47005,154421,Delinquent,0-30
+573,25,132554,South,Loan,Auto Loan,2021-04-01,90006,10,45086,171759,Delinquent,0-30
+574,62,54066,West,Loan,Auto Loan,2021-02-27,18560,0,46267,105871,Current,Current
+575,50,28715,South,Savings,Auto Loan,2017-02-06,645136,50,40177,457766,Delinquent,30-60
+576,27,54511,West,Current,Mortgage,2022-10-16,470487,0,12434,233359,Current,Current
+577,26,195546,East,Current,Personal Loan,2022-06-23,191947,50,34969,161856,Delinquent,30-60
+578,28,89612,North,Loan,Mortgage,2017-11-20,299925,0,10768,428167,Current,Current
+579,46,190055,South,Credit Card,Credit Card,2017-07-11,263608,50,26366,209984,Delinquent,30-60
+580,38,124035,West,Loan,Mortgage,2020-06-30,714102,50,45406,132988,Delinquent,30-60
+581,56,107293,East,Current,Mortgage,2021-01-12,787534,0,9637,178208,Current,Current
+582,46,85493,West,Savings,Mortgage,2018-04-07,49357,70,18797,221880,Charged-off,60-90
+583,56,187716,East,Credit Card,Mortgage,2023-08-24,393308,0,8364,459209,Current,Current
+584,61,113787,South,Savings,Personal Loan,2018-05-25,128708,70,21105,302502,Charged-off,60-90
+585,24,37133,East,Savings,Auto Loan,2023-04-26,402013,0,33298,390524,Current,Current
+586,33,119060,West,Credit Card,Mortgage,2021-02-24,518710,120,18753,145791,Charged-off,90+
+587,44,148525,North,Current,Personal Loan,2021-08-29,562770,10,28993,131005,Delinquent,0-30
+588,51,44979,South,Current,Mortgage,2018-07-09,562486,120,38632,459366,Charged-off,90+
+589,42,52137,East,Credit Card,Credit Card,2024-12-29,171369,0,5444,495547,Current,Current
+590,60,48847,West,Credit Card,Personal Loan,2023-03-03,543937,0,44873,262054,Current,Current
+591,38,147286,East,Credit Card,Personal Loan,2024-02-09,687696,10,28288,131589,Delinquent,0-30
+592,54,84283,East,Credit Card,Personal Loan,2018-06-30,309216,0,19998,311442,Current,Current
+593,43,181350,West,Loan,Credit Card,2020-09-22,667977,95,1207,86883,Charged-off,90+
+594,59,126103,South,Current,Mortgage,2020-07-08,230160,35,8679,99160,Delinquent,30-60
+595,57,115619,West,Current,Personal Loan,2025-01-03,164588,50,7356,377010,Delinquent,30-60
+596,21,182071,East,Savings,Auto Loan,2018-11-16,391427,10,1442,468398,Delinquent,0-30
+597,62,71877,North,Savings,Credit Card,2019-03-30,190119,70,19523,67709,Charged-off,60-90
+598,40,35259,South,Credit Card,Personal Loan,2022-04-21,417574,10,9969,160012,Delinquent,0-30
+599,45,170748,South,Current,Auto Loan,2023-08-17,511718,20,11482,124337,Delinquent,0-30
+600,26,53741,North,Credit Card,Auto Loan,2019-09-08,373957,20,29628,325678,Delinquent,0-30
+601,50,114480,North,Current,Credit Card,2019-03-30,390123,0,46084,214942,Current,Current
+602,40,152874,South,Credit Card,Personal Loan,2024-01-21,48743,70,34050,186394,Charged-off,60-90
+603,29,194875,North,Credit Card,Credit Card,2024-01-25,267202,0,3331,106067,Current,Current
+604,38,25751,East,Savings,Auto Loan,2018-11-12,367788,35,4001,256715,Delinquent,30-60
+605,60,106469,West,Loan,Auto Loan,2018-08-07,139408,35,45057,298523,Delinquent,30-60
+606,23,43400,South,Savings,Credit Card,2017-03-22,9768,0,9182,106434,Current,Current
+607,56,145313,North,Loan,Auto Loan,2021-04-29,752492,50,48618,475850,Delinquent,30-60
+608,26,104760,South,Loan,Mortgage,2020-02-29,174187,70,47883,288794,Charged-off,60-90
+609,64,127120,South,Savings,Personal Loan,2022-05-18,269693,0,46631,246687,Current,Current
+610,58,170422,North,Current,Credit Card,2018-08-06,479435,70,41790,206005,Charged-off,60-90
+611,21,187834,South,Credit Card,Auto Loan,2023-10-13,537333,35,11550,47887,Delinquent,30-60
+612,39,75865,North,Credit Card,Auto Loan,2023-01-17,365378,50,20460,416773,Delinquent,30-60
+613,58,123283,West,Loan,Mortgage,2020-10-26,95819,0,8815,423970,Current,Current
+614,48,163519,East,Current,Credit Card,2022-01-31,575996,0,4796,112424,Current,Current
+615,29,39667,West,Savings,Personal Loan,2022-07-21,358014,50,44450,171756,Delinquent,30-60
+616,30,79666,South,Loan,Credit Card,2022-07-06,266791,0,28046,259435,Current,Current
+617,44,64677,North,Savings,Mortgage,2019-05-22,517523,0,3989,166024,Current,Current
+618,46,119056,South,Savings,Auto Loan,2019-07-11,575173,0,18166,161638,Current,Current
+619,28,67761,East,Loan,Personal Loan,2017-11-26,447257,35,25543,296744,Delinquent,30-60
+620,25,185727,West,Current,Personal Loan,2023-02-25,777158,70,33379,414670,Charged-off,60-90
+621,33,135666,South,Credit Card,Personal Loan,2018-02-09,130398,0,1763,106812,Current,Current
+622,42,69320,West,Current,Mortgage,2021-12-07,567798,0,40440,162655,Current,Current
+623,54,101940,South,Savings,Personal Loan,2021-01-15,116503,0,3604,305476,Current,Current
+624,45,193644,North,Credit Card,Credit Card,2022-03-07,54522,20,11646,233710,Delinquent,0-30
+625,43,59467,East,Savings,Auto Loan,2019-12-05,41572,20,7414,127414,Delinquent,0-30
+626,61,198561,West,Credit Card,Credit Card,2017-08-24,130524,20,26134,479256,Delinquent,0-30
+627,41,41501,East,Credit Card,Auto Loan,2020-03-23,132752,95,41629,118715,Charged-off,90+
+628,23,169309,South,Savings,Personal Loan,2022-06-05,363327,0,24270,481877,Current,Current
+629,28,47205,North,Savings,Credit Card,2024-01-20,133956,0,13219,235671,Current,Current
+630,59,162012,North,Savings,Personal Loan,2018-10-20,536865,0,21958,486589,Current,Current
+631,59,148366,South,Savings,Personal Loan,2019-11-15,382609,35,23227,429809,Delinquent,30-60
+632,42,87685,North,Current,Mortgage,2019-04-08,689716,10,28500,308506,Delinquent,0-30
+633,31,87493,South,Savings,Mortgage,2017-10-11,365654,0,25998,138557,Current,Current
+634,43,99963,East,Credit Card,Mortgage,2023-10-31,667848,120,9070,54511,Charged-off,90+
+635,36,75173,South,Loan,Credit Card,2020-02-16,695128,35,11152,422062,Delinquent,30-60
+636,48,88661,South,Current,Credit Card,2020-08-16,695111,50,27444,312698,Delinquent,30-60
+637,55,104234,North,Current,Credit Card,2020-05-27,608282,70,11787,238398,Charged-off,60-90
+638,62,144649,West,Current,Mortgage,2021-11-18,592398,0,48084,346300,Current,Current
+639,49,136881,South,Loan,Auto Loan,2021-08-06,456031,70,44740,48854,Charged-off,60-90
+640,58,71756,West,Loan,Credit Card,2023-10-27,147719,0,21914,183784,Current,Current
+641,26,187128,East,Current,Mortgage,2017-09-09,724825,20,40686,322973,Delinquent,0-30
+642,34,51795,North,Current,Credit Card,2021-09-11,196854,20,29081,120880,Delinquent,0-30
+643,49,101827,East,Current,Credit Card,2018-06-28,90831,50,23074,375460,Delinquent,30-60
+644,48,90366,East,Credit Card,Personal Loan,2021-02-15,641255,70,10504,428292,Charged-off,60-90
+645,30,47156,West,Loan,Credit Card,2024-07-24,515174,120,18638,296710,Charged-off,90+
+646,24,164480,East,Credit Card,Personal Loan,2020-04-02,364030,50,21635,101272,Delinquent,30-60
+647,44,37138,North,Credit Card,Mortgage,2018-04-06,683165,0,24827,491296,Current,Current
+648,22,101433,East,Savings,Auto Loan,2020-02-23,5398,70,35589,93447,Charged-off,60-90
+649,49,121833,West,Savings,Credit Card,2020-04-02,675700,0,34464,223388,Current,Current
+650,45,168428,East,Loan,Auto Loan,2024-04-02,414654,70,48488,221354,Charged-off,60-90
+651,51,166561,South,Loan,Credit Card,2019-12-01,438890,0,4791,29265,Current,Current
+652,35,141399,West,Current,Auto Loan,2023-09-06,44380,70,44539,23045,Charged-off,60-90
+653,58,71865,West,Loan,Mortgage,2023-01-25,305217,0,9870,319226,Current,Current
+654,53,116119,South,Savings,Mortgage,2023-06-18,143705,50,12599,352191,Delinquent,30-60
+655,28,80467,South,Credit Card,Credit Card,2020-07-08,362278,20,19549,450532,Delinquent,0-30
+656,60,109516,West,Current,Mortgage,2021-12-31,140401,35,15219,156821,Delinquent,30-60
+657,36,146466,West,Savings,Mortgage,2018-12-22,717075,50,10538,254295,Delinquent,30-60
+658,58,77538,North,Current,Personal Loan,2023-04-11,486148,10,17135,313444,Delinquent,0-30
+659,64,154643,South,Credit Card,Personal Loan,2018-06-22,388455,0,1110,251322,Current,Current
+660,61,105502,North,Loan,Auto Loan,2018-07-26,781304,70,4404,301788,Charged-off,60-90
+661,54,198814,East,Loan,Auto Loan,2023-10-06,412392,35,28717,40990,Delinquent,30-60
+662,26,70104,North,Current,Mortgage,2020-09-09,552127,120,5109,336953,Charged-off,90+
+663,59,74058,North,Savings,Credit Card,2023-08-14,623302,0,36403,190556,Current,Current
+664,60,129152,South,Credit Card,Credit Card,2017-12-26,623840,0,18560,344062,Current,Current
+665,43,106015,South,Current,Mortgage,2025-01-05,794772,0,4960,150630,Current,Current
+666,41,61589,East,Current,Auto Loan,2025-02-06,632100,0,2237,137604,Current,Current
+667,55,61544,East,Loan,Mortgage,2021-01-01,593259,0,10801,109001,Current,Current
+668,49,59507,West,Current,Personal Loan,2024-05-14,707762,35,14381,416528,Delinquent,30-60
+669,55,25435,South,Loan,Credit Card,2022-01-19,9430,0,10749,105591,Current,Current
+670,22,189332,West,Credit Card,Credit Card,2021-11-28,445220,35,36847,251789,Delinquent,30-60
+671,53,158188,North,Savings,Auto Loan,2017-03-18,189651,10,32523,491512,Delinquent,0-30
+672,46,38422,North,Credit Card,Credit Card,2017-08-18,311122,10,36110,185008,Delinquent,0-30
+673,64,89599,North,Loan,Auto Loan,2019-12-08,313789,0,11461,47865,Current,Current
+674,52,76220,South,Current,Personal Loan,2017-07-01,141846,50,35673,69200,Delinquent,30-60
+675,38,47935,North,Savings,Mortgage,2019-03-23,456492,50,12075,336765,Delinquent,30-60
+676,54,142331,North,Savings,Auto Loan,2017-03-06,653769,0,23238,168185,Current,Current
+677,50,59127,South,Credit Card,Mortgage,2024-10-25,129676,70,39685,159918,Charged-off,60-90
+678,64,109427,South,Savings,Credit Card,2023-07-10,32591,120,6706,88800,Charged-off,90+
+679,43,118273,East,Loan,Personal Loan,2020-12-06,86055,0,10131,278688,Current,Current
+680,40,104109,East,Loan,Credit Card,2023-01-03,286024,50,32732,316183,Delinquent,30-60
+681,43,167659,South,Loan,Mortgage,2021-05-08,345557,120,27231,189423,Charged-off,90+
+682,60,159131,West,Current,Auto Loan,2018-05-09,365031,0,34616,369229,Current,Current
+683,28,148242,East,Savings,Personal Loan,2021-02-12,47831,120,45365,254078,Charged-off,90+
+684,34,87873,South,Savings,Mortgage,2022-04-28,293768,95,29577,292708,Charged-off,90+
+685,43,161286,South,Savings,Personal Loan,2019-10-24,18483,50,28147,405769,Delinquent,30-60
+686,34,74425,North,Loan,Personal Loan,2022-02-11,323962,20,26626,139689,Delinquent,0-30
+687,22,46409,East,Savings,Auto Loan,2022-11-28,371415,0,26819,79411,Current,Current
+688,24,37198,North,Savings,Credit Card,2024-11-06,411279,35,24646,231376,Delinquent,30-60
+689,44,110008,East,Current,Credit Card,2020-01-08,500049,20,2990,474960,Delinquent,0-30
+690,56,102055,North,Current,Credit Card,2024-02-17,188641,0,49736,471280,Current,Current
+691,29,115239,West,Loan,Credit Card,2023-06-10,459562,95,10518,423921,Charged-off,90+
+692,36,151126,West,Savings,Mortgage,2019-05-20,256689,10,22283,225673,Delinquent,0-30
+693,52,157272,West,Savings,Mortgage,2017-05-14,74764,0,7203,69624,Current,Current
+694,52,85409,West,Savings,Personal Loan,2024-01-06,747818,50,26290,498150,Delinquent,30-60
+695,47,154399,East,Loan,Mortgage,2021-09-11,719129,0,36501,25329,Current,Current
+696,35,196144,South,Credit Card,Personal Loan,2019-10-13,269774,0,39033,308724,Current,Current
+697,24,151442,South,Credit Card,Personal Loan,2021-06-28,312772,0,37730,284352,Current,Current
+698,56,197102,South,Current,Auto Loan,2018-10-20,479159,120,8820,254371,Charged-off,90+
+699,45,187241,East,Credit Card,Credit Card,2018-05-02,191064,0,39289,302095,Current,Current
+700,35,48670,South,Savings,Personal Loan,2017-07-14,189890,20,4383,440914,Delinquent,0-30
+701,32,58236,West,Savings,Auto Loan,2024-06-24,185350,50,5051,356445,Delinquent,30-60
+702,27,126864,West,Savings,Mortgage,2021-04-21,483234,70,36585,240349,Charged-off,60-90
+703,56,129011,East,Current,Credit Card,2018-11-04,374463,20,29154,266818,Delinquent,0-30
+704,44,188113,West,Current,Mortgage,2021-02-17,450339,50,47879,322870,Delinquent,30-60
+705,26,35115,East,Loan,Auto Loan,2017-09-01,594584,120,2540,457758,Charged-off,90+
+706,61,193947,North,Current,Personal Loan,2020-03-16,678837,20,18472,442597,Delinquent,0-30
+707,51,119134,South,Savings,Personal Loan,2018-06-28,292263,0,3951,161539,Current,Current
+708,41,119331,West,Credit Card,Auto Loan,2024-08-26,202912,120,20180,105798,Charged-off,90+
+709,31,176974,West,Loan,Credit Card,2022-07-08,117801,70,2032,425019,Charged-off,60-90
+710,36,153516,East,Savings,Mortgage,2021-12-04,211720,0,9059,285466,Current,Current
+711,34,66526,South,Credit Card,Credit Card,2017-05-23,577196,70,25674,247864,Charged-off,60-90
+712,45,38209,West,Loan,Mortgage,2019-03-01,457796,50,42978,361454,Delinquent,30-60
+713,34,77279,South,Current,Credit Card,2024-12-29,606950,35,45054,478315,Delinquent,30-60
+714,58,38535,West,Current,Personal Loan,2022-07-19,625839,20,2742,103977,Delinquent,0-30
+715,38,64864,South,Savings,Auto Loan,2023-10-03,322686,0,44760,480769,Current,Current
+716,34,173621,East,Credit Card,Auto Loan,2019-05-31,613432,50,38354,255745,Delinquent,30-60
+717,44,71161,South,Loan,Credit Card,2017-06-01,401754,0,34905,403251,Current,Current
+718,28,143655,West,Credit Card,Auto Loan,2017-02-06,279530,50,24391,390308,Delinquent,30-60
+719,45,118422,West,Credit Card,Personal Loan,2019-01-14,644995,50,9926,450987,Delinquent,30-60
+720,54,107421,North,Credit Card,Mortgage,2024-09-30,648774,10,15113,352895,Delinquent,0-30
+721,64,42838,South,Loan,Personal Loan,2018-02-15,618497,0,11478,130411,Current,Current
+722,48,119391,West,Loan,Mortgage,2022-01-11,205444,10,16838,272040,Delinquent,0-30
+723,44,92696,South,Savings,Auto Loan,2017-03-04,674384,0,20580,250191,Current,Current
+724,38,127545,South,Credit Card,Auto Loan,2019-08-18,618011,0,15547,251226,Current,Current
+725,54,126133,South,Loan,Mortgage,2022-07-21,28689,0,49392,279671,Current,Current
+726,62,53959,West,Loan,Credit Card,2018-02-23,147336,10,1975,153206,Delinquent,0-30
+727,23,139244,South,Current,Auto Loan,2017-02-09,529109,0,24705,97355,Current,Current
+728,32,80489,West,Credit Card,Personal Loan,2018-12-06,585787,0,4149,172657,Current,Current
+729,56,152327,North,Loan,Personal Loan,2021-02-05,428006,35,18983,310223,Delinquent,30-60
+730,25,106665,South,Credit Card,Credit Card,2018-07-20,199877,50,17957,457782,Delinquent,30-60
+731,39,150032,North,Credit Card,Credit Card,2021-10-05,655993,0,4736,339295,Current,Current
+732,32,143015,North,Loan,Auto Loan,2021-03-18,258661,35,49345,315725,Delinquent,30-60
+733,47,114647,West,Loan,Credit Card,2021-09-14,700856,0,15356,67402,Current,Current
+734,37,70286,North,Current,Personal Loan,2023-12-28,482254,10,25565,454071,Delinquent,0-30
+735,63,176271,West,Loan,Personal Loan,2024-06-04,731914,0,25522,463683,Current,Current
+736,48,106498,West,Savings,Auto Loan,2021-04-15,367142,0,42105,357925,Current,Current
+737,60,120067,East,Current,Personal Loan,2022-04-08,663132,50,3101,144217,Delinquent,30-60
+738,42,57541,South,Savings,Personal Loan,2024-04-19,211214,0,5664,131936,Current,Current
+739,30,166441,East,Loan,Personal Loan,2023-01-03,72860,0,23455,336826,Current,Current
+740,61,80133,East,Loan,Mortgage,2019-10-30,700439,10,3959,411252,Delinquent,0-30
+741,26,59498,North,Loan,Personal Loan,2024-10-30,159597,70,17501,196334,Charged-off,60-90
+742,37,142046,South,Current,Personal Loan,2021-06-24,88689,20,2976,195853,Delinquent,0-30
+743,32,75445,West,Loan,Auto Loan,2020-05-01,226697,0,35971,105838,Current,Current
+744,26,187543,North,Savings,Credit Card,2020-12-04,366567,0,44506,124486,Current,Current
+745,63,65066,North,Credit Card,Auto Loan,2018-05-15,324371,0,21269,176338,Current,Current
+746,42,101075,East,Loan,Auto Loan,2018-04-26,751470,0,4357,320726,Current,Current
+747,36,36183,East,Credit Card,Auto Loan,2020-03-03,37065,70,44509,475797,Charged-off,60-90
+748,24,154570,East,Savings,Auto Loan,2022-10-18,467189,20,46650,322567,Delinquent,0-30
+749,45,42508,West,Current,Credit Card,2020-01-01,403734,95,8628,236793,Charged-off,90+
+750,53,189413,West,Current,Auto Loan,2021-10-30,206264,35,33358,41158,Delinquent,30-60
+751,21,169608,East,Current,Auto Loan,2018-08-23,123981,0,25625,244276,Current,Current
+752,35,119191,West,Loan,Auto Loan,2020-04-27,462474,70,42496,162039,Charged-off,60-90
+753,37,172926,West,Credit Card,Personal Loan,2022-04-05,751610,0,3157,202147,Current,Current
+754,63,168414,West,Loan,Personal Loan,2017-07-11,241918,35,6763,35706,Delinquent,30-60
+755,39,178819,North,Current,Personal Loan,2024-07-31,661773,0,47596,476164,Current,Current
+756,39,106424,North,Current,Personal Loan,2021-11-28,781329,50,15793,152168,Delinquent,30-60
+757,40,109171,North,Current,Mortgage,2017-07-12,762111,0,28536,476648,Current,Current
+758,21,139105,South,Loan,Personal Loan,2021-06-14,246770,50,8002,84312,Delinquent,30-60
+759,43,151847,West,Current,Mortgage,2024-11-20,726961,70,25477,459775,Charged-off,60-90
+760,36,172199,North,Credit Card,Mortgage,2022-04-09,667664,0,33036,35463,Current,Current
+761,44,60400,West,Savings,Personal Loan,2020-04-12,215006,0,47974,317553,Current,Current
+762,40,116210,West,Current,Auto Loan,2018-02-18,784277,35,45335,300739,Delinquent,30-60
+763,35,48837,West,Savings,Personal Loan,2019-04-17,569502,35,11619,350493,Delinquent,30-60
+764,44,142777,West,Current,Mortgage,2018-08-25,311739,0,12184,415342,Current,Current
+765,57,42913,North,Credit Card,Mortgage,2022-04-08,8630,20,19101,356104,Delinquent,0-30
+766,61,86695,North,Savings,Mortgage,2023-02-12,102732,70,17628,313231,Charged-off,60-90
+767,53,116492,North,Current,Personal Loan,2022-02-11,730326,20,40783,275521,Delinquent,0-30
+768,52,74293,East,Current,Personal Loan,2021-10-29,442047,0,39743,320368,Current,Current
+769,51,140904,East,Current,Credit Card,2025-02-08,99459,70,34238,231644,Charged-off,60-90
+770,35,171314,East,Loan,Mortgage,2017-12-04,11801,0,19017,105974,Current,Current
+771,21,164182,East,Loan,Personal Loan,2021-10-04,190293,20,25892,393123,Delinquent,0-30
+772,32,78339,West,Loan,Credit Card,2021-06-23,410016,70,32993,90494,Charged-off,60-90
+773,55,64712,West,Savings,Mortgage,2019-08-25,602592,70,15104,237495,Charged-off,60-90
+774,57,169548,West,Current,Mortgage,2019-03-01,425584,0,13058,23901,Current,Current
+775,50,67736,West,Current,Personal Loan,2024-10-12,393665,20,7855,325423,Delinquent,0-30
+776,46,174908,North,Savings,Mortgage,2025-01-29,621212,20,27096,328089,Delinquent,0-30
+777,31,124021,West,Loan,Auto Loan,2018-02-02,718926,10,47550,358116,Delinquent,0-30
+778,52,179703,East,Savings,Mortgage,2022-09-15,283353,120,36112,92185,Charged-off,90+
+779,22,165200,North,Credit Card,Personal Loan,2018-04-21,543020,0,12175,453012,Current,Current
+780,30,41680,North,Loan,Personal Loan,2021-12-18,512611,0,39158,217248,Current,Current
+781,42,97174,East,Loan,Auto Loan,2024-12-25,256506,35,4772,67578,Delinquent,30-60
+782,29,71913,West,Savings,Mortgage,2022-03-20,438188,50,29238,96132,Delinquent,30-60
+783,50,177350,North,Loan,Auto Loan,2018-08-28,137944,0,7790,366386,Current,Current
+784,45,86630,East,Credit Card,Auto Loan,2021-04-01,171955,20,45289,379013,Delinquent,0-30
+785,41,110813,North,Current,Auto Loan,2022-09-16,593039,0,16783,124332,Current,Current
+786,38,25945,East,Loan,Credit Card,2023-10-18,296945,0,14135,190916,Current,Current
+787,40,121638,South,Loan,Credit Card,2020-04-17,65241,50,34337,163793,Delinquent,30-60
+788,60,40692,North,Current,Auto Loan,2024-02-03,469211,70,8310,248784,Charged-off,60-90
+789,36,199945,North,Loan,Personal Loan,2021-08-08,47697,0,49187,156243,Current,Current
+790,59,110086,West,Current,Mortgage,2025-01-29,142094,50,32091,128441,Delinquent,30-60
+791,55,172239,East,Savings,Credit Card,2023-01-28,744660,0,31195,270458,Current,Current
+792,49,136284,East,Credit Card,Auto Loan,2023-04-18,60194,120,15909,358139,Charged-off,90+
+793,50,144131,South,Credit Card,Credit Card,2021-10-04,129332,0,12586,254929,Current,Current
+794,23,166660,West,Current,Credit Card,2023-12-31,607457,0,44804,373536,Current,Current
+795,52,50069,West,Credit Card,Credit Card,2018-12-14,636186,0,29018,313537,Current,Current
+796,34,180258,East,Current,Credit Card,2017-11-27,486393,0,39011,77439,Current,Current
+797,46,117144,North,Savings,Auto Loan,2021-02-26,667867,10,34434,444099,Delinquent,0-30
+798,25,104520,West,Current,Personal Loan,2022-01-24,628216,0,12982,210338,Current,Current
+799,48,34937,South,Loan,Mortgage,2024-03-02,494591,0,36245,66741,Current,Current
+800,28,143189,South,Loan,Mortgage,2019-01-25,403880,35,48140,237722,Delinquent,30-60
+801,53,111709,West,Savings,Mortgage,2018-04-19,777778,0,24772,482813,Current,Current
+802,56,60622,South,Credit Card,Credit Card,2021-06-28,137495,35,42206,113132,Delinquent,30-60
+803,33,36355,South,Loan,Credit Card,2022-10-24,730642,35,38591,230974,Delinquent,30-60
+804,40,123295,East,Current,Credit Card,2023-05-16,689057,50,11773,228121,Delinquent,30-60
+805,38,189764,North,Current,Credit Card,2018-10-03,603478,20,15390,496482,Delinquent,0-30
+806,40,43572,West,Savings,Credit Card,2022-01-31,173845,10,45831,139321,Delinquent,0-30
+807,63,54093,North,Credit Card,Auto Loan,2024-06-10,518971,0,25938,431909,Current,Current
+808,53,198235,South,Savings,Personal Loan,2018-07-06,442077,10,44820,325269,Delinquent,0-30
+809,41,117954,North,Savings,Credit Card,2020-05-12,481401,0,11077,475362,Current,Current
+810,44,52614,West,Savings,Auto Loan,2022-03-21,478997,0,31842,336444,Current,Current
+811,48,191591,West,Savings,Credit Card,2024-02-18,69000,0,19864,359168,Current,Current
+812,25,173537,North,Credit Card,Mortgage,2020-08-19,663561,0,49768,31694,Current,Current
+813,50,137972,East,Credit Card,Credit Card,2022-04-13,38284,70,30651,226611,Charged-off,60-90
+814,63,147789,West,Current,Auto Loan,2018-11-30,396223,20,37671,331284,Delinquent,0-30
+815,44,25795,East,Current,Auto Loan,2023-05-01,96725,35,37116,331386,Delinquent,30-60
+816,59,169488,South,Loan,Auto Loan,2022-11-05,280164,0,38982,252119,Current,Current
+817,34,88417,South,Current,Personal Loan,2021-09-30,591530,0,5612,373841,Current,Current
+818,56,99665,South,Loan,Mortgage,2018-04-20,56732,70,6177,147562,Charged-off,60-90
+819,56,163176,South,Loan,Mortgage,2021-05-29,7408,35,12603,393037,Delinquent,30-60
+820,46,108098,West,Current,Auto Loan,2020-12-09,723634,0,22957,436923,Current,Current
+821,33,115746,South,Savings,Auto Loan,2023-03-22,261187,10,48004,308385,Delinquent,0-30
+822,60,41600,East,Savings,Credit Card,2021-02-10,659512,10,22224,146743,Delinquent,0-30
+823,41,189259,North,Credit Card,Auto Loan,2019-12-18,741476,10,1726,114617,Delinquent,0-30
+824,46,139403,West,Savings,Auto Loan,2020-01-20,378935,35,34049,182048,Delinquent,30-60
+825,54,179973,South,Loan,Auto Loan,2022-10-28,755417,20,49769,312463,Delinquent,0-30
+826,60,95339,West,Credit Card,Auto Loan,2017-08-20,353862,50,7254,441444,Delinquent,30-60
+827,34,120661,West,Credit Card,Mortgage,2021-09-12,17323,0,38447,392808,Current,Current
+828,41,137324,West,Current,Personal Loan,2019-04-04,638074,70,20342,485343,Charged-off,60-90
+829,63,149746,East,Loan,Mortgage,2023-06-24,246144,70,37824,347075,Charged-off,60-90
+830,39,34175,West,Loan,Credit Card,2023-08-23,508299,0,1980,291954,Current,Current
+831,32,86122,West,Loan,Auto Loan,2021-01-31,301552,0,41010,72526,Current,Current
+832,56,73545,South,Current,Auto Loan,2020-08-05,286587,50,19603,184360,Delinquent,30-60
+833,50,174743,South,Loan,Mortgage,2022-08-15,445548,10,35956,156895,Delinquent,0-30
+834,64,104306,South,Credit Card,Credit Card,2017-05-31,70283,0,42651,383394,Current,Current
+835,53,175770,South,Credit Card,Mortgage,2021-04-15,104321,50,7660,145469,Delinquent,30-60
+836,64,132057,West,Savings,Mortgage,2019-08-16,131352,0,17984,408348,Current,Current
+837,43,46271,East,Current,Mortgage,2020-11-30,599770,0,41716,322678,Current,Current
+838,61,93114,North,Credit Card,Auto Loan,2021-07-06,638761,70,37673,225868,Charged-off,60-90
+839,33,191784,South,Credit Card,Personal Loan,2024-12-29,752093,50,44113,36984,Delinquent,30-60
+840,48,154728,East,Savings,Personal Loan,2022-07-08,629422,70,31143,181697,Charged-off,60-90
+841,48,60219,East,Credit Card,Auto Loan,2023-12-06,459957,20,20410,499052,Delinquent,0-30
+842,39,174111,North,Credit Card,Personal Loan,2020-10-22,390085,0,32140,289129,Current,Current
+843,57,185531,East,Current,Auto Loan,2018-05-30,198064,10,21132,270059,Delinquent,0-30
+844,51,76380,South,Savings,Credit Card,2024-03-27,10720,0,10355,321257,Current,Current
+845,62,177242,North,Loan,Auto Loan,2017-01-31,142453,35,4469,90042,Delinquent,30-60
+846,59,36039,North,Current,Personal Loan,2024-03-26,226771,35,14021,39421,Delinquent,30-60
+847,37,74083,East,Credit Card,Personal Loan,2021-03-26,695613,20,22644,305449,Delinquent,0-30
+848,48,45269,South,Credit Card,Auto Loan,2019-09-26,194354,0,18124,181398,Current,Current
+849,24,197376,North,Loan,Auto Loan,2021-01-19,704079,120,48133,456846,Charged-off,90+
+850,26,137302,South,Savings,Credit Card,2017-12-12,480047,20,16358,365433,Delinquent,0-30
+851,39,122467,East,Savings,Mortgage,2018-08-21,148866,20,46715,301850,Delinquent,0-30
+852,43,27876,North,Loan,Personal Loan,2021-08-19,343698,10,41234,145533,Delinquent,0-30
+853,60,89530,South,Current,Credit Card,2023-10-13,667526,35,21495,404929,Delinquent,30-60
+854,62,147578,North,Current,Personal Loan,2019-12-20,252209,120,38118,407776,Charged-off,90+
+855,26,106237,North,Current,Credit Card,2022-11-08,643317,95,1874,240108,Charged-off,90+
+856,44,62718,North,Credit Card,Personal Loan,2023-04-12,322097,0,45137,385654,Current,Current
+857,42,157974,East,Credit Card,Mortgage,2017-09-21,12079,10,8840,80008,Delinquent,0-30
+858,41,90708,West,Current,Mortgage,2018-10-03,190236,70,15066,50105,Charged-off,60-90
+859,34,153799,North,Current,Credit Card,2020-07-30,648017,0,22489,52904,Current,Current
+860,44,34309,East,Credit Card,Credit Card,2019-03-31,545236,50,29002,301939,Delinquent,30-60
+861,45,180408,North,Current,Auto Loan,2022-02-18,360597,50,26263,162751,Delinquent,30-60
+862,37,119056,East,Savings,Mortgage,2021-10-22,697203,0,9130,90691,Current,Current
+863,55,137000,North,Savings,Personal Loan,2018-01-11,143339,0,46618,183745,Current,Current
+864,37,195387,North,Credit Card,Credit Card,2021-07-25,312168,20,15231,179995,Delinquent,0-30
+865,48,152795,East,Credit Card,Credit Card,2018-01-26,685470,0,25248,284021,Current,Current
+866,22,183760,West,Loan,Personal Loan,2022-10-03,488529,35,49978,432565,Delinquent,30-60
+867,54,112291,South,Credit Card,Mortgage,2017-02-10,315009,120,47197,267478,Charged-off,90+
+868,21,131802,East,Loan,Credit Card,2021-10-25,520416,35,12214,341615,Delinquent,30-60
+869,23,100579,West,Loan,Credit Card,2018-06-18,242703,10,5485,165071,Delinquent,0-30
+870,42,188702,North,Credit Card,Credit Card,2019-12-26,287958,10,8318,483344,Delinquent,0-30
+871,62,170558,North,Savings,Mortgage,2024-07-13,715656,20,16449,323195,Delinquent,0-30
+872,24,58598,South,Current,Mortgage,2019-11-07,425444,0,27648,440905,Current,Current
+873,35,154790,West,Credit Card,Mortgage,2017-03-13,329409,10,43902,329393,Delinquent,0-30
+874,56,33616,North,Savings,Mortgage,2022-07-10,400307,70,9117,240490,Charged-off,60-90
+875,59,94287,South,Loan,Auto Loan,2024-03-25,695036,10,4826,317684,Delinquent,0-30
+876,32,98725,East,Savings,Personal Loan,2019-08-12,783290,0,24937,345821,Current,Current
+877,57,37912,North,Current,Auto Loan,2020-05-19,697284,50,25795,179946,Delinquent,30-60
+878,61,186676,South,Loan,Credit Card,2024-04-09,631519,0,24161,481901,Current,Current
+879,27,144815,East,Loan,Personal Loan,2018-11-11,276419,120,23078,257170,Charged-off,90+
+880,51,139779,West,Savings,Credit Card,2017-03-18,224508,0,26121,424467,Current,Current
+881,25,181506,West,Current,Auto Loan,2021-01-04,573480,70,1943,192419,Charged-off,60-90
+882,47,169390,East,Savings,Auto Loan,2021-01-17,71445,20,33305,367756,Delinquent,0-30
+883,45,155859,West,Current,Personal Loan,2020-10-12,354621,10,33208,288133,Delinquent,0-30
+884,37,66771,West,Loan,Personal Loan,2020-09-18,675337,0,2577,355902,Current,Current
+885,48,43137,South,Current,Auto Loan,2018-03-09,90869,50,15810,88586,Delinquent,30-60
+886,47,155244,South,Savings,Mortgage,2021-11-07,369544,0,15711,266424,Current,Current
+887,46,36953,South,Credit Card,Credit Card,2020-12-30,777374,0,6535,194739,Current,Current
+888,49,110499,West,Credit Card,Auto Loan,2024-08-05,769079,0,49315,246660,Current,Current
+889,47,71577,East,Current,Auto Loan,2018-12-08,217523,35,24708,479992,Delinquent,30-60
+890,37,139643,North,Current,Personal Loan,2020-09-18,67947,0,32280,102856,Current,Current
+891,58,84356,South,Savings,Auto Loan,2020-12-08,142897,0,24633,244172,Current,Current
+892,36,61460,West,Current,Personal Loan,2023-11-14,343761,70,36173,321436,Charged-off,60-90
+893,29,117498,South,Loan,Mortgage,2024-05-27,734809,50,30437,417036,Delinquent,30-60
+894,52,139124,North,Loan,Mortgage,2024-06-27,739552,0,37892,467770,Current,Current
+895,21,77734,West,Credit Card,Personal Loan,2021-11-04,80543,10,31389,96616,Delinquent,0-30
+896,29,73535,North,Loan,Credit Card,2018-06-17,614005,20,26839,266641,Delinquent,0-30
+897,27,70177,West,Credit Card,Personal Loan,2022-12-30,599554,20,39393,52150,Delinquent,0-30
+898,64,37088,North,Current,Auto Loan,2018-04-13,579307,70,13153,225081,Charged-off,60-90
+899,57,147544,East,Current,Personal Loan,2023-06-23,367303,120,22713,411298,Charged-off,90+
+900,60,167280,North,Credit Card,Mortgage,2022-03-04,696860,95,23510,63002,Charged-off,90+
+901,26,133500,West,Credit Card,Personal Loan,2020-08-27,699980,0,8000,111629,Current,Current
+902,57,163875,East,Credit Card,Credit Card,2022-10-04,666072,70,8798,36546,Charged-off,60-90
+903,59,165856,South,Loan,Personal Loan,2021-05-31,473395,35,31004,391931,Delinquent,30-60
+904,24,138578,East,Loan,Personal Loan,2019-11-28,380438,0,14448,193550,Current,Current
+905,57,199035,East,Loan,Mortgage,2024-02-25,706772,35,9144,217908,Delinquent,30-60
+906,30,150799,South,Savings,Mortgage,2022-12-11,233644,0,22612,33198,Current,Current
+907,30,130563,West,Savings,Auto Loan,2017-05-02,770684,0,10708,458756,Current,Current
+908,55,197005,East,Loan,Auto Loan,2020-11-06,95536,50,37462,175368,Delinquent,30-60
+909,28,93031,North,Current,Credit Card,2023-04-03,746832,0,24291,442198,Current,Current
+910,43,161776,North,Credit Card,Personal Loan,2023-08-23,411748,35,18845,349746,Delinquent,30-60
+911,27,32836,East,Credit Card,Mortgage,2022-03-20,622523,35,12260,81896,Delinquent,30-60
+912,22,174147,North,Savings,Personal Loan,2019-04-17,181441,120,28165,166146,Charged-off,90+
+913,58,78137,East,Savings,Personal Loan,2021-04-08,259533,0,4102,134710,Current,Current
+914,40,75874,East,Current,Credit Card,2019-08-28,63977,0,10709,85440,Current,Current
+915,51,87450,North,Current,Mortgage,2023-07-22,730010,0,24977,456747,Current,Current
+916,50,103638,South,Credit Card,Personal Loan,2017-09-13,116515,20,14538,123622,Delinquent,0-30
+917,45,129150,North,Current,Mortgage,2018-08-25,267590,70,44999,244443,Charged-off,60-90
+918,30,35068,East,Current,Personal Loan,2022-11-08,502989,50,18144,42991,Delinquent,30-60
+919,37,35327,East,Credit Card,Personal Loan,2020-01-02,298200,0,9921,338082,Current,Current
+920,29,162604,West,Loan,Credit Card,2021-06-01,208311,95,39995,336195,Charged-off,90+
+921,63,126219,West,Current,Personal Loan,2022-11-23,22167,120,4514,369681,Charged-off,90+
+922,52,175355,East,Loan,Credit Card,2024-09-20,663230,20,41090,428778,Delinquent,0-30
+923,44,137097,South,Current,Personal Loan,2023-08-11,570344,10,36601,126398,Delinquent,0-30
+924,36,113272,East,Current,Mortgage,2024-06-13,488041,10,4187,403780,Delinquent,0-30
+925,32,63069,West,Loan,Personal Loan,2023-03-18,192632,70,4087,201442,Charged-off,60-90
+926,55,160214,South,Savings,Mortgage,2022-03-27,766228,0,1002,198491,Current,Current
+927,63,89424,West,Savings,Auto Loan,2024-12-30,578035,50,23177,174000,Delinquent,30-60
+928,37,72743,West,Loan,Personal Loan,2024-11-16,47070,35,39959,86825,Delinquent,30-60
+929,49,74324,North,Loan,Credit Card,2020-11-24,517493,120,6378,61713,Charged-off,90+
+930,56,173653,North,Loan,Auto Loan,2023-10-22,199524,0,33557,334203,Current,Current
+931,55,167462,South,Savings,Credit Card,2024-07-27,450380,120,1589,342765,Charged-off,90+
+932,24,172219,South,Credit Card,Personal Loan,2017-08-03,334487,50,4903,496444,Delinquent,30-60
+933,27,194452,North,Savings,Credit Card,2017-10-25,470990,10,28599,339997,Delinquent,0-30
+934,39,152040,East,Loan,Credit Card,2022-06-20,58312,70,23511,241534,Charged-off,60-90
+935,48,129779,West,Credit Card,Mortgage,2023-04-16,641796,10,14404,255488,Delinquent,0-30
+936,61,86543,East,Current,Mortgage,2021-01-14,764861,10,5636,399861,Delinquent,0-30
+937,42,54891,South,Credit Card,Auto Loan,2017-05-31,15826,20,11572,305014,Delinquent,0-30
+938,41,73092,West,Current,Personal Loan,2024-01-18,581832,20,42663,269946,Delinquent,0-30
+939,25,62739,South,Savings,Credit Card,2018-08-27,577439,95,16281,229459,Charged-off,90+
+940,52,160603,West,Credit Card,Credit Card,2020-03-22,310833,0,13467,51236,Current,Current
+941,21,74631,East,Savings,Credit Card,2024-01-11,235183,0,10695,28801,Current,Current
+942,40,194110,West,Loan,Mortgage,2022-05-02,318578,50,30984,435534,Delinquent,30-60
+943,48,52393,East,Loan,Personal Loan,2022-11-02,163121,120,17769,347830,Charged-off,90+
+944,64,113389,East,Credit Card,Credit Card,2021-09-02,77809,95,46522,57784,Charged-off,90+
+945,57,161085,West,Credit Card,Mortgage,2018-07-29,358640,70,42693,225039,Charged-off,60-90
+946,32,189342,West,Current,Mortgage,2018-01-28,490566,70,12402,228089,Charged-off,60-90
+947,38,109891,East,Loan,Mortgage,2021-08-13,237109,50,49118,260145,Delinquent,30-60
+948,25,170942,East,Loan,Credit Card,2023-06-16,210836,0,18264,483136,Current,Current
+949,51,131448,East,Credit Card,Credit Card,2021-01-29,590202,50,18851,182584,Delinquent,30-60
+950,22,160690,South,Credit Card,Personal Loan,2017-07-06,526589,20,23608,233609,Delinquent,0-30
+951,29,140480,East,Savings,Personal Loan,2018-05-12,316844,10,9002,492347,Delinquent,0-30
+952,22,164188,North,Credit Card,Auto Loan,2019-08-18,585145,0,35926,233546,Current,Current
+953,38,159846,South,Current,Credit Card,2017-05-10,495672,70,37786,480988,Charged-off,60-90
+954,55,149221,South,Current,Personal Loan,2021-03-29,666301,0,26122,140154,Current,Current
+955,64,64161,East,Loan,Auto Loan,2018-12-06,235955,120,2493,289854,Charged-off,90+
+956,45,27214,West,Current,Personal Loan,2023-07-13,62533,50,16376,152182,Delinquent,30-60
+957,36,108858,North,Loan,Credit Card,2024-03-18,612873,50,30716,207007,Delinquent,30-60
+958,61,136105,South,Loan,Auto Loan,2017-09-30,555274,0,44011,368980,Current,Current
+959,64,133202,South,Credit Card,Auto Loan,2021-04-16,244873,70,2142,107142,Charged-off,60-90
+960,40,142747,West,Loan,Credit Card,2020-10-10,25047,70,25622,346408,Charged-off,60-90
+961,24,94031,South,Credit Card,Credit Card,2020-06-20,392783,10,37981,337685,Delinquent,0-30
+962,52,107879,West,Savings,Mortgage,2018-10-11,255444,10,25417,430874,Delinquent,0-30
+963,40,152857,South,Current,Mortgage,2021-01-03,238914,10,22543,396317,Delinquent,0-30
+964,59,190770,East,Credit Card,Auto Loan,2018-07-04,768716,20,29691,447061,Delinquent,0-30
+965,35,133300,East,Current,Personal Loan,2017-09-10,382861,35,25491,205852,Delinquent,30-60
+966,38,117380,North,Savings,Credit Card,2019-11-04,266199,50,3951,345830,Delinquent,30-60
+967,27,198935,West,Savings,Personal Loan,2023-01-30,746536,10,42704,442290,Delinquent,0-30
+968,23,67430,East,Loan,Personal Loan,2023-12-21,387203,35,32386,472094,Delinquent,30-60
+969,28,108351,West,Current,Credit Card,2021-03-19,49022,0,21145,194322,Current,Current
+970,49,105765,South,Savings,Mortgage,2020-04-07,508366,0,34881,274660,Current,Current
+971,28,120665,East,Loan,Mortgage,2018-10-13,340976,0,36850,339058,Current,Current
+972,21,114958,West,Current,Auto Loan,2019-02-15,163027,0,42796,144429,Current,Current
+973,63,169012,West,Credit Card,Personal Loan,2019-07-19,240969,10,40005,400417,Delinquent,0-30
+974,41,94586,East,Current,Credit Card,2020-09-07,424282,0,19113,269925,Current,Current
+975,59,85445,West,Savings,Mortgage,2022-08-20,281470,0,5149,308660,Current,Current
+976,22,113757,East,Loan,Personal Loan,2022-05-16,244981,50,39987,207695,Delinquent,30-60
+977,54,69286,West,Loan,Mortgage,2018-11-19,260534,0,5454,202092,Current,Current
+978,41,181918,North,Current,Credit Card,2021-02-04,680916,120,26024,99698,Charged-off,90+
+979,53,167437,North,Loan,Credit Card,2023-10-07,103917,95,40419,257290,Charged-off,90+
+980,59,117452,South,Credit Card,Mortgage,2023-06-29,311727,95,39388,369601,Charged-off,90+
+981,60,155456,West,Savings,Auto Loan,2025-03-06,464484,0,27304,333351,Current,Current
+982,27,88138,North,Current,Personal Loan,2018-12-08,365581,35,25702,474676,Delinquent,30-60
+983,35,34901,South,Loan,Mortgage,2023-02-17,78365,0,47084,407474,Current,Current
+984,29,130398,West,Savings,Mortgage,2019-06-16,473693,120,48753,99112,Charged-off,90+
+985,50,142008,North,Current,Auto Loan,2018-01-30,777737,0,3422,94306,Current,Current
+986,64,97835,South,Current,Personal Loan,2018-05-17,155614,50,47879,370464,Delinquent,30-60
+987,37,39210,South,Credit Card,Mortgage,2019-11-09,122829,20,12045,450258,Delinquent,0-30
+988,58,169812,West,Current,Auto Loan,2019-05-30,102556,120,7683,268411,Charged-off,90+
+989,61,138811,North,Credit Card,Personal Loan,2019-09-22,512326,0,32564,89615,Current,Current
+990,59,68122,West,Current,Mortgage,2023-04-26,615712,20,12314,199571,Delinquent,0-30
+991,41,86705,North,Credit Card,Auto Loan,2021-12-02,271631,20,36835,450611,Delinquent,0-30
+992,23,98368,South,Credit Card,Auto Loan,2017-01-30,108372,95,34294,205759,Charged-off,90+
+993,57,43259,West,Credit Card,Credit Card,2024-12-18,699914,70,30910,162969,Charged-off,60-90
+994,37,173566,South,Current,Mortgage,2020-04-29,311304,10,13254,140366,Delinquent,0-30
+995,37,147243,West,Current,Mortgage,2019-07-30,784684,35,31845,61496,Delinquent,30-60
+996,31,80480,East,Loan,Credit Card,2017-08-03,438590,35,39432,361261,Delinquent,30-60
+997,30,152004,South,Loan,Mortgage,2019-08-03,504125,35,4884,247965,Delinquent,30-60
+998,21,124641,South,Loan,Credit Card,2018-06-18,157416,0,46539,316948,Current,Current
+999,30,36260,East,Loan,Mortgage,2020-11-28,556412,0,47133,161891,Current,Current
+1000,45,150016,West,Loan,Mortgage,2019-07-26,757844,0,26309,250553,Current,Current
+1001,36,33994,West,Credit Card,Credit Card,2021-03-28,29505,0,17177,81030,Current,Current
+1002,58,122677,East,Loan,Personal Loan,2020-04-02,483388,0,35506,402180,Current,Current
+1003,52,35669,South,Credit Card,Credit Card,2018-01-18,604015,0,34490,455893,Current,Current
+1004,45,75028,East,Current,Mortgage,2024-04-27,163545,10,28950,339584,Delinquent,0-30
+1005,33,53043,North,Loan,Auto Loan,2017-08-16,659766,0,42422,330000,Current,Current
+1006,63,59265,West,Current,Auto Loan,2023-10-26,382449,0,13175,348329,Current,Current
+1007,36,105846,North,Credit Card,Mortgage,2018-09-10,126987,0,14599,311959,Current,Current
+1008,61,128558,West,Loan,Mortgage,2020-07-20,117400,70,31938,393787,Charged-off,60-90
+1009,40,135334,East,Current,Mortgage,2023-07-11,483439,95,41369,142858,Charged-off,90+
+1010,48,150844,West,Loan,Personal Loan,2021-06-10,260236,0,31914,46597,Current,Current
+1011,28,46443,South,Loan,Credit Card,2019-05-21,354886,50,22405,170472,Delinquent,30-60
+1012,51,47715,West,Loan,Personal Loan,2024-04-14,525669,0,19455,131815,Current,Current
+1013,48,53796,East,Current,Mortgage,2020-11-27,297485,120,8105,69102,Charged-off,90+
+1014,49,75203,North,Credit Card,Auto Loan,2021-01-25,674197,0,43469,362184,Current,Current
+1015,62,157284,East,Credit Card,Credit Card,2019-02-10,584163,20,15432,415807,Delinquent,0-30
+1016,54,63179,North,Current,Mortgage,2022-11-03,606788,50,11744,487526,Delinquent,30-60
+1017,57,34049,West,Loan,Credit Card,2022-10-25,726540,20,44430,58319,Delinquent,0-30
+1018,62,46781,West,Credit Card,Credit Card,2020-04-23,290759,50,8745,382903,Delinquent,30-60
+1019,40,133071,South,Credit Card,Auto Loan,2024-09-18,198197,0,29855,383741,Current,Current
+1020,25,86541,North,Loan,Mortgage,2023-03-23,61349,0,5365,296744,Current,Current
+1021,47,76590,West,Savings,Mortgage,2025-02-04,44823,0,35914,23959,Current,Current
+1022,57,119700,South,Loan,Mortgage,2020-01-15,719948,0,32128,453713,Current,Current
+1023,57,173290,South,Credit Card,Personal Loan,2019-02-18,617331,120,26901,399407,Charged-off,90+
+1024,51,97771,East,Credit Card,Mortgage,2017-07-14,145804,10,41305,213421,Delinquent,0-30
+1025,53,117341,South,Savings,Auto Loan,2018-08-10,300708,0,9999,26337,Current,Current
+1026,52,132035,East,Credit Card,Personal Loan,2019-12-16,343807,0,15550,367737,Current,Current
+1027,37,54384,East,Savings,Mortgage,2021-12-12,313736,120,45697,121314,Charged-off,90+
+1028,63,183149,East,Credit Card,Credit Card,2017-08-03,790984,0,42755,413397,Current,Current
+1029,43,147371,East,Credit Card,Auto Loan,2019-11-13,645558,0,34558,78271,Current,Current
+1030,61,142661,East,Credit Card,Personal Loan,2020-12-17,539792,50,10542,284206,Delinquent,30-60
+1031,57,62396,East,Current,Auto Loan,2018-07-17,774843,70,19403,70003,Charged-off,60-90
+1032,37,189148,South,Savings,Credit Card,2021-03-07,502702,0,13803,229515,Current,Current
+1033,38,180111,South,Savings,Mortgage,2023-04-18,484538,70,13223,477101,Charged-off,60-90
+1034,34,144917,North,Credit Card,Auto Loan,2019-12-06,14524,95,11196,62863,Charged-off,90+
+1035,36,131619,East,Credit Card,Mortgage,2021-06-23,526365,50,34362,292484,Delinquent,30-60
+1036,44,107223,East,Current,Auto Loan,2024-10-14,623827,20,23916,288500,Delinquent,0-30
+1037,59,81159,South,Credit Card,Auto Loan,2024-09-12,121229,20,6129,173725,Delinquent,0-30
+1038,23,26095,North,Savings,Auto Loan,2017-11-20,433769,0,47339,345610,Current,Current
+1039,33,173563,West,Credit Card,Credit Card,2024-08-07,389262,70,27011,321770,Charged-off,60-90
+1040,59,71074,East,Loan,Auto Loan,2024-03-21,412077,70,3495,276178,Charged-off,60-90
+1041,41,191657,South,Current,Auto Loan,2022-06-20,64245,10,39618,190718,Delinquent,0-30
+1042,39,39395,West,Credit Card,Personal Loan,2019-08-22,409905,50,25048,119222,Delinquent,30-60
+1043,36,109175,North,Loan,Credit Card,2021-08-08,391965,120,2686,359863,Charged-off,90+
+1044,48,164514,South,Credit Card,Auto Loan,2018-06-06,320707,35,29424,460357,Delinquent,30-60
+1045,25,137203,East,Savings,Auto Loan,2017-11-10,577777,0,17088,81508,Current,Current
+1046,28,68661,East,Savings,Auto Loan,2019-12-18,69829,0,47897,280636,Current,Current
+1047,35,47593,North,Loan,Mortgage,2020-01-08,465049,50,19493,47410,Delinquent,30-60
+1048,29,75675,West,Savings,Auto Loan,2023-08-27,676130,0,15428,129304,Current,Current
+1049,38,167317,East,Credit Card,Personal Loan,2018-05-18,657576,50,9798,121167,Delinquent,30-60
+1050,40,87105,North,Current,Personal Loan,2020-05-08,680670,20,10937,33420,Delinquent,0-30
+1051,56,107205,North,Current,Personal Loan,2017-07-22,343648,20,25144,461869,Delinquent,0-30
+1052,64,51980,South,Loan,Auto Loan,2022-09-23,533833,0,7620,313490,Current,Current
+1053,46,36401,South,Loan,Mortgage,2017-03-31,45280,0,37829,303974,Current,Current
+1054,22,77410,East,Current,Personal Loan,2020-04-07,60763,0,34681,383811,Current,Current
+1055,58,73335,East,Savings,Mortgage,2021-01-20,432887,70,47396,369554,Charged-off,60-90
+1056,26,92066,North,Savings,Credit Card,2017-08-24,293866,35,22038,68839,Delinquent,30-60
+1057,23,192521,East,Savings,Mortgage,2023-01-06,255070,0,37959,383775,Current,Current
+1058,41,139200,West,Current,Auto Loan,2025-02-11,114587,10,44720,42630,Delinquent,0-30
+1059,43,175923,East,Savings,Credit Card,2019-11-02,130500,10,2918,398681,Delinquent,0-30
+1060,46,95357,South,Loan,Mortgage,2020-08-23,348875,0,31272,334423,Current,Current
+1061,42,29200,West,Credit Card,Auto Loan,2017-12-24,547439,95,14394,316168,Charged-off,90+
+1062,40,90138,West,Current,Mortgage,2020-08-23,445388,10,12131,20357,Delinquent,0-30
+1063,50,121154,East,Current,Auto Loan,2022-10-19,723849,35,38516,408530,Delinquent,30-60
+1064,52,35921,East,Current,Credit Card,2017-12-02,118490,10,24665,338693,Delinquent,0-30
+1065,22,40176,East,Current,Auto Loan,2021-09-24,755866,0,42174,483370,Current,Current
+1066,60,143689,West,Current,Credit Card,2019-06-03,656956,70,29190,101189,Charged-off,60-90
+1067,59,178089,East,Current,Auto Loan,2017-04-22,608855,20,19058,391637,Delinquent,0-30
+1068,58,142097,West,Current,Personal Loan,2017-04-10,333165,20,12235,325317,Delinquent,0-30
+1069,50,96345,East,Current,Mortgage,2018-01-31,757747,70,5601,119917,Charged-off,60-90
+1070,52,176733,West,Current,Credit Card,2024-10-20,208166,70,23489,296975,Charged-off,60-90
+1071,47,174957,South,Current,Mortgage,2017-05-09,410979,0,38973,393988,Current,Current
+1072,32,68626,East,Savings,Mortgage,2021-10-07,85189,50,23721,223730,Delinquent,30-60
+1073,43,47154,East,Current,Mortgage,2018-01-13,308835,0,35676,176837,Current,Current
+1074,35,112057,South,Loan,Personal Loan,2018-12-18,357294,70,16518,408711,Charged-off,60-90
+1075,55,71153,South,Credit Card,Auto Loan,2017-02-06,331495,70,49566,264231,Charged-off,60-90
+1076,61,160174,West,Credit Card,Personal Loan,2019-03-28,618994,0,28999,161449,Current,Current
+1077,63,45538,West,Credit Card,Mortgage,2020-03-20,506574,50,1177,305062,Delinquent,30-60
+1078,23,177719,West,Savings,Mortgage,2022-11-06,517483,0,19494,92203,Current,Current
+1079,35,173031,South,Savings,Personal Loan,2022-11-17,666133,70,16598,443694,Charged-off,60-90
+1080,25,146801,North,Current,Mortgage,2021-04-05,349783,35,12665,168660,Delinquent,30-60
+1081,48,100818,North,Credit Card,Personal Loan,2018-05-24,667708,0,24218,435814,Current,Current
+1082,60,65457,East,Current,Mortgage,2022-11-20,378504,0,22982,213410,Current,Current
+1083,30,61634,North,Savings,Credit Card,2024-01-19,537378,70,19771,190617,Charged-off,60-90
+1084,42,192570,East,Current,Credit Card,2018-07-11,698476,10,39100,329316,Delinquent,0-30
+1085,23,194930,South,Current,Personal Loan,2017-03-10,110850,35,46148,281785,Delinquent,30-60
+1086,59,86209,West,Current,Personal Loan,2024-11-15,179539,50,33428,157813,Delinquent,30-60
+1087,58,156708,West,Savings,Auto Loan,2022-11-11,290186,20,18855,104998,Delinquent,0-30
+1088,56,123682,North,Credit Card,Personal Loan,2018-09-24,384724,0,30504,489074,Current,Current
+1089,64,107275,South,Loan,Personal Loan,2022-09-06,210448,70,5782,55303,Charged-off,60-90
+1090,22,85641,East,Current,Personal Loan,2025-02-12,445689,70,21613,223316,Charged-off,60-90
+1091,45,92663,South,Savings,Personal Loan,2020-03-13,599484,10,22459,442094,Delinquent,0-30
+1092,58,69542,West,Savings,Auto Loan,2019-04-10,79379,10,5198,298655,Delinquent,0-30
+1093,50,169322,South,Credit Card,Credit Card,2020-07-05,50351,0,1007,401664,Current,Current
+1094,26,100892,North,Savings,Personal Loan,2022-03-18,672741,35,19268,361504,Delinquent,30-60
+1095,35,158463,East,Savings,Credit Card,2018-12-14,536437,120,28443,24943,Charged-off,90+
+1096,41,178182,East,Current,Personal Loan,2017-09-21,554592,0,39480,323714,Current,Current
+1097,40,67745,East,Credit Card,Credit Card,2024-09-24,587315,10,35144,162689,Delinquent,0-30
+1098,33,36828,North,Loan,Credit Card,2021-09-06,179168,10,47104,253732,Delinquent,0-30
+1099,31,58776,North,Savings,Mortgage,2023-07-31,188191,35,49594,27143,Delinquent,30-60
+1100,24,50622,North,Credit Card,Personal Loan,2017-12-28,124085,0,38051,276915,Current,Current
+1101,54,94722,South,Savings,Credit Card,2021-07-20,380868,20,24544,115788,Delinquent,0-30
+1102,34,35486,North,Current,Personal Loan,2019-09-04,681848,70,17896,68612,Charged-off,60-90
+1103,58,29956,East,Credit Card,Personal Loan,2019-08-23,62861,0,8420,425812,Current,Current
+1104,32,122116,North,Savings,Credit Card,2022-01-29,153031,0,47850,349127,Current,Current
+1105,34,179102,East,Loan,Auto Loan,2018-11-12,52493,0,47013,105093,Current,Current
+1106,34,79510,East,Savings,Auto Loan,2017-06-15,767036,20,10405,112777,Delinquent,0-30
+1107,45,153845,West,Loan,Personal Loan,2024-09-13,367285,70,10948,281417,Charged-off,60-90
+1108,39,161856,South,Loan,Personal Loan,2017-01-29,242820,20,16942,406948,Delinquent,0-30
+1109,38,50536,East,Savings,Mortgage,2021-07-04,562055,70,24855,416523,Charged-off,60-90
+1110,32,142317,West,Loan,Auto Loan,2019-04-04,180722,0,14972,127095,Current,Current
+1111,23,149901,South,Loan,Personal Loan,2024-04-26,480819,0,20288,388682,Current,Current
+1112,57,50862,West,Loan,Auto Loan,2023-07-11,702821,50,49015,338408,Delinquent,30-60
+1113,29,94455,North,Loan,Mortgage,2020-05-22,709163,0,1697,325417,Current,Current
+1114,49,47577,South,Current,Personal Loan,2021-12-22,580510,50,11965,349811,Delinquent,30-60
+1115,48,32897,South,Current,Mortgage,2021-10-23,502969,50,26489,75280,Delinquent,30-60
+1116,42,140620,West,Loan,Auto Loan,2017-02-13,88088,120,30676,455468,Charged-off,90+
+1117,21,62157,South,Savings,Auto Loan,2023-11-25,592569,0,36087,267253,Current,Current
+1118,32,112921,South,Savings,Credit Card,2021-05-03,691862,20,9742,166183,Delinquent,0-30
+1119,24,172605,North,Savings,Auto Loan,2017-08-19,624490,50,47711,483687,Delinquent,30-60
+1120,44,149295,North,Savings,Auto Loan,2019-06-30,700896,0,25936,331412,Current,Current
+1121,23,175311,East,Loan,Credit Card,2022-12-22,26752,10,21034,224053,Delinquent,0-30
+1122,26,183557,South,Savings,Auto Loan,2022-10-08,371719,0,15281,305591,Current,Current
+1123,21,190403,North,Current,Mortgage,2022-10-01,615425,0,23791,300492,Current,Current
+1124,37,67253,East,Current,Mortgage,2024-11-12,466950,0,41693,373729,Current,Current
+1125,23,102360,East,Savings,Mortgage,2024-10-23,506919,0,11479,26190,Current,Current
+1126,23,65511,West,Credit Card,Personal Loan,2021-08-12,368080,0,16032,438727,Current,Current
+1127,29,139245,South,Loan,Personal Loan,2019-10-02,35418,0,45778,81690,Current,Current
+1128,38,168810,North,Savings,Personal Loan,2024-06-08,501513,20,3904,300290,Delinquent,0-30
+1129,53,160104,South,Current,Mortgage,2020-06-05,311369,0,17946,214007,Current,Current
+1130,63,83097,West,Savings,Auto Loan,2020-11-17,608941,0,21478,121990,Current,Current
+1131,46,57732,West,Loan,Auto Loan,2020-01-19,689760,0,45889,316484,Current,Current
+1132,42,162394,East,Savings,Auto Loan,2017-10-16,564526,0,14429,402889,Current,Current
+1133,21,190182,West,Savings,Mortgage,2018-07-02,568514,0,15954,297982,Current,Current
+1134,39,133101,West,Savings,Credit Card,2017-03-17,152100,70,23584,90781,Charged-off,60-90
+1135,26,111649,South,Savings,Mortgage,2024-12-24,761948,0,33227,261418,Current,Current
+1136,46,42298,South,Savings,Credit Card,2025-02-10,791960,35,5829,467017,Delinquent,30-60
+1137,41,162538,North,Credit Card,Mortgage,2022-03-31,562755,70,23975,411896,Charged-off,60-90
+1138,25,33187,East,Savings,Auto Loan,2021-07-12,159047,20,17793,478258,Delinquent,0-30
+1139,38,183640,West,Credit Card,Mortgage,2021-10-09,644110,20,31644,149720,Delinquent,0-30
+1140,35,104922,North,Current,Auto Loan,2019-04-06,183194,0,1667,396723,Current,Current
+1141,40,33424,South,Credit Card,Auto Loan,2021-05-31,110345,0,7795,131219,Current,Current
+1142,48,176948,East,Loan,Mortgage,2020-09-17,518874,0,34732,388177,Current,Current
+1143,57,175519,West,Savings,Auto Loan,2020-02-22,616401,0,12708,495402,Current,Current
+1144,29,87058,North,Credit Card,Auto Loan,2017-01-16,223343,0,2844,355144,Current,Current
+1145,46,167914,West,Savings,Mortgage,2020-12-05,332823,0,31602,479369,Current,Current
+1146,40,171020,South,Credit Card,Personal Loan,2023-05-23,96520,10,32271,212356,Delinquent,0-30
+1147,63,115544,West,Savings,Credit Card,2017-09-30,687206,0,7017,303453,Current,Current
+1148,27,54320,North,Loan,Auto Loan,2022-04-26,466950,10,49353,460760,Delinquent,0-30
+1149,29,49271,East,Savings,Mortgage,2018-06-05,531071,0,37962,325156,Current,Current
+1150,53,175269,North,Loan,Auto Loan,2020-04-03,167932,50,2430,253200,Delinquent,30-60
+1151,42,57553,East,Current,Mortgage,2022-05-23,773404,0,21729,199494,Current,Current
+1152,21,128133,South,Savings,Credit Card,2019-09-05,30456,0,48816,50114,Current,Current
+1153,28,158259,North,Loan,Mortgage,2023-08-14,719553,70,13879,310203,Charged-off,60-90
+1154,54,161227,South,Current,Auto Loan,2024-11-03,556770,50,36931,381478,Delinquent,30-60
+1155,59,35531,South,Savings,Personal Loan,2024-01-19,631063,0,2745,183918,Current,Current
+1156,45,105082,North,Current,Credit Card,2019-08-23,106999,50,16810,265882,Delinquent,30-60
+1157,53,136794,South,Loan,Credit Card,2021-10-28,65594,0,43794,167738,Current,Current
+1158,29,90493,South,Savings,Personal Loan,2024-09-16,158074,35,37704,466713,Delinquent,30-60
+1159,64,66826,North,Current,Credit Card,2020-12-30,314393,50,25361,155690,Delinquent,30-60
+1160,64,57716,West,Savings,Auto Loan,2021-09-25,675181,70,37609,251784,Charged-off,60-90
+1161,37,50151,North,Savings,Credit Card,2017-12-26,769654,0,12186,92427,Current,Current
+1162,31,62047,East,Savings,Personal Loan,2018-06-26,306878,120,44491,475186,Charged-off,90+
+1163,39,53958,East,Savings,Credit Card,2022-05-12,253426,0,36524,159623,Current,Current
+1164,42,76270,West,Loan,Credit Card,2022-03-21,332759,50,3672,362206,Delinquent,30-60
+1165,29,63860,East,Current,Credit Card,2017-08-04,702020,70,24494,299405,Charged-off,60-90
+1166,30,192302,South,Current,Mortgage,2022-09-07,134894,10,20849,444738,Delinquent,0-30
+1167,45,118391,North,Loan,Auto Loan,2021-02-28,461157,20,17411,54064,Delinquent,0-30
+1168,41,99699,East,Loan,Personal Loan,2024-07-17,7582,0,38204,390317,Current,Current
+1169,31,160598,South,Loan,Auto Loan,2017-05-17,465123,0,16812,218763,Current,Current
+1170,40,117393,East,Savings,Mortgage,2019-09-17,585647,0,27542,53580,Current,Current
+1171,32,94857,East,Credit Card,Credit Card,2019-10-05,449877,0,36556,246703,Current,Current
+1172,59,30134,North,Loan,Mortgage,2021-08-14,602674,20,39242,190396,Delinquent,0-30
+1173,35,113995,North,Loan,Personal Loan,2021-11-17,783729,0,45668,394361,Current,Current
+1174,26,131942,West,Credit Card,Personal Loan,2021-01-02,555377,35,8912,217967,Delinquent,30-60
+1175,37,128767,South,Savings,Auto Loan,2023-12-27,396891,0,28107,291948,Current,Current
+1176,25,176014,East,Current,Credit Card,2025-02-15,263680,10,13902,416322,Delinquent,0-30
+1177,35,169116,East,Loan,Credit Card,2017-07-30,106994,0,49325,321366,Current,Current
+1178,52,51607,East,Credit Card,Credit Card,2017-04-04,357781,10,24252,33798,Delinquent,0-30
+1179,23,62248,North,Current,Auto Loan,2023-07-21,533273,0,26073,454395,Current,Current
+1180,23,98877,North,Loan,Personal Loan,2022-07-27,769784,0,12544,157441,Current,Current
+1181,35,110888,East,Loan,Personal Loan,2017-03-05,160790,35,26744,377709,Delinquent,30-60
+1182,52,146505,South,Savings,Auto Loan,2021-11-10,54486,20,6779,360723,Delinquent,0-30
+1183,28,52269,South,Credit Card,Personal Loan,2023-08-08,39465,70,29716,252146,Charged-off,60-90
+1184,26,198408,South,Current,Personal Loan,2020-07-18,23646,95,29214,263946,Charged-off,90+
+1185,25,117765,South,Credit Card,Personal Loan,2017-11-07,140336,0,28620,21638,Current,Current
+1186,36,119252,East,Loan,Auto Loan,2017-03-01,455923,0,16991,61447,Current,Current
+1187,37,96964,North,Savings,Credit Card,2019-12-12,244154,50,38248,488374,Delinquent,30-60
+1188,59,108834,South,Loan,Mortgage,2024-11-24,150934,0,42237,444599,Current,Current
+1189,25,54652,East,Savings,Credit Card,2018-07-16,694210,10,48927,272375,Delinquent,0-30
+1190,44,157485,West,Savings,Mortgage,2020-06-20,706460,0,9054,374042,Current,Current
+1191,47,153335,East,Loan,Auto Loan,2020-04-21,109531,20,42747,241130,Delinquent,0-30
+1192,45,143375,East,Current,Mortgage,2018-10-26,181965,35,5734,41685,Delinquent,30-60
+1193,41,108367,North,Loan,Credit Card,2021-01-25,768666,120,49234,452765,Charged-off,90+
+1194,28,156005,South,Current,Personal Loan,2024-11-25,63002,50,20956,163506,Delinquent,30-60
+1195,54,77238,North,Credit Card,Personal Loan,2022-03-17,302021,20,37973,435316,Delinquent,0-30
+1196,35,122994,East,Loan,Personal Loan,2020-09-23,762107,0,15715,301273,Current,Current
+1197,55,25140,North,Savings,Credit Card,2020-05-28,446370,0,33505,445862,Current,Current
+1198,46,26319,West,Current,Personal Loan,2022-11-27,472054,0,8295,417873,Current,Current
+1199,56,124386,North,Credit Card,Personal Loan,2018-06-16,560977,0,3667,245230,Current,Current
+1200,54,46409,North,Credit Card,Credit Card,2017-04-13,665962,20,43054,475302,Delinquent,0-30
+1201,55,42437,West,Loan,Mortgage,2023-04-19,730074,35,4136,383598,Delinquent,30-60
+1202,35,26324,North,Loan,Personal Loan,2019-07-14,544220,10,29300,262979,Delinquent,0-30
+1203,23,119256,West,Credit Card,Mortgage,2022-09-03,107988,20,48427,39172,Delinquent,0-30
+1204,61,92646,North,Savings,Credit Card,2017-12-18,677695,10,1991,131027,Delinquent,0-30
+1205,29,50291,North,Savings,Auto Loan,2021-08-11,490517,0,1107,278946,Current,Current
+1206,56,55972,East,Current,Personal Loan,2021-01-24,222425,70,13528,149742,Charged-off,60-90
+1207,63,47405,West,Credit Card,Credit Card,2024-09-12,53935,50,35282,411499,Delinquent,30-60
+1208,46,145177,North,Credit Card,Mortgage,2017-09-20,746253,10,14522,367055,Delinquent,0-30
+1209,30,138338,West,Savings,Credit Card,2021-03-14,119056,35,25008,262030,Delinquent,30-60
+1210,50,117070,North,Loan,Mortgage,2021-01-10,395161,0,48187,117774,Current,Current
+1211,62,125512,North,Savings,Personal Loan,2023-01-13,256591,20,12114,351165,Delinquent,0-30
+1212,56,177810,North,Current,Mortgage,2017-06-22,617006,70,43647,418183,Charged-off,60-90
+1213,37,122973,West,Savings,Credit Card,2024-06-17,598545,0,30869,160754,Current,Current
+1214,45,122779,South,Credit Card,Credit Card,2024-02-26,759947,0,25611,351072,Current,Current
+1215,31,37204,East,Loan,Auto Loan,2021-10-27,58955,0,45518,178005,Current,Current
+1216,51,185161,West,Loan,Auto Loan,2022-11-25,148130,0,28479,452473,Current,Current
+1217,32,71030,North,Credit Card,Mortgage,2019-04-09,675192,0,16480,90278,Current,Current
+1218,45,159069,North,Savings,Credit Card,2023-10-23,34481,35,10449,391863,Delinquent,30-60
+1219,46,79219,West,Savings,Auto Loan,2017-08-25,621230,0,32225,354919,Current,Current
+1220,59,101769,North,Current,Auto Loan,2017-09-07,214009,0,42619,498434,Current,Current
+1221,33,189996,West,Loan,Auto Loan,2020-01-22,640992,0,2603,372116,Current,Current
+1222,50,145111,South,Loan,Auto Loan,2021-10-13,59182,20,34578,265772,Delinquent,0-30
+1223,23,105730,South,Current,Personal Loan,2019-04-22,162267,10,6022,202354,Delinquent,0-30
+1224,51,109326,North,Savings,Mortgage,2019-03-08,50461,0,2009,460404,Current,Current
+1225,41,163192,South,Credit Card,Mortgage,2023-06-19,485770,70,1730,460218,Charged-off,60-90
+1226,55,103777,North,Credit Card,Credit Card,2024-09-14,602178,0,15787,209449,Current,Current
+1227,49,66748,West,Loan,Personal Loan,2020-08-11,241889,0,33705,311825,Current,Current
+1228,33,133420,East,Loan,Mortgage,2017-07-21,391749,50,11397,428012,Delinquent,30-60
+1229,50,128099,West,Current,Personal Loan,2024-11-08,292883,95,25522,161930,Charged-off,90+
+1230,26,106669,South,Credit Card,Personal Loan,2022-12-20,43056,70,42892,242022,Charged-off,60-90
+1231,31,104088,West,Savings,Credit Card,2024-07-04,681838,50,35010,497065,Delinquent,30-60
+1232,31,64600,South,Credit Card,Personal Loan,2022-10-22,766707,0,7659,461037,Current,Current
+1233,24,105575,North,Savings,Auto Loan,2020-11-20,725517,120,3011,80602,Charged-off,90+
+1234,42,68800,East,Credit Card,Mortgage,2022-11-01,709943,20,9244,192131,Delinquent,0-30
+1235,54,65248,North,Credit Card,Auto Loan,2021-11-11,95383,120,34708,116531,Charged-off,90+
+1236,50,94514,East,Current,Personal Loan,2021-09-19,463831,0,32930,60511,Current,Current
+1237,25,179748,South,Credit Card,Auto Loan,2021-08-29,395850,0,41555,427140,Current,Current
+1238,51,73430,South,Savings,Auto Loan,2017-12-02,88622,70,16469,244474,Charged-off,60-90
+1239,48,123935,East,Current,Auto Loan,2019-09-16,307606,0,32505,238195,Current,Current
+1240,51,55003,South,Current,Personal Loan,2018-01-18,675331,0,44858,26077,Current,Current
+1241,43,81114,West,Credit Card,Credit Card,2021-10-25,727014,0,4659,349942,Current,Current
+1242,23,166357,North,Current,Mortgage,2017-04-26,544570,70,7928,190224,Charged-off,60-90
+1243,55,152058,South,Savings,Credit Card,2023-12-26,349573,20,23529,152424,Delinquent,0-30
+1244,41,197544,South,Savings,Mortgage,2021-05-15,621116,0,12130,203163,Current,Current
+1245,41,59708,North,Loan,Personal Loan,2020-08-27,150534,20,10461,58848,Delinquent,0-30
+1246,30,180953,West,Savings,Personal Loan,2022-08-11,733076,0,14546,40296,Current,Current
+1247,32,54910,East,Loan,Credit Card,2019-11-06,177071,50,1337,246911,Delinquent,30-60
+1248,47,188555,South,Credit Card,Auto Loan,2018-01-18,169392,0,12390,235303,Current,Current
+1249,57,61583,North,Savings,Mortgage,2018-12-18,417431,0,9884,232335,Current,Current
+1250,32,141423,North,Loan,Personal Loan,2024-10-02,394952,95,40417,203887,Charged-off,90+
+1251,43,44338,East,Current,Personal Loan,2017-05-19,602347,50,48812,489756,Delinquent,30-60
+1252,42,159884,West,Credit Card,Personal Loan,2023-09-28,405025,70,10513,314772,Charged-off,60-90
+1253,43,133409,North,Savings,Auto Loan,2020-04-05,761982,0,23638,47924,Current,Current
+1254,43,133881,North,Loan,Auto Loan,2019-12-23,515191,35,8899,473583,Delinquent,30-60
+1255,35,124272,South,Loan,Mortgage,2017-04-24,413309,0,39052,488112,Current,Current
+1256,46,170318,East,Loan,Auto Loan,2020-04-07,672434,35,41551,196083,Delinquent,30-60
+1257,48,135560,West,Loan,Mortgage,2022-06-19,49767,0,43525,142475,Current,Current
+1258,33,39028,North,Credit Card,Personal Loan,2017-06-19,256162,0,11800,20548,Current,Current
+1259,55,96272,South,Current,Credit Card,2020-10-04,283417,0,1725,194616,Current,Current
+1260,57,181369,West,Loan,Auto Loan,2017-01-03,173080,35,43622,346954,Delinquent,30-60
+1261,64,174746,East,Current,Auto Loan,2017-10-31,434808,0,25107,478849,Current,Current
+1262,58,104118,West,Credit Card,Credit Card,2018-10-23,707259,0,17072,259143,Current,Current
+1263,24,128388,South,Savings,Auto Loan,2017-12-13,482696,0,10378,414114,Current,Current
+1264,34,92898,North,Loan,Personal Loan,2024-12-01,793431,50,17060,226333,Delinquent,30-60
+1265,57,161680,East,Loan,Credit Card,2023-10-21,615982,70,42478,318594,Charged-off,60-90
+1266,28,75821,North,Current,Personal Loan,2021-06-02,398389,0,21807,438196,Current,Current
+1267,54,103709,West,Credit Card,Auto Loan,2017-10-08,295385,10,49350,237550,Delinquent,0-30
+1268,22,55808,East,Current,Personal Loan,2018-01-06,372235,70,44185,56052,Charged-off,60-90
+1269,28,66046,North,Savings,Personal Loan,2020-09-23,655747,0,32172,242535,Current,Current
+1270,45,134666,South,Credit Card,Credit Card,2019-12-12,80042,50,37006,422561,Delinquent,30-60
+1271,47,30981,North,Savings,Personal Loan,2024-10-11,461298,120,13452,485203,Charged-off,90+
+1272,31,131665,East,Loan,Credit Card,2018-03-15,256332,10,5773,416225,Delinquent,0-30
+1273,37,149104,South,Loan,Mortgage,2019-12-26,796766,0,26363,260558,Current,Current
+1274,50,94074,East,Loan,Credit Card,2024-08-02,787806,10,31840,450521,Delinquent,0-30
+1275,58,107832,West,Credit Card,Credit Card,2023-06-13,60829,20,20946,88983,Delinquent,0-30
+1276,30,57921,North,Savings,Auto Loan,2019-11-16,116915,0,36693,295735,Current,Current
+1277,54,190682,West,Credit Card,Auto Loan,2024-03-01,723435,20,24650,142278,Delinquent,0-30
+1278,35,105802,East,Credit Card,Credit Card,2020-12-14,486087,0,13272,486686,Current,Current
+1279,42,137698,North,Loan,Mortgage,2020-06-29,723174,0,21851,24817,Current,Current
+1280,45,65788,North,Loan,Auto Loan,2019-04-25,62939,95,22910,282312,Charged-off,90+
+1281,34,25584,East,Credit Card,Credit Card,2023-05-17,44351,0,17673,259770,Current,Current
+1282,45,118686,South,Credit Card,Personal Loan,2017-08-13,603142,50,10498,182397,Delinquent,30-60
+1283,37,120742,South,Credit Card,Mortgage,2024-11-10,189722,20,5894,306396,Delinquent,0-30
+1284,63,161043,South,Current,Auto Loan,2023-03-24,132494,0,3668,325727,Current,Current
+1285,22,73034,North,Loan,Personal Loan,2023-02-23,235490,120,12534,360857,Charged-off,90+
+1286,49,86459,South,Savings,Credit Card,2019-07-07,536781,0,34091,450590,Current,Current
+1287,41,69294,West,Loan,Auto Loan,2019-07-24,48958,0,8437,375287,Current,Current
+1288,22,129622,West,Loan,Personal Loan,2021-02-16,325279,0,6325,160717,Current,Current
+1289,52,89680,West,Credit Card,Credit Card,2019-05-30,557512,10,38763,409147,Delinquent,0-30
+1290,28,31962,South,Credit Card,Personal Loan,2018-03-20,564188,35,23556,121798,Delinquent,30-60
+1291,56,45438,East,Credit Card,Personal Loan,2021-10-13,780632,0,14775,93746,Current,Current
+1292,47,30492,West,Current,Personal Loan,2017-07-01,678913,20,15173,80700,Delinquent,0-30
+1293,47,157387,South,Current,Personal Loan,2020-10-07,740044,50,45075,329948,Delinquent,30-60
+1294,62,71271,East,Loan,Auto Loan,2023-03-11,613768,0,9726,252393,Current,Current
+1295,43,48114,South,Loan,Credit Card,2024-03-07,467603,95,19417,194457,Charged-off,90+
+1296,32,44515,West,Loan,Personal Loan,2023-08-31,635587,120,34324,367642,Charged-off,90+
+1297,26,27847,South,Credit Card,Mortgage,2024-06-17,765302,70,34835,221461,Charged-off,60-90
+1298,63,169881,East,Current,Credit Card,2020-02-07,313887,0,44229,420095,Current,Current
+1299,44,131724,South,Savings,Credit Card,2021-10-13,617131,10,14410,61169,Delinquent,0-30
+1300,57,34419,East,Loan,Personal Loan,2020-07-28,602264,0,22021,33394,Current,Current
+1301,45,133037,East,Loan,Auto Loan,2025-02-15,341017,50,40877,387433,Delinquent,30-60
+1302,40,93943,South,Loan,Personal Loan,2021-10-31,793768,0,37310,184406,Current,Current
+1303,57,147898,South,Current,Credit Card,2022-07-05,129218,0,31248,188485,Current,Current
+1304,26,100240,West,Credit Card,Credit Card,2022-01-09,328239,0,33734,174540,Current,Current
+1305,41,30415,South,Current,Mortgage,2021-10-12,178874,95,1256,205604,Charged-off,90+
+1306,51,168139,North,Loan,Credit Card,2019-04-05,282378,70,13719,281441,Charged-off,60-90
+1307,53,194974,East,Current,Credit Card,2022-07-21,448194,10,14355,241282,Delinquent,0-30
+1308,37,49854,East,Credit Card,Auto Loan,2023-11-22,473838,120,20444,477188,Charged-off,90+
+1309,53,167116,East,Savings,Mortgage,2019-04-15,181423,0,23225,121402,Current,Current
+1310,22,100671,East,Credit Card,Auto Loan,2018-03-20,374124,35,26958,31809,Delinquent,30-60
+1311,60,80580,West,Credit Card,Credit Card,2017-02-28,785761,0,41287,410991,Current,Current
+1312,53,112223,East,Credit Card,Mortgage,2022-12-15,425034,0,7098,270927,Current,Current
+1313,22,176379,South,Credit Card,Credit Card,2022-06-28,446522,0,16260,244970,Current,Current
+1314,34,196819,South,Current,Auto Loan,2022-03-06,282451,95,30947,342413,Charged-off,90+
+1315,23,131184,West,Savings,Mortgage,2025-02-18,598560,20,30033,466078,Delinquent,0-30
+1316,46,167416,North,Current,Personal Loan,2019-03-12,319885,0,4652,485972,Current,Current
+1317,44,126880,East,Credit Card,Auto Loan,2021-11-29,125576,0,42340,352659,Current,Current
+1318,32,154469,West,Current,Mortgage,2018-06-22,250438,0,31566,140450,Current,Current
+1319,29,60440,North,Loan,Auto Loan,2021-09-05,781175,10,3405,144081,Delinquent,0-30
+1320,24,50349,West,Credit Card,Credit Card,2017-01-27,296199,0,1700,495089,Current,Current
+1321,25,134306,West,Savings,Auto Loan,2017-04-15,584543,35,18014,355467,Delinquent,30-60
+1322,25,101836,North,Credit Card,Credit Card,2023-07-06,499122,70,4195,308515,Charged-off,60-90
+1323,32,33908,South,Current,Mortgage,2021-04-16,267871,35,3023,462953,Delinquent,30-60
+1324,31,65307,West,Loan,Auto Loan,2022-12-24,619172,0,9610,216002,Current,Current
+1325,48,158620,South,Savings,Personal Loan,2023-07-18,535899,0,33518,426788,Current,Current
+1326,47,123762,West,Credit Card,Mortgage,2020-08-10,22261,0,44918,489014,Current,Current
+1327,42,72627,South,Current,Mortgage,2017-12-28,537236,120,18666,46262,Charged-off,90+
+1328,23,173790,South,Current,Credit Card,2020-05-27,326405,50,46429,368060,Delinquent,30-60
+1329,41,157219,South,Current,Auto Loan,2017-04-14,136456,0,26955,296041,Current,Current
+1330,31,87123,West,Savings,Credit Card,2019-01-07,8163,0,43407,283433,Current,Current
+1331,48,161827,South,Savings,Auto Loan,2018-01-18,560096,10,5731,415892,Delinquent,0-30
+1332,49,63097,North,Savings,Credit Card,2020-11-04,591613,0,34270,411507,Current,Current
+1333,37,199662,West,Loan,Auto Loan,2024-07-28,183304,35,24867,272445,Delinquent,30-60
+1334,30,60340,West,Current,Mortgage,2022-12-30,321452,120,28175,243214,Charged-off,90+
+1335,35,97550,East,Savings,Auto Loan,2021-10-14,524491,0,15095,362192,Current,Current
+1336,64,69899,West,Savings,Credit Card,2021-03-28,395092,0,14753,407699,Current,Current
+1337,49,60773,West,Credit Card,Personal Loan,2019-12-07,503126,70,40244,414968,Charged-off,60-90
+1338,24,115631,East,Credit Card,Credit Card,2019-12-02,496555,70,6971,68146,Charged-off,60-90
+1339,59,114464,South,Loan,Mortgage,2024-04-22,227428,50,40048,470985,Delinquent,30-60
+1340,44,37069,South,Savings,Mortgage,2022-05-06,642614,50,19330,262569,Delinquent,30-60
+1341,44,177368,West,Loan,Credit Card,2024-11-12,453470,0,21040,60412,Current,Current
+1342,34,89008,West,Credit Card,Auto Loan,2021-03-22,546266,0,40327,493827,Current,Current
+1343,46,182912,North,Savings,Credit Card,2021-12-31,464677,10,48267,453112,Delinquent,0-30
+1344,31,191560,South,Savings,Personal Loan,2017-04-21,603557,0,19513,106043,Current,Current
+1345,23,84320,North,Current,Personal Loan,2019-06-22,414355,20,18500,79491,Delinquent,0-30
+1346,31,188262,South,Savings,Personal Loan,2019-06-09,687292,0,2633,468751,Current,Current
+1347,26,148659,East,Savings,Credit Card,2023-02-05,264564,20,27418,335975,Delinquent,0-30
+1348,53,196921,West,Loan,Credit Card,2021-01-14,192368,120,14125,476588,Charged-off,90+
+1349,37,189181,West,Savings,Credit Card,2019-04-14,556857,0,26531,486256,Current,Current
+1350,60,176478,East,Credit Card,Credit Card,2024-07-13,57120,35,7362,109760,Delinquent,30-60
+1351,38,86158,North,Savings,Auto Loan,2021-11-26,276030,35,19043,431224,Delinquent,30-60
+1352,64,195799,West,Savings,Auto Loan,2018-10-15,749306,70,4683,401562,Charged-off,60-90
+1353,24,37773,South,Current,Mortgage,2021-07-02,45466,70,2143,66444,Charged-off,60-90
+1354,56,29807,West,Credit Card,Mortgage,2019-10-24,796070,0,10227,312647,Current,Current
+1355,59,130847,South,Savings,Mortgage,2025-02-10,590390,0,19078,44311,Current,Current
+1356,35,29992,North,Savings,Auto Loan,2024-10-13,617654,0,5694,23715,Current,Current
+1357,61,174320,South,Current,Mortgage,2017-06-18,593534,35,8861,360701,Delinquent,30-60
+1358,46,55099,East,Credit Card,Credit Card,2024-11-19,683805,120,27592,318346,Charged-off,90+
+1359,53,106790,East,Loan,Mortgage,2019-03-18,171642,120,48440,234261,Charged-off,90+
+1360,48,173479,West,Credit Card,Personal Loan,2024-08-31,649839,0,22975,288657,Current,Current
+1361,50,141219,East,Savings,Personal Loan,2019-06-06,482869,0,13603,464305,Current,Current
+1362,48,177552,North,Loan,Credit Card,2018-05-08,732883,20,6679,485520,Delinquent,0-30
+1363,60,140326,South,Loan,Credit Card,2023-02-16,571567,10,16619,133042,Delinquent,0-30
+1364,54,155287,West,Loan,Auto Loan,2019-07-06,372502,0,22130,488586,Current,Current
+1365,30,156145,West,Credit Card,Mortgage,2024-01-17,442925,95,23035,427417,Charged-off,90+
+1366,59,41459,South,Current,Personal Loan,2024-09-27,716196,0,7776,419868,Current,Current
+1367,35,150425,East,Credit Card,Auto Loan,2022-10-15,501750,0,1191,174756,Current,Current
+1368,64,178045,North,Current,Auto Loan,2022-08-24,377858,0,45887,127290,Current,Current
+1369,50,142281,North,Loan,Personal Loan,2018-12-30,750993,0,32797,175902,Current,Current
+1370,48,68050,North,Loan,Auto Loan,2018-07-06,717166,10,21884,434073,Delinquent,0-30
+1371,59,114292,East,Savings,Auto Loan,2021-09-19,281304,0,38503,298188,Current,Current
+1372,46,98085,North,Current,Auto Loan,2021-07-19,115450,0,25588,432776,Current,Current
+1373,46,64647,East,Credit Card,Auto Loan,2018-10-08,747356,0,7271,184750,Current,Current
+1374,64,34202,South,Loan,Personal Loan,2017-01-12,568590,20,1420,226933,Delinquent,0-30
+1375,21,140549,South,Loan,Credit Card,2018-12-11,631573,50,17513,368679,Delinquent,30-60
+1376,42,64658,South,Loan,Mortgage,2017-10-15,690860,50,7203,484827,Delinquent,30-60
+1377,43,183997,North,Loan,Mortgage,2019-07-12,38735,0,12578,161833,Current,Current
+1378,45,53196,West,Current,Credit Card,2018-08-29,374023,0,1162,95607,Current,Current
+1379,28,103590,East,Credit Card,Auto Loan,2024-12-20,760917,0,31519,159196,Current,Current
+1380,54,163220,East,Credit Card,Personal Loan,2020-08-05,251295,0,35992,456087,Current,Current
+1381,35,144293,East,Loan,Auto Loan,2024-05-09,631161,50,46519,485443,Delinquent,30-60
+1382,22,117114,West,Savings,Personal Loan,2024-07-27,94516,70,43859,147183,Charged-off,60-90
+1383,32,66719,North,Savings,Auto Loan,2023-12-24,680176,95,38025,431954,Charged-off,90+
+1384,38,145822,East,Loan,Credit Card,2020-06-28,648265,70,23947,468670,Charged-off,60-90
+1385,27,40426,East,Loan,Credit Card,2021-01-12,343259,0,41551,67725,Current,Current
+1386,62,34714,West,Credit Card,Auto Loan,2021-12-22,203356,10,42878,466951,Delinquent,0-30
+1387,47,64872,West,Loan,Mortgage,2019-12-19,79300,20,34255,78131,Delinquent,0-30
+1388,22,169109,South,Loan,Credit Card,2019-06-13,206069,50,27159,452902,Delinquent,30-60
+1389,55,80769,West,Loan,Credit Card,2023-06-06,410540,50,35167,66914,Delinquent,30-60
+1390,33,94498,East,Loan,Credit Card,2019-07-19,724023,10,18261,290035,Delinquent,0-30
+1391,24,44624,South,Current,Personal Loan,2024-05-07,153643,0,25893,37196,Current,Current
+1392,48,183801,East,Loan,Credit Card,2017-01-09,129784,0,6381,371783,Current,Current
+1393,43,158182,North,Credit Card,Personal Loan,2025-01-22,376041,20,4468,164130,Delinquent,0-30
+1394,38,167695,North,Savings,Credit Card,2021-01-23,188921,50,16061,182402,Delinquent,30-60
+1395,41,137914,West,Loan,Mortgage,2023-12-22,138568,120,1702,464261,Charged-off,90+
+1396,59,164196,West,Current,Mortgage,2020-09-26,794730,20,40808,104220,Delinquent,0-30
+1397,34,124831,South,Loan,Personal Loan,2023-08-04,277958,0,34500,135541,Current,Current
+1398,33,173718,East,Current,Personal Loan,2022-02-21,290933,70,25992,262111,Charged-off,60-90
+1399,40,70790,West,Credit Card,Credit Card,2019-07-30,683929,35,17559,182834,Delinquent,30-60
+1400,33,52598,North,Current,Mortgage,2019-06-11,16472,0,12198,428252,Current,Current
+1401,28,139328,North,Credit Card,Auto Loan,2021-07-06,50434,70,15623,292240,Charged-off,60-90
+1402,24,193157,North,Credit Card,Credit Card,2018-10-15,683086,35,35894,496874,Delinquent,30-60
+1403,26,67415,South,Credit Card,Personal Loan,2022-04-06,364603,35,38334,65958,Delinquent,30-60
+1404,44,113587,East,Current,Credit Card,2020-01-28,20790,0,34671,99913,Current,Current
+1405,44,94738,East,Savings,Auto Loan,2023-06-27,168768,50,8448,159382,Delinquent,30-60
+1406,40,133782,South,Savings,Personal Loan,2018-10-04,574520,95,1976,68168,Charged-off,90+
+1407,33,71617,North,Current,Auto Loan,2022-04-21,366204,95,4667,340836,Charged-off,90+
+1408,54,69071,North,Current,Mortgage,2018-03-23,128569,0,19051,127746,Current,Current
+1409,28,144658,South,Loan,Mortgage,2021-08-31,574684,10,46857,340815,Delinquent,0-30
+1410,54,157861,North,Current,Personal Loan,2022-06-05,333311,0,37542,100360,Current,Current
+1411,25,76199,South,Current,Auto Loan,2019-09-21,210424,0,1370,84031,Current,Current
+1412,36,81054,North,Savings,Personal Loan,2022-01-14,104032,0,40615,94181,Current,Current
+1413,36,83997,West,Savings,Mortgage,2018-01-03,167860,0,10749,132081,Current,Current
+1414,34,46289,North,Loan,Mortgage,2024-06-04,92340,35,2055,489613,Delinquent,30-60
+1415,47,107343,South,Credit Card,Auto Loan,2021-10-05,42762,95,29047,249222,Charged-off,90+
+1416,62,170329,South,Current,Personal Loan,2025-02-21,94293,0,10122,350828,Current,Current
+1417,62,147134,West,Credit Card,Mortgage,2023-08-30,773025,0,10011,21019,Current,Current
+1418,51,144448,West,Savings,Auto Loan,2017-12-16,192797,20,8946,225498,Delinquent,0-30
+1419,34,36019,West,Savings,Personal Loan,2019-08-07,64042,70,20308,182796,Charged-off,60-90
+1420,51,97770,North,Savings,Credit Card,2021-02-22,120500,70,2699,267750,Charged-off,60-90
+1421,34,31880,South,Savings,Mortgage,2022-09-12,231532,20,35380,271800,Delinquent,0-30
+1422,44,78277,North,Loan,Credit Card,2019-12-14,106882,10,8206,72425,Delinquent,0-30
+1423,55,73923,West,Savings,Auto Loan,2022-10-21,574569,10,18515,297533,Delinquent,0-30
+1424,35,130489,West,Loan,Auto Loan,2017-11-13,263298,50,47716,345598,Delinquent,30-60
+1425,40,151709,North,Credit Card,Auto Loan,2021-11-28,673864,120,1025,382547,Charged-off,90+
+1426,48,97204,East,Savings,Mortgage,2020-08-20,73187,95,33648,75728,Charged-off,90+
+1427,58,70303,East,Loan,Personal Loan,2024-09-20,523439,20,9191,420507,Delinquent,0-30
+1428,47,121088,East,Credit Card,Credit Card,2019-09-12,405821,50,29929,66218,Delinquent,30-60
+1429,21,144400,West,Credit Card,Credit Card,2025-01-02,452638,10,13326,440104,Delinquent,0-30
+1430,32,155920,South,Savings,Mortgage,2024-07-22,38728,0,25092,201157,Current,Current
+1431,59,179594,East,Credit Card,Personal Loan,2018-01-07,242946,35,41714,409476,Delinquent,30-60
+1432,47,51712,East,Current,Credit Card,2020-03-09,743518,70,45273,159430,Charged-off,60-90
+1433,56,130387,North,Credit Card,Credit Card,2018-05-03,337606,10,18694,97827,Delinquent,0-30
+1434,51,54008,South,Loan,Auto Loan,2018-10-13,251948,70,15509,410054,Charged-off,60-90
+1435,44,65899,South,Current,Auto Loan,2019-09-16,329084,20,37623,342535,Delinquent,0-30
+1436,52,60388,North,Current,Mortgage,2023-04-07,463962,0,11448,331362,Current,Current
+1437,40,183027,East,Credit Card,Auto Loan,2019-06-23,426675,0,33319,468153,Current,Current
+1438,43,145745,South,Current,Mortgage,2022-09-23,594520,0,47792,373845,Current,Current
+1439,23,149913,North,Credit Card,Credit Card,2019-08-29,642086,120,19329,248332,Charged-off,90+
+1440,36,159867,West,Loan,Personal Loan,2020-10-06,633789,0,25281,156507,Current,Current
+1441,22,87335,West,Savings,Credit Card,2019-09-20,363283,120,33121,177430,Charged-off,90+
+1442,57,118279,East,Current,Personal Loan,2017-04-15,278855,50,17405,426980,Delinquent,30-60
+1443,41,160495,West,Credit Card,Credit Card,2022-02-05,227393,35,38138,197410,Delinquent,30-60
+1444,23,62209,North,Credit Card,Auto Loan,2017-03-12,643148,10,40730,271264,Delinquent,0-30
+1445,32,109478,East,Current,Mortgage,2017-01-21,507137,95,1188,242585,Charged-off,90+
+1446,48,124178,North,Current,Auto Loan,2021-07-21,346581,20,47892,316519,Delinquent,0-30
+1447,45,83019,South,Savings,Auto Loan,2017-06-08,638066,10,46656,209716,Delinquent,0-30
+1448,36,56411,South,Loan,Mortgage,2021-05-11,511272,10,49428,161228,Delinquent,0-30
+1449,32,171517,East,Current,Personal Loan,2018-02-02,214683,70,44692,98129,Charged-off,60-90
+1450,41,50024,West,Credit Card,Personal Loan,2017-12-22,76032,70,1467,56352,Charged-off,60-90
+1451,42,128316,East,Credit Card,Credit Card,2024-03-05,316158,35,28715,81479,Delinquent,30-60
+1452,39,39771,North,Savings,Auto Loan,2022-11-11,529113,0,46385,276457,Current,Current
+1453,32,80081,West,Current,Auto Loan,2019-03-30,641693,0,46190,276816,Current,Current
+1454,32,152470,South,Credit Card,Mortgage,2018-02-07,572430,120,17514,469749,Charged-off,90+
+1455,43,167104,East,Loan,Credit Card,2022-12-07,50234,20,37484,358558,Delinquent,0-30
+1456,62,90145,North,Credit Card,Personal Loan,2022-08-27,594985,120,18539,390997,Charged-off,90+
+1457,55,193641,East,Credit Card,Mortgage,2018-01-22,558846,20,49150,173078,Delinquent,0-30
+1458,29,145225,West,Loan,Mortgage,2017-09-10,589673,50,35619,271237,Delinquent,30-60
+1459,41,29199,North,Current,Auto Loan,2019-09-16,88190,35,22762,330315,Delinquent,30-60
+1460,37,71053,West,Loan,Auto Loan,2021-06-24,79320,35,12716,142778,Delinquent,30-60
+1461,22,91203,East,Savings,Mortgage,2022-10-18,667736,20,7568,469964,Delinquent,0-30
+1462,57,90495,East,Loan,Credit Card,2023-12-22,9648,50,1045,382423,Delinquent,30-60
+1463,31,96904,East,Loan,Mortgage,2022-10-25,471815,10,35040,58243,Delinquent,0-30
+1464,41,103914,West,Current,Mortgage,2023-03-09,13033,70,19174,439512,Charged-off,60-90
+1465,25,56238,East,Savings,Mortgage,2023-12-04,385285,0,23851,84625,Current,Current
+1466,54,44711,North,Credit Card,Credit Card,2022-01-02,150040,0,21969,324990,Current,Current
+1467,57,176526,East,Savings,Auto Loan,2021-09-03,497768,0,7349,299464,Current,Current
+1468,52,151772,West,Savings,Mortgage,2023-10-22,158662,0,33463,197907,Current,Current
+1469,30,88487,West,Loan,Auto Loan,2024-03-16,547221,70,46294,170374,Charged-off,60-90
+1470,59,28820,West,Credit Card,Mortgage,2025-01-21,790723,70,2705,88489,Charged-off,60-90
+1471,33,140504,West,Savings,Auto Loan,2024-11-08,673824,0,27098,257089,Current,Current
+1472,22,162494,South,Loan,Personal Loan,2017-09-17,404928,10,42676,407655,Delinquent,0-30
+1473,43,195711,West,Current,Personal Loan,2024-06-06,571987,20,21365,139065,Delinquent,0-30
+1474,60,127103,East,Savings,Credit Card,2021-04-30,191921,35,39326,72510,Delinquent,30-60
+1475,23,174777,East,Credit Card,Personal Loan,2017-05-14,744055,10,31375,237554,Delinquent,0-30
+1476,41,155309,South,Savings,Credit Card,2023-09-05,224987,50,3436,98413,Delinquent,30-60
+1477,30,147217,East,Credit Card,Credit Card,2024-04-20,313763,20,44965,482409,Delinquent,0-30
+1478,23,150680,North,Credit Card,Mortgage,2024-05-19,603081,0,15935,212412,Current,Current
+1479,35,89163,North,Credit Card,Credit Card,2018-02-26,295972,70,15666,78390,Charged-off,60-90
+1480,30,187677,East,Savings,Mortgage,2021-10-01,5920,10,46865,418706,Delinquent,0-30
+1481,29,128176,North,Credit Card,Personal Loan,2023-12-21,382790,0,19419,22982,Current,Current
+1482,36,159984,East,Loan,Personal Loan,2019-10-15,727159,0,30867,94266,Current,Current
+1483,44,156323,West,Loan,Auto Loan,2021-12-27,527807,10,27848,220523,Delinquent,0-30
+1484,40,169491,West,Savings,Personal Loan,2024-05-09,211865,20,25649,284055,Delinquent,0-30
+1485,50,143437,South,Savings,Mortgage,2021-04-17,403530,95,49658,326725,Charged-off,90+
+1486,33,156132,West,Loan,Credit Card,2019-11-13,625086,0,35383,388712,Current,Current
+1487,21,128287,North,Loan,Auto Loan,2022-05-04,715520,70,15726,192876,Charged-off,60-90
+1488,24,117183,East,Credit Card,Mortgage,2022-12-06,180846,0,43828,363725,Current,Current
+1489,27,152599,North,Credit Card,Mortgage,2020-07-28,171691,0,48007,453499,Current,Current
+1490,56,185354,East,Credit Card,Auto Loan,2022-06-28,786631,0,36104,298753,Current,Current
+1491,41,83514,South,Loan,Credit Card,2018-07-11,433305,20,18559,160821,Delinquent,0-30
+1492,50,174918,East,Loan,Credit Card,2021-02-25,123139,20,36065,31399,Delinquent,0-30
+1493,59,35664,North,Credit Card,Personal Loan,2019-12-23,232478,0,49467,331561,Current,Current
+1494,47,58554,North,Savings,Mortgage,2023-03-18,547292,50,24627,36413,Delinquent,30-60
+1495,46,134571,South,Current,Auto Loan,2023-06-29,96094,20,4363,256762,Delinquent,0-30
+1496,39,96862,South,Current,Auto Loan,2024-07-29,184857,35,4352,433110,Delinquent,30-60
+1497,34,27504,East,Loan,Auto Loan,2020-12-22,566743,0,16309,226013,Current,Current
+1498,60,31715,West,Savings,Mortgage,2021-04-09,777090,20,43565,241920,Delinquent,0-30
+1499,62,30970,East,Savings,Auto Loan,2020-04-19,478531,70,46291,170186,Charged-off,60-90
+1500,51,120840,East,Loan,Auto Loan,2019-05-28,330939,0,27343,201285,Current,Current
+1501,27,138873,West,Savings,Auto Loan,2024-07-27,754014,70,27948,400196,Charged-off,60-90
+1502,53,190657,West,Current,Personal Loan,2021-06-23,203847,0,38564,292071,Current,Current
+1503,29,54245,East,Loan,Mortgage,2022-05-03,79234,120,37988,152157,Charged-off,90+
+1504,22,106395,North,Credit Card,Auto Loan,2018-02-12,670480,35,45959,200407,Delinquent,30-60
+1505,56,136014,East,Savings,Auto Loan,2020-02-19,734371,70,41214,160756,Charged-off,60-90
+1506,27,33096,South,Savings,Auto Loan,2025-01-09,595698,0,44429,345556,Current,Current
+1507,25,103413,West,Loan,Mortgage,2017-05-02,67848,10,22952,86854,Delinquent,0-30
+1508,42,143963,North,Savings,Mortgage,2024-09-16,358540,20,16837,325977,Delinquent,0-30
+1509,54,76710,West,Savings,Mortgage,2020-05-17,788612,0,42184,221395,Current,Current
+1510,36,174398,South,Savings,Credit Card,2017-03-22,425667,120,9900,158785,Charged-off,90+
+1511,34,153159,North,Current,Credit Card,2021-06-22,479635,70,11350,359640,Charged-off,60-90
+1512,29,186734,East,Savings,Auto Loan,2021-11-11,112379,0,33077,368908,Current,Current
+1513,26,155470,West,Loan,Mortgage,2021-01-05,541115,0,24346,258024,Current,Current
+1514,57,171891,North,Savings,Credit Card,2019-02-26,603044,50,45564,187374,Delinquent,30-60
+1515,61,132589,East,Loan,Credit Card,2022-08-03,59189,0,39297,29480,Current,Current
+1516,22,129580,West,Credit Card,Mortgage,2017-12-27,625078,20,30353,283047,Delinquent,0-30
+1517,57,153130,North,Savings,Mortgage,2022-05-16,246382,35,42632,215445,Delinquent,30-60
+1518,64,67119,South,Credit Card,Credit Card,2022-10-22,657302,10,47020,334580,Delinquent,0-30
+1519,62,81193,East,Current,Personal Loan,2024-04-12,188519,0,44197,198418,Current,Current
+1520,62,163852,West,Loan,Auto Loan,2022-06-06,508735,10,36299,64981,Delinquent,0-30
+1521,39,195193,South,Loan,Personal Loan,2025-02-26,82240,10,6950,232435,Delinquent,0-30
+1522,63,182490,West,Loan,Personal Loan,2023-01-23,675844,95,28190,282913,Charged-off,90+
+1523,64,157742,North,Loan,Credit Card,2018-09-05,439621,50,44292,95506,Delinquent,30-60
+1524,37,162245,South,Current,Auto Loan,2023-03-14,677485,70,13538,426390,Charged-off,60-90
+1525,21,109585,South,Loan,Credit Card,2020-04-14,773640,95,28551,149694,Charged-off,90+
+1526,24,150535,West,Savings,Auto Loan,2024-11-28,552406,95,37115,31798,Charged-off,90+
+1527,57,179837,East,Credit Card,Mortgage,2018-09-25,46004,70,32525,126920,Charged-off,60-90
+1528,50,42075,East,Loan,Credit Card,2020-06-24,377284,0,25015,85092,Current,Current
+1529,50,55881,North,Savings,Mortgage,2024-09-15,218021,0,48585,281356,Current,Current
+1530,49,45477,South,Credit Card,Personal Loan,2018-11-29,701882,35,14824,220885,Delinquent,30-60
+1531,41,73986,North,Loan,Credit Card,2021-06-22,23405,20,14438,318699,Delinquent,0-30
+1532,23,42654,East,Loan,Auto Loan,2024-01-06,110274,0,3493,337930,Current,Current
+1533,45,59033,East,Credit Card,Auto Loan,2022-06-24,337287,0,8096,69957,Current,Current
+1534,23,123034,West,Savings,Personal Loan,2018-03-03,303576,50,8002,220541,Delinquent,30-60
+1535,31,89020,South,Current,Personal Loan,2023-12-24,501492,50,21964,417811,Delinquent,30-60
+1536,59,140129,East,Loan,Personal Loan,2017-11-28,306177,0,25640,150829,Current,Current
+1537,57,121571,North,Credit Card,Auto Loan,2018-09-22,621332,0,26015,170984,Current,Current
+1538,41,139883,South,Current,Credit Card,2018-07-14,302322,120,28666,387125,Charged-off,90+
+1539,34,145634,West,Savings,Credit Card,2020-05-10,768638,20,21127,128211,Delinquent,0-30
+1540,59,28025,South,Savings,Auto Loan,2024-11-11,51813,20,48387,499637,Delinquent,0-30
+1541,62,106272,South,Loan,Mortgage,2022-06-15,441250,95,23615,237993,Charged-off,90+
+1542,51,137929,South,Loan,Mortgage,2020-01-11,216617,70,46582,330551,Charged-off,60-90
+1543,60,75376,South,Current,Credit Card,2020-02-25,624630,35,31239,435965,Delinquent,30-60
+1544,47,199376,West,Savings,Mortgage,2019-11-08,635907,0,18955,393677,Current,Current
+1545,37,60172,South,Savings,Personal Loan,2025-01-18,7120,95,47056,317395,Charged-off,90+
+1546,44,178575,West,Loan,Mortgage,2024-12-28,695492,35,34328,415406,Delinquent,30-60
+1547,55,192972,South,Savings,Personal Loan,2019-05-21,101911,0,16710,478659,Current,Current
+1548,39,32080,South,Savings,Mortgage,2020-07-09,680163,10,9606,60844,Delinquent,0-30
+1549,54,192497,North,Loan,Mortgage,2023-05-15,128920,0,8577,237853,Current,Current
+1550,23,46286,East,Loan,Personal Loan,2022-05-05,6439,50,19764,243107,Delinquent,30-60
+1551,38,181014,East,Credit Card,Credit Card,2017-02-06,258785,50,29764,400997,Delinquent,30-60
+1552,51,118772,East,Savings,Auto Loan,2023-04-09,615427,20,33606,129897,Delinquent,0-30
+1553,35,27084,East,Savings,Mortgage,2018-09-16,76453,120,15432,230864,Charged-off,90+
+1554,46,94446,South,Savings,Mortgage,2019-11-30,610527,10,15631,90123,Delinquent,0-30
+1555,61,25965,West,Current,Credit Card,2022-05-24,391486,0,36916,428901,Current,Current
+1556,37,124694,North,Current,Mortgage,2020-07-14,413465,50,17561,59101,Delinquent,30-60
+1557,33,83837,South,Credit Card,Credit Card,2020-01-17,351035,0,23838,222383,Current,Current
+1558,38,135438,North,Current,Personal Loan,2023-10-19,798391,0,22048,345799,Current,Current
+1559,32,196838,North,Loan,Mortgage,2018-10-28,290509,10,7916,347904,Delinquent,0-30
+1560,42,129922,West,Loan,Auto Loan,2024-04-14,653105,35,3655,42539,Delinquent,30-60
+1561,57,160254,North,Savings,Personal Loan,2018-07-22,651509,0,5313,47142,Current,Current
+1562,31,57529,North,Loan,Auto Loan,2022-09-04,500335,20,38801,336539,Delinquent,0-30
+1563,33,195783,West,Loan,Personal Loan,2018-05-19,593008,0,8669,492792,Current,Current
+1564,56,100593,East,Savings,Auto Loan,2019-07-21,642514,120,19204,211346,Charged-off,90+
+1565,45,71105,West,Credit Card,Personal Loan,2024-05-01,566455,0,23801,359941,Current,Current
+1566,39,98590,East,Current,Credit Card,2019-02-28,135604,95,2429,76983,Charged-off,90+
+1567,21,168924,North,Loan,Credit Card,2025-01-06,138878,0,30189,22922,Current,Current
+1568,34,186247,West,Savings,Mortgage,2024-06-11,527567,0,45921,373334,Current,Current
+1569,22,160518,North,Credit Card,Auto Loan,2023-09-07,369709,20,39674,357727,Delinquent,0-30
+1570,25,55304,South,Current,Auto Loan,2021-07-19,325197,70,6087,479220,Charged-off,60-90
+1571,27,104882,North,Current,Personal Loan,2021-10-28,282506,0,16708,397456,Current,Current
+1572,47,37128,South,Credit Card,Mortgage,2018-07-16,678539,70,8626,319263,Charged-off,60-90
+1573,51,166817,West,Credit Card,Auto Loan,2019-01-02,266132,35,14422,154308,Delinquent,30-60
+1574,61,81923,West,Credit Card,Auto Loan,2018-06-13,531873,70,18430,491219,Charged-off,60-90
+1575,36,197301,East,Credit Card,Credit Card,2023-11-02,150639,20,43485,379438,Delinquent,0-30
+1576,44,175951,North,Savings,Personal Loan,2021-07-24,351565,0,15851,94735,Current,Current
+1577,53,157128,East,Credit Card,Auto Loan,2022-05-26,642716,50,2003,428267,Delinquent,30-60
+1578,54,196782,West,Savings,Personal Loan,2024-10-13,740734,0,13474,267080,Current,Current
+1579,26,171005,West,Savings,Credit Card,2024-07-19,172545,0,29651,358429,Current,Current
+1580,23,42103,West,Loan,Mortgage,2025-02-24,471338,10,23098,470866,Delinquent,0-30
+1581,54,69766,West,Credit Card,Auto Loan,2023-06-04,260505,0,10216,41442,Current,Current
+1582,31,126181,West,Loan,Personal Loan,2017-06-10,717192,35,13018,133394,Delinquent,30-60
+1583,41,186602,East,Loan,Mortgage,2024-05-28,140969,0,12442,369819,Current,Current
+1584,59,36704,North,Credit Card,Auto Loan,2020-01-03,262582,20,28587,403439,Delinquent,0-30
+1585,62,137470,West,Loan,Mortgage,2020-09-15,152343,0,40521,175911,Current,Current
+1586,44,133987,North,Current,Auto Loan,2018-11-11,7417,95,14727,364807,Charged-off,90+
+1587,22,30348,West,Savings,Mortgage,2021-08-03,657705,95,28313,34446,Charged-off,90+
+1588,56,39523,West,Savings,Personal Loan,2024-07-11,42765,50,17227,105366,Delinquent,30-60
+1589,50,121985,West,Loan,Auto Loan,2018-10-23,47087,0,9792,124276,Current,Current
+1590,47,75648,East,Credit Card,Credit Card,2022-05-19,89924,0,31900,462297,Current,Current
+1591,27,56122,West,Current,Personal Loan,2022-02-13,305644,0,43904,73491,Current,Current
+1592,21,127308,West,Credit Card,Credit Card,2020-12-23,707642,0,23553,195359,Current,Current
+1593,60,80269,North,Loan,Mortgage,2018-02-01,145791,0,22125,475817,Current,Current
+1594,43,29656,West,Loan,Credit Card,2023-12-23,213223,20,14419,168512,Delinquent,0-30
+1595,27,61358,South,Savings,Mortgage,2023-07-19,83075,20,3039,379004,Delinquent,0-30
+1596,37,165175,North,Current,Auto Loan,2020-09-01,583299,0,29083,408818,Current,Current
+1597,48,142999,West,Savings,Mortgage,2020-02-05,682494,20,47467,281342,Delinquent,0-30
+1598,40,196832,North,Savings,Personal Loan,2021-02-24,93770,0,18934,261533,Current,Current
+1599,51,177437,East,Loan,Credit Card,2019-01-22,62808,20,2654,411357,Delinquent,0-30
+1600,52,183789,East,Savings,Credit Card,2019-07-20,232157,20,5815,64171,Delinquent,0-30
+1601,58,50767,East,Current,Auto Loan,2017-09-14,233294,0,35116,259785,Current,Current
+1602,23,91683,North,Current,Credit Card,2020-05-28,788873,0,31522,396824,Current,Current
+1603,37,151362,South,Loan,Credit Card,2021-12-01,510011,35,15256,424476,Delinquent,30-60
+1604,63,174450,West,Loan,Credit Card,2018-11-11,286475,10,1105,179463,Delinquent,0-30
+1605,40,95654,East,Loan,Mortgage,2024-10-13,505443,70,3221,391307,Charged-off,60-90
+1606,51,46520,North,Savings,Auto Loan,2022-09-21,139646,120,35583,44462,Charged-off,90+
+1607,29,142375,North,Current,Personal Loan,2017-07-22,446783,120,43595,285590,Charged-off,90+
+1608,43,180140,North,Savings,Mortgage,2022-03-02,425518,0,29764,52766,Current,Current
+1609,52,107862,North,Savings,Auto Loan,2022-11-19,643946,70,6031,221069,Charged-off,60-90
+1610,44,166030,East,Savings,Mortgage,2022-02-26,582463,0,28320,230819,Current,Current
+1611,29,134855,South,Credit Card,Mortgage,2018-11-23,122437,0,9609,441740,Current,Current
+1612,50,109798,East,Loan,Mortgage,2022-09-25,496560,0,13836,460848,Current,Current
+1613,41,120582,South,Loan,Mortgage,2023-01-03,293305,70,8109,490257,Charged-off,60-90
+1614,43,54085,North,Savings,Personal Loan,2017-04-10,460535,0,47626,48249,Current,Current
+1615,48,38329,West,Credit Card,Mortgage,2019-07-17,630690,20,25093,85293,Delinquent,0-30
+1616,26,192728,East,Credit Card,Mortgage,2023-09-27,788123,20,15080,358771,Delinquent,0-30
+1617,40,85913,East,Savings,Auto Loan,2021-05-25,325119,35,32999,82545,Delinquent,30-60
+1618,35,194671,South,Credit Card,Credit Card,2019-05-13,172409,10,7772,240674,Delinquent,0-30
+1619,47,184635,East,Loan,Personal Loan,2020-08-23,240108,0,33875,333751,Current,Current
+1620,55,174651,South,Loan,Personal Loan,2022-01-11,757374,10,41344,455674,Delinquent,0-30
+1621,41,113469,West,Credit Card,Personal Loan,2022-04-18,41520,20,8588,157557,Delinquent,0-30
+1622,60,114929,West,Loan,Credit Card,2018-10-31,403858,0,36032,438253,Current,Current
+1623,32,69821,West,Loan,Mortgage,2024-11-07,76284,0,4286,407779,Current,Current
+1624,42,188493,East,Credit Card,Personal Loan,2019-08-14,387343,120,43865,404051,Charged-off,90+
+1625,25,127436,North,Current,Personal Loan,2024-01-19,343951,35,34655,222083,Delinquent,30-60
+1626,21,36732,West,Loan,Personal Loan,2018-02-19,387300,0,46531,225535,Current,Current
+1627,61,162031,East,Loan,Auto Loan,2022-04-06,731972,35,15513,93967,Delinquent,30-60
+1628,48,169258,North,Savings,Personal Loan,2017-08-24,476079,20,33260,192128,Delinquent,0-30
+1629,23,145444,South,Current,Credit Card,2022-07-03,178960,0,33125,494964,Current,Current
+1630,52,199450,West,Credit Card,Personal Loan,2023-07-28,326100,0,40229,406827,Current,Current
+1631,58,157522,North,Current,Mortgage,2018-04-17,786786,0,16838,69974,Current,Current
+1632,32,83180,South,Current,Credit Card,2020-09-04,532765,50,13366,304521,Delinquent,30-60
+1633,26,44795,East,Credit Card,Personal Loan,2019-02-07,386771,10,20165,131546,Delinquent,0-30
+1634,56,88215,West,Savings,Credit Card,2025-03-14,473827,0,37614,444174,Current,Current
+1635,41,77999,North,Credit Card,Auto Loan,2024-03-08,185627,0,29621,282708,Current,Current
+1636,46,137341,East,Credit Card,Personal Loan,2018-03-28,71803,0,9244,238386,Current,Current
+1637,23,39392,West,Credit Card,Personal Loan,2017-04-01,739263,10,19150,102288,Delinquent,0-30
+1638,22,134607,South,Credit Card,Auto Loan,2018-11-27,313667,70,14231,343780,Charged-off,60-90
+1639,63,64833,North,Current,Personal Loan,2018-01-27,372007,20,40306,153234,Delinquent,0-30
+1640,29,151387,West,Current,Personal Loan,2018-10-25,600352,0,1238,382116,Current,Current
+1641,58,145434,North,Current,Personal Loan,2024-02-21,301712,10,32690,188153,Delinquent,0-30
+1642,61,38594,North,Loan,Personal Loan,2021-09-05,261935,0,16397,174181,Current,Current
+1643,37,127909,East,Credit Card,Personal Loan,2023-10-28,588578,0,34355,226269,Current,Current
+1644,41,116007,West,Savings,Personal Loan,2020-11-21,153563,50,27677,272339,Delinquent,30-60
+1645,41,142650,East,Credit Card,Credit Card,2020-05-06,496078,70,40637,301872,Charged-off,60-90
+1646,63,190389,East,Loan,Auto Loan,2024-09-14,718693,0,32515,415835,Current,Current
+1647,61,140718,West,Loan,Mortgage,2021-02-10,746259,10,17164,318522,Delinquent,0-30
+1648,55,177055,South,Current,Auto Loan,2017-03-31,158346,0,17123,224080,Current,Current
+1649,54,173302,South,Savings,Personal Loan,2023-04-09,789448,10,49500,458647,Delinquent,0-30
+1650,23,60920,West,Current,Auto Loan,2025-02-02,798024,35,20906,346063,Delinquent,30-60
+1651,40,59719,South,Loan,Auto Loan,2017-12-14,328575,35,8752,119606,Delinquent,30-60
+1652,42,86330,West,Savings,Credit Card,2018-02-04,433850,0,27345,325941,Current,Current
+1653,44,66817,North,Savings,Personal Loan,2017-01-22,521014,50,39220,208821,Delinquent,30-60
+1654,63,43000,East,Savings,Auto Loan,2018-11-26,374523,35,48226,320331,Delinquent,30-60
+1655,49,130201,South,Savings,Mortgage,2020-08-05,144178,0,5672,106240,Current,Current
+1656,32,30979,East,Credit Card,Auto Loan,2018-05-25,160656,20,33914,385052,Delinquent,0-30
+1657,55,142608,North,Loan,Personal Loan,2019-05-18,47189,120,43449,177373,Charged-off,90+
+1658,43,46460,East,Loan,Mortgage,2017-04-04,325434,35,38870,394579,Delinquent,30-60
+1659,34,113996,South,Savings,Credit Card,2024-03-04,576365,10,36849,290940,Delinquent,0-30
+1660,51,50286,North,Current,Credit Card,2024-01-16,378824,0,46992,98953,Current,Current
+1661,59,39235,West,Credit Card,Auto Loan,2017-09-22,117586,0,13278,163010,Current,Current
+1662,44,31824,South,Savings,Personal Loan,2022-05-19,478475,50,41256,119359,Delinquent,30-60
+1663,60,131791,South,Loan,Mortgage,2023-05-07,440870,0,31562,276206,Current,Current
+1664,54,115443,South,Loan,Auto Loan,2023-11-08,434130,50,29306,288584,Delinquent,30-60
+1665,59,28781,East,Savings,Personal Loan,2025-02-02,651420,50,16130,158195,Delinquent,30-60
+1666,36,66920,North,Current,Auto Loan,2022-01-16,116328,20,23894,434963,Delinquent,0-30
+1667,21,99924,West,Current,Mortgage,2019-04-03,734896,0,7439,129081,Current,Current
+1668,42,158129,South,Credit Card,Mortgage,2024-04-27,585164,35,43602,157607,Delinquent,30-60
+1669,34,136179,South,Current,Auto Loan,2022-10-05,608313,35,47337,432592,Delinquent,30-60
+1670,55,107770,North,Credit Card,Personal Loan,2017-02-08,637144,20,48579,289838,Delinquent,0-30
+1671,34,69867,South,Current,Mortgage,2017-01-25,540115,70,35662,109725,Charged-off,60-90
+1672,23,40878,West,Current,Auto Loan,2018-04-13,609867,0,15465,379566,Current,Current
+1673,26,34423,North,Credit Card,Auto Loan,2019-07-13,106947,50,25730,231636,Delinquent,30-60
+1674,31,191196,South,Credit Card,Credit Card,2017-07-08,508936,50,10423,298039,Delinquent,30-60
+1675,57,126997,West,Savings,Auto Loan,2022-02-16,601572,35,29891,385198,Delinquent,30-60
+1676,47,127858,South,Credit Card,Auto Loan,2018-10-28,532630,70,44366,478554,Charged-off,60-90
+1677,49,123653,South,Credit Card,Personal Loan,2017-12-17,85257,35,27488,428818,Delinquent,30-60
+1678,31,103707,East,Current,Personal Loan,2020-10-04,469399,35,20239,39779,Delinquent,30-60
+1679,22,135888,North,Savings,Auto Loan,2024-04-21,101017,70,33564,457419,Charged-off,60-90
+1680,32,89530,West,Current,Auto Loan,2020-11-05,712212,0,15159,334615,Current,Current
+1681,44,79378,East,Current,Personal Loan,2022-05-26,405888,0,34065,466487,Current,Current
+1682,44,84019,East,Loan,Auto Loan,2024-01-29,498204,70,19858,237134,Charged-off,60-90
+1683,53,166402,North,Credit Card,Mortgage,2025-02-18,574525,20,28288,47661,Delinquent,0-30
+1684,38,114325,North,Savings,Credit Card,2018-02-15,86834,0,12868,484272,Current,Current
+1685,60,163106,West,Credit Card,Mortgage,2019-10-24,792443,0,41532,291389,Current,Current
+1686,41,82879,North,Credit Card,Mortgage,2023-09-04,292731,0,10105,351989,Current,Current
+1687,42,118525,North,Current,Credit Card,2021-03-26,45354,70,37149,292410,Charged-off,60-90
+1688,39,134557,South,Loan,Personal Loan,2017-12-24,151447,0,38409,106983,Current,Current
+1689,22,164907,East,Credit Card,Personal Loan,2019-06-30,504102,0,29278,499536,Current,Current
+1690,37,46986,East,Current,Personal Loan,2020-03-13,518377,0,45546,419619,Current,Current
+1691,60,69696,South,Loan,Personal Loan,2017-08-27,384235,0,19555,226002,Current,Current
+1692,24,95570,East,Savings,Auto Loan,2021-01-23,762094,35,13577,123786,Delinquent,30-60
+1693,30,75409,East,Loan,Credit Card,2021-04-20,376419,50,44025,459681,Delinquent,30-60
+1694,63,68049,North,Savings,Personal Loan,2025-02-18,92968,20,8739,298978,Delinquent,0-30
+1695,34,85814,South,Savings,Auto Loan,2018-05-19,365955,70,25049,280840,Charged-off,60-90
+1696,34,44101,South,Loan,Auto Loan,2024-08-03,567346,20,20064,432193,Delinquent,0-30
+1697,46,138150,South,Savings,Personal Loan,2023-04-03,755220,35,8672,179133,Delinquent,30-60
+1698,31,47025,South,Loan,Personal Loan,2020-12-27,645143,0,27637,445114,Current,Current
+1699,45,174750,West,Savings,Credit Card,2020-12-03,254747,50,45812,186048,Delinquent,30-60
+1700,51,185055,North,Loan,Personal Loan,2017-01-17,762731,0,31726,55209,Current,Current
+1701,51,154627,East,Credit Card,Personal Loan,2018-03-08,510352,0,23147,430034,Current,Current
+1702,51,191226,West,Loan,Auto Loan,2018-06-19,467421,10,40646,120810,Delinquent,0-30
+1703,63,70934,South,Credit Card,Auto Loan,2024-11-04,213985,0,36488,338441,Current,Current
+1704,56,122870,West,Current,Personal Loan,2024-12-29,629271,70,38052,280037,Charged-off,60-90
+1705,45,82183,North,Loan,Personal Loan,2019-04-09,361941,70,27244,191423,Charged-off,60-90
+1706,51,112602,North,Loan,Auto Loan,2023-04-06,468398,0,46827,46798,Current,Current
+1707,43,139998,East,Loan,Credit Card,2021-02-04,81791,10,31827,79531,Delinquent,0-30
+1708,62,105895,East,Loan,Auto Loan,2022-07-11,607310,70,39643,391227,Charged-off,60-90
+1709,34,31535,South,Loan,Mortgage,2024-10-04,500806,0,42171,269237,Current,Current
+1710,37,160296,South,Loan,Personal Loan,2024-07-25,595390,95,15016,231537,Charged-off,90+
+1711,26,140777,East,Savings,Mortgage,2022-09-07,740017,0,47072,149527,Current,Current
+1712,25,100357,South,Credit Card,Credit Card,2025-03-13,741740,0,21607,89051,Current,Current
+1713,39,47027,East,Loan,Mortgage,2019-10-31,389906,0,41591,216822,Current,Current
+1714,58,83782,East,Current,Personal Loan,2024-08-01,286310,0,27473,186722,Current,Current
+1715,63,42348,East,Current,Credit Card,2021-08-28,50916,0,31480,21154,Current,Current
+1716,32,159909,South,Savings,Auto Loan,2020-10-06,589431,0,29021,168493,Current,Current
+1717,55,82686,South,Credit Card,Mortgage,2019-05-01,574660,70,11713,482589,Charged-off,60-90
+1718,35,161877,South,Current,Credit Card,2024-02-18,57458,120,4672,261471,Charged-off,90+
+1719,56,81534,North,Current,Auto Loan,2018-03-21,637556,0,29972,146946,Current,Current
+1720,42,198591,East,Savings,Mortgage,2019-05-20,367532,0,11282,318258,Current,Current
+1721,33,104392,North,Current,Personal Loan,2018-09-30,6384,20,24891,314579,Delinquent,0-30
+1722,34,95191,East,Credit Card,Auto Loan,2024-05-03,127982,10,2776,385413,Delinquent,0-30
+1723,26,85001,East,Credit Card,Credit Card,2018-04-02,361461,35,9893,238016,Delinquent,30-60
+1724,31,115025,South,Credit Card,Auto Loan,2017-04-10,291304,0,8083,126138,Current,Current
+1725,50,40134,South,Savings,Personal Loan,2021-06-16,744595,10,9301,138748,Delinquent,0-30
+1726,23,192999,West,Savings,Mortgage,2025-02-26,785366,0,14390,446941,Current,Current
+1727,29,30879,North,Current,Auto Loan,2020-10-10,718560,95,9399,405996,Charged-off,90+
+1728,35,187688,North,Credit Card,Credit Card,2019-03-06,196452,70,28428,258018,Charged-off,60-90
+1729,27,123848,West,Loan,Personal Loan,2022-09-30,323880,0,19321,309800,Current,Current
+1730,24,128270,East,Credit Card,Credit Card,2024-06-01,257159,0,17341,319369,Current,Current
+1731,52,131244,South,Loan,Credit Card,2023-06-12,482561,35,47816,37749,Delinquent,30-60
+1732,32,71972,West,Savings,Credit Card,2019-02-04,72702,0,48235,393100,Current,Current
+1733,45,193552,East,Credit Card,Mortgage,2017-07-04,5233,0,11950,314952,Current,Current
+1734,52,150814,North,Loan,Credit Card,2022-01-18,453191,0,12855,60518,Current,Current
+1735,35,82994,North,Current,Personal Loan,2017-11-30,130405,50,24282,70515,Delinquent,30-60
+1736,50,105926,South,Credit Card,Mortgage,2022-02-28,317285,10,36784,147807,Delinquent,0-30
+1737,47,63816,North,Savings,Auto Loan,2023-11-28,633518,0,44434,290368,Current,Current
+1738,28,84292,South,Credit Card,Personal Loan,2022-03-11,789836,20,32856,190540,Delinquent,0-30
+1739,47,126175,South,Loan,Personal Loan,2020-01-10,398272,35,35694,454673,Delinquent,30-60
+1740,35,59740,North,Loan,Auto Loan,2020-09-09,756034,20,8379,61065,Delinquent,0-30
+1741,26,51969,North,Savings,Credit Card,2023-03-30,603274,70,5123,405412,Charged-off,60-90
+1742,53,66920,West,Credit Card,Personal Loan,2020-10-11,721098,50,49912,412843,Delinquent,30-60
+1743,41,29471,South,Savings,Personal Loan,2021-07-21,118684,95,40755,443147,Charged-off,90+
+1744,44,96822,East,Savings,Credit Card,2021-04-12,277967,0,36557,108522,Current,Current
+1745,43,37875,West,Credit Card,Credit Card,2024-11-06,558487,95,18399,498652,Charged-off,90+
+1746,60,140157,North,Savings,Personal Loan,2017-01-28,99630,0,17413,71217,Current,Current
+1747,34,88063,East,Current,Mortgage,2022-03-15,146796,50,28239,162603,Delinquent,30-60
+1748,59,133192,East,Credit Card,Mortgage,2023-06-21,81707,120,18386,433635,Charged-off,90+
+1749,44,81400,East,Loan,Credit Card,2023-05-27,397470,0,49425,137661,Current,Current
+1750,61,182146,South,Current,Credit Card,2021-01-09,601098,120,3906,57339,Charged-off,90+
+1751,51,97424,South,Loan,Auto Loan,2017-02-10,318238,20,15698,69809,Delinquent,0-30
+1752,63,133500,South,Current,Mortgage,2023-07-12,606605,70,36935,280399,Charged-off,60-90
+1753,23,39331,North,Current,Auto Loan,2019-09-07,352134,35,24996,107473,Delinquent,30-60
+1754,41,87397,North,Savings,Mortgage,2023-10-14,293012,35,15088,227300,Delinquent,30-60
+1755,40,177811,West,Credit Card,Personal Loan,2020-09-14,737292,0,43962,77220,Current,Current
+1756,48,154274,South,Savings,Personal Loan,2025-02-27,124794,35,41498,33377,Delinquent,30-60
+1757,57,126968,South,Loan,Mortgage,2018-03-14,382614,50,25980,473028,Delinquent,30-60
+1758,25,79505,West,Loan,Credit Card,2024-03-14,351292,0,28044,318792,Current,Current
+1759,36,49076,East,Current,Auto Loan,2023-07-27,378053,0,1170,115398,Current,Current
+1760,47,151573,East,Credit Card,Auto Loan,2019-03-22,521391,10,4537,148890,Delinquent,0-30
+1761,43,98127,South,Savings,Mortgage,2022-07-12,492040,0,8294,287288,Current,Current
+1762,52,109082,South,Loan,Auto Loan,2019-02-04,109031,70,32758,99393,Charged-off,60-90
+1763,50,196682,West,Loan,Credit Card,2020-08-14,69575,35,37495,235992,Delinquent,30-60
+1764,26,143514,South,Credit Card,Personal Loan,2022-09-20,67002,0,49669,398914,Current,Current
+1765,27,40322,East,Current,Credit Card,2023-02-24,64104,0,41122,411961,Current,Current
+1766,35,162369,South,Credit Card,Credit Card,2020-06-21,81421,0,11221,146350,Current,Current
+1767,38,120597,South,Loan,Mortgage,2022-05-28,309479,20,1166,361670,Delinquent,0-30
+1768,61,47706,West,Savings,Auto Loan,2019-07-01,495209,20,23376,258422,Delinquent,0-30
+1769,35,62635,West,Savings,Mortgage,2020-11-03,711148,10,22949,88336,Delinquent,0-30
+1770,23,126419,South,Savings,Personal Loan,2022-11-20,369009,0,42045,216901,Current,Current
+1771,27,76112,East,Current,Mortgage,2025-02-09,589257,20,15610,95203,Delinquent,0-30
+1772,63,111972,South,Credit Card,Credit Card,2020-05-16,595461,0,26906,129409,Current,Current
+1773,54,89566,North,Credit Card,Mortgage,2020-11-09,752331,10,37930,186531,Delinquent,0-30
+1774,51,106409,West,Current,Credit Card,2021-09-23,118077,0,11357,211485,Current,Current
+1775,21,119953,North,Savings,Credit Card,2025-01-26,429038,0,47787,269895,Current,Current
+1776,26,183895,West,Loan,Credit Card,2023-03-31,463226,35,40132,111007,Delinquent,30-60
+1777,50,183095,East,Loan,Personal Loan,2022-05-15,214764,0,29956,169269,Current,Current
+1778,23,66741,East,Credit Card,Auto Loan,2025-03-18,678590,20,37896,322364,Delinquent,0-30
+1779,34,79962,East,Savings,Personal Loan,2017-06-04,253326,50,9859,168543,Delinquent,30-60
+1780,25,84491,West,Loan,Auto Loan,2025-03-13,660564,50,12606,295437,Delinquent,30-60
+1781,63,146441,East,Credit Card,Auto Loan,2023-03-28,783254,20,35678,167027,Delinquent,0-30
+1782,43,71787,North,Current,Credit Card,2025-02-04,201636,70,46196,387724,Charged-off,60-90
+1783,47,80643,West,Loan,Personal Loan,2018-10-07,360530,70,42861,115895,Charged-off,60-90
+1784,24,127045,East,Loan,Personal Loan,2017-08-23,648652,35,15552,281691,Delinquent,30-60
+1785,25,52476,South,Current,Credit Card,2019-07-11,652748,0,47815,58030,Current,Current
+1786,32,53849,East,Savings,Personal Loan,2020-03-08,700330,0,24314,415554,Current,Current
+1787,35,71118,North,Current,Personal Loan,2018-03-23,232391,35,49869,357272,Delinquent,30-60
+1788,53,34522,East,Credit Card,Personal Loan,2020-08-15,253189,0,35045,295962,Current,Current
+1789,46,36023,East,Credit Card,Auto Loan,2019-11-22,274305,120,22630,335589,Charged-off,90+
+1790,27,110855,West,Loan,Auto Loan,2019-03-21,560796,0,16883,491070,Current,Current
+1791,44,51509,North,Savings,Personal Loan,2022-10-19,419530,20,41281,224450,Delinquent,0-30
+1792,40,105696,South,Credit Card,Mortgage,2019-03-21,291527,0,47038,146872,Current,Current
+1793,61,137333,North,Loan,Credit Card,2020-04-15,242925,35,11658,78677,Delinquent,30-60
+1794,45,165720,North,Credit Card,Personal Loan,2023-06-06,473412,50,23116,357882,Delinquent,30-60
+1795,40,132751,North,Loan,Auto Loan,2023-04-11,431414,35,21626,233556,Delinquent,30-60
+1796,37,46187,North,Credit Card,Mortgage,2021-07-15,370084,0,4439,25263,Current,Current
+1797,47,193107,South,Savings,Mortgage,2018-07-19,346126,0,6159,450506,Current,Current
+1798,56,37206,West,Savings,Mortgage,2025-01-27,428797,0,31309,143233,Current,Current
+1799,55,179668,North,Loan,Credit Card,2021-06-27,551247,0,5739,114654,Current,Current
+1800,29,71003,West,Current,Credit Card,2019-05-04,786812,50,39452,260099,Delinquent,30-60
+1801,49,190982,East,Current,Mortgage,2017-06-19,81783,50,23120,312332,Delinquent,30-60
+1802,37,71187,North,Savings,Auto Loan,2023-01-31,611973,50,20102,354940,Delinquent,30-60
+1803,27,123368,West,Current,Personal Loan,2024-02-05,136507,95,8082,284676,Charged-off,90+
+1804,33,32709,South,Credit Card,Mortgage,2017-06-10,40019,20,28546,279680,Delinquent,0-30
+1805,38,61495,East,Current,Personal Loan,2022-03-16,672632,0,31486,304949,Current,Current
+1806,60,177629,North,Savings,Auto Loan,2024-08-10,396816,0,27082,212690,Current,Current
+1807,54,106012,North,Credit Card,Mortgage,2020-09-07,584693,10,21477,164600,Delinquent,0-30
+1808,31,148620,South,Credit Card,Credit Card,2019-08-09,112348,0,5807,69860,Current,Current
+1809,34,122674,South,Savings,Auto Loan,2022-02-13,586503,0,12104,296296,Current,Current
+1810,36,41563,South,Savings,Auto Loan,2018-02-08,608700,10,44917,397813,Delinquent,0-30
+1811,63,144338,South,Savings,Auto Loan,2023-01-08,64077,0,6356,122181,Current,Current
+1812,39,191133,North,Current,Mortgage,2018-01-18,160283,50,38637,43998,Delinquent,30-60
+1813,29,34976,West,Savings,Mortgage,2020-02-13,358077,35,43615,82176,Delinquent,30-60
+1814,49,162716,East,Savings,Credit Card,2019-02-02,296416,50,40930,32275,Delinquent,30-60
+1815,29,199944,West,Loan,Auto Loan,2017-02-28,554232,0,31310,268195,Current,Current
+1816,22,120760,West,Current,Personal Loan,2022-05-13,413359,20,11958,31713,Delinquent,0-30
+1817,60,118241,East,Current,Personal Loan,2021-05-07,484861,20,45911,381055,Delinquent,0-30
+1818,27,96144,West,Savings,Mortgage,2017-07-16,181330,20,16226,156724,Delinquent,0-30
+1819,56,140087,West,Loan,Personal Loan,2018-04-24,168240,20,2893,86780,Delinquent,0-30
+1820,41,140857,South,Loan,Credit Card,2021-06-13,219151,0,5851,337780,Current,Current
+1821,43,74080,South,Credit Card,Mortgage,2022-01-20,272801,50,42447,301757,Delinquent,30-60
+1822,56,166639,West,Loan,Mortgage,2021-04-18,99762,10,34151,352798,Delinquent,0-30
+1823,51,69095,South,Savings,Mortgage,2024-06-22,138400,0,8926,349805,Current,Current
+1824,48,155258,East,Current,Personal Loan,2019-02-05,775895,35,20794,162750,Delinquent,30-60
+1825,36,169619,East,Credit Card,Credit Card,2018-05-10,619914,0,23374,193294,Current,Current
+1826,45,81684,North,Loan,Credit Card,2022-03-11,256369,0,1844,109509,Current,Current
+1827,56,67955,West,Savings,Mortgage,2020-09-12,717073,0,47546,130209,Current,Current
+1828,29,59943,West,Savings,Mortgage,2021-11-20,63734,20,35288,269485,Delinquent,0-30
+1829,23,100001,South,Savings,Mortgage,2021-07-20,778673,10,48091,168961,Delinquent,0-30
+1830,30,123109,South,Current,Auto Loan,2018-08-04,370356,10,43280,273833,Delinquent,0-30
+1831,56,44343,North,Credit Card,Mortgage,2020-01-30,441357,10,39753,434730,Delinquent,0-30
+1832,29,175714,East,Savings,Personal Loan,2023-09-29,54704,0,29486,254893,Current,Current
+1833,21,108743,North,Current,Personal Loan,2023-01-26,269371,10,14399,274674,Delinquent,0-30
+1834,21,198640,South,Savings,Personal Loan,2023-02-23,532504,0,25119,53924,Current,Current
+1835,29,157409,West,Loan,Mortgage,2025-03-04,76665,20,15246,388743,Delinquent,0-30
+1836,47,39628,East,Loan,Mortgage,2021-10-23,38320,0,38418,71554,Current,Current
+1837,51,90042,North,Credit Card,Personal Loan,2018-11-11,350402,0,19295,352713,Current,Current
+1838,23,190754,East,Current,Credit Card,2017-12-13,263824,20,1945,356673,Delinquent,0-30
+1839,63,81500,South,Loan,Auto Loan,2019-07-10,539189,10,24510,174958,Delinquent,0-30
+1840,39,193708,South,Current,Personal Loan,2022-07-02,786272,0,31010,301644,Current,Current
+1841,53,61227,South,Current,Auto Loan,2021-06-11,147710,10,39069,56811,Delinquent,0-30
+1842,26,109776,West,Current,Credit Card,2022-06-08,711312,20,34169,427860,Delinquent,0-30
+1843,46,71424,West,Savings,Personal Loan,2024-06-22,740555,10,4573,310266,Delinquent,0-30
+1844,63,188264,West,Loan,Auto Loan,2021-04-30,548245,10,8463,296604,Delinquent,0-30
+1845,44,146101,East,Current,Personal Loan,2020-03-28,662115,0,3562,484986,Current,Current
+1846,40,196946,South,Loan,Credit Card,2018-04-07,745499,50,1338,129669,Delinquent,30-60
+1847,62,72398,West,Credit Card,Mortgage,2019-04-06,722280,0,20205,371431,Current,Current
+1848,33,58848,West,Current,Credit Card,2019-07-25,101430,10,49728,311383,Delinquent,0-30
+1849,38,99215,North,Current,Personal Loan,2021-05-07,672327,35,37826,235602,Delinquent,30-60
+1850,49,162503,North,Current,Personal Loan,2017-10-10,101467,50,48632,129496,Delinquent,30-60
+1851,49,52983,East,Current,Auto Loan,2022-11-19,228081,0,12838,474508,Current,Current
+1852,61,171002,East,Credit Card,Personal Loan,2025-02-19,391716,35,47420,497289,Delinquent,30-60
+1853,36,126332,West,Current,Auto Loan,2018-11-07,211697,20,10755,235021,Delinquent,0-30
+1854,24,27844,East,Current,Credit Card,2024-03-22,444650,20,32403,227628,Delinquent,0-30
+1855,64,175771,West,Loan,Auto Loan,2024-01-30,202554,0,25964,215748,Current,Current
+1856,50,181531,South,Loan,Credit Card,2017-06-14,695142,0,38844,417256,Current,Current
+1857,31,168062,South,Current,Auto Loan,2024-01-18,110551,0,37818,410142,Current,Current
+1858,21,62169,North,Savings,Auto Loan,2024-11-10,422880,0,20293,453299,Current,Current
+1859,48,92865,East,Current,Mortgage,2017-02-03,409234,10,40296,24019,Delinquent,0-30
+1860,28,38772,West,Credit Card,Auto Loan,2019-02-11,573940,0,30056,180602,Current,Current
+1861,30,109452,South,Savings,Mortgage,2024-12-25,207098,0,9296,286689,Current,Current
+1862,26,56476,South,Current,Auto Loan,2023-09-27,382753,0,5678,214275,Current,Current
+1863,59,71539,South,Credit Card,Personal Loan,2018-01-04,514186,50,48769,477366,Delinquent,30-60
+1864,48,90732,West,Credit Card,Auto Loan,2024-09-30,684071,70,19414,265093,Charged-off,60-90
+1865,58,180012,West,Current,Auto Loan,2017-05-19,199869,0,9618,58442,Current,Current
+1866,35,167430,North,Loan,Credit Card,2019-12-13,178175,0,20552,157203,Current,Current
+1867,64,79108,West,Savings,Mortgage,2018-04-21,588226,10,21405,223238,Delinquent,0-30
+1868,46,109622,South,Savings,Mortgage,2024-11-28,527191,0,5444,235494,Current,Current
+1869,59,120524,North,Credit Card,Personal Loan,2024-07-16,629460,10,22631,454130,Delinquent,0-30
+1870,25,74085,East,Current,Credit Card,2020-11-12,87956,10,16646,254419,Delinquent,0-30
+1871,23,78076,South,Current,Credit Card,2018-06-19,727608,70,42212,425891,Charged-off,60-90
+1872,60,149922,South,Credit Card,Auto Loan,2022-12-17,556257,0,48362,350274,Current,Current
+1873,33,30267,North,Current,Credit Card,2019-01-15,41217,120,1576,464886,Charged-off,90+
+1874,38,162369,West,Loan,Credit Card,2021-01-04,436429,0,28787,63333,Current,Current
+1875,49,160841,North,Current,Auto Loan,2023-12-30,83946,70,5130,344180,Charged-off,60-90
+1876,44,149290,North,Credit Card,Personal Loan,2022-06-03,613729,50,40536,415659,Delinquent,30-60
+1877,38,193664,West,Savings,Mortgage,2020-09-09,582647,0,17990,44634,Current,Current
+1878,37,43880,South,Credit Card,Auto Loan,2019-06-20,394267,0,12677,235910,Current,Current
+1879,60,143373,West,Credit Card,Personal Loan,2023-12-05,26236,120,2088,484209,Charged-off,90+
+1880,52,188243,South,Current,Mortgage,2020-01-20,428436,20,11124,399749,Delinquent,0-30
+1881,56,145959,East,Credit Card,Credit Card,2022-07-19,719688,20,24848,265670,Delinquent,0-30
+1882,26,74439,West,Credit Card,Personal Loan,2017-08-31,635604,20,24655,464506,Delinquent,0-30
+1883,42,47208,South,Loan,Personal Loan,2017-05-12,30792,120,27623,155324,Charged-off,90+
+1884,36,178277,North,Savings,Auto Loan,2017-05-13,293639,0,7218,452766,Current,Current
+1885,57,42243,West,Loan,Mortgage,2018-06-29,273238,20,29112,120799,Delinquent,0-30
+1886,30,128348,West,Loan,Credit Card,2021-08-24,98608,35,17855,123753,Delinquent,30-60
+1887,62,82065,East,Credit Card,Auto Loan,2017-05-03,749751,0,17803,442301,Current,Current
+1888,48,90090,North,Credit Card,Mortgage,2021-01-13,397851,120,5241,419977,Charged-off,90+
+1889,63,140548,South,Loan,Mortgage,2019-07-12,704637,0,5370,35830,Current,Current
+1890,28,102764,North,Savings,Auto Loan,2018-04-12,657798,0,33707,405956,Current,Current
+1891,47,121972,West,Savings,Personal Loan,2019-09-13,576971,95,36779,461024,Charged-off,90+
+1892,57,183123,West,Loan,Personal Loan,2023-08-21,294399,50,14306,271731,Delinquent,30-60
+1893,62,39271,North,Credit Card,Credit Card,2023-05-14,658506,0,8565,458516,Current,Current
+1894,63,186611,West,Savings,Mortgage,2019-11-05,531023,0,39994,207519,Current,Current
+1895,45,156945,North,Savings,Auto Loan,2017-08-08,340141,0,30882,109013,Current,Current
+1896,62,147392,West,Credit Card,Personal Loan,2017-10-31,107252,0,35403,452726,Current,Current
+1897,47,36375,East,Current,Mortgage,2024-12-21,390808,0,2901,394775,Current,Current
+1898,38,124213,East,Savings,Mortgage,2018-02-11,544573,0,46514,373978,Current,Current
+1899,23,65025,West,Current,Auto Loan,2023-04-23,418634,120,43257,409497,Charged-off,90+
+1900,54,113617,North,Current,Auto Loan,2019-11-11,317178,0,34018,211482,Current,Current
+1901,33,38577,North,Savings,Credit Card,2018-07-25,435765,0,22383,240940,Current,Current
+1902,51,99989,North,Current,Personal Loan,2019-07-29,387143,0,31446,283168,Current,Current
+1903,34,140547,East,Loan,Mortgage,2022-01-10,52442,35,10830,64064,Delinquent,30-60
+1904,55,144124,South,Savings,Mortgage,2018-01-26,526038,70,36216,460969,Charged-off,60-90
+1905,49,145451,South,Loan,Mortgage,2017-12-26,132452,0,21313,214035,Current,Current
+1906,35,75580,West,Loan,Credit Card,2019-07-03,378502,70,26211,113401,Charged-off,60-90
+1907,50,127520,North,Savings,Auto Loan,2021-06-10,318080,35,40746,450529,Delinquent,30-60
+1908,33,146043,South,Credit Card,Credit Card,2024-05-21,490813,0,27218,250911,Current,Current
+1909,64,199914,North,Loan,Personal Loan,2018-03-20,165616,20,28458,451917,Delinquent,0-30
+1910,32,68513,South,Savings,Credit Card,2024-02-23,125819,20,20191,107293,Delinquent,0-30
+1911,42,184457,South,Credit Card,Personal Loan,2022-10-26,190844,0,29158,133845,Current,Current
+1912,26,95267,West,Current,Auto Loan,2019-03-01,211080,20,3375,20454,Delinquent,0-30
+1913,27,161317,West,Credit Card,Auto Loan,2020-04-01,590434,95,13751,355322,Charged-off,90+
+1914,50,58163,West,Loan,Personal Loan,2023-10-16,636305,0,25167,126489,Current,Current
+1915,52,152854,South,Savings,Personal Loan,2023-07-27,338232,95,2352,292790,Charged-off,90+
+1916,58,106032,East,Current,Personal Loan,2019-03-25,157881,120,24981,108555,Charged-off,90+
+1917,21,78878,South,Loan,Personal Loan,2023-02-23,185366,0,3564,53270,Current,Current
+1918,56,159893,North,Savings,Credit Card,2019-06-01,270162,0,23438,78967,Current,Current
+1919,47,71166,West,Current,Personal Loan,2021-10-02,48310,0,41452,210120,Current,Current
+1920,59,179756,South,Current,Auto Loan,2020-04-13,165816,20,7528,211998,Delinquent,0-30
+1921,64,159155,South,Loan,Auto Loan,2021-11-02,23577,0,17483,459801,Current,Current
+1922,32,82909,North,Current,Credit Card,2019-12-19,319829,120,44197,240687,Charged-off,90+
+1923,59,153900,West,Credit Card,Personal Loan,2021-09-24,142419,20,8750,200800,Delinquent,0-30
+1924,26,97194,South,Credit Card,Personal Loan,2021-02-27,20828,20,34129,237857,Delinquent,0-30
+1925,59,96673,West,Loan,Mortgage,2019-01-10,202654,0,7930,132850,Current,Current
+1926,44,187347,East,Loan,Auto Loan,2023-11-01,230880,0,24496,186422,Current,Current
+1927,24,161908,South,Savings,Auto Loan,2019-11-23,29999,0,36033,197034,Current,Current
+1928,24,28251,East,Loan,Mortgage,2022-12-27,560811,70,21876,364393,Charged-off,60-90
+1929,60,185329,South,Savings,Personal Loan,2024-07-30,210012,35,12425,156239,Delinquent,30-60
+1930,24,34278,North,Current,Credit Card,2019-04-13,623390,0,26567,182174,Current,Current
+1931,37,90909,East,Loan,Credit Card,2022-12-04,118873,50,42931,464322,Delinquent,30-60
+1932,42,85903,East,Current,Credit Card,2018-12-30,671448,50,1010,325451,Delinquent,30-60
+1933,47,163221,East,Current,Auto Loan,2020-06-24,258433,50,23228,203986,Delinquent,30-60
+1934,29,50598,East,Loan,Credit Card,2023-03-08,631140,0,4413,88099,Current,Current
+1935,45,124608,West,Credit Card,Mortgage,2022-04-01,627860,10,35814,259206,Delinquent,0-30
+1936,56,52351,East,Savings,Auto Loan,2023-09-25,449249,20,7746,150535,Delinquent,0-30
+1937,62,47621,South,Credit Card,Auto Loan,2023-08-01,577281,95,32785,394713,Charged-off,90+
+1938,58,127275,South,Credit Card,Mortgage,2018-04-18,433408,95,17247,241964,Charged-off,90+
+1939,58,137640,East,Credit Card,Personal Loan,2017-05-21,234935,0,23033,492387,Current,Current
+1940,49,169540,West,Credit Card,Credit Card,2018-09-08,500623,0,22830,450266,Current,Current
+1941,24,112663,West,Loan,Personal Loan,2022-09-17,616433,120,22842,52073,Charged-off,90+
+1942,38,156002,North,Loan,Auto Loan,2024-04-06,540728,95,34500,496263,Charged-off,90+
+1943,35,117340,South,Credit Card,Auto Loan,2019-04-03,6280,20,14283,218982,Delinquent,0-30
+1944,47,163391,East,Savings,Personal Loan,2018-11-23,73110,50,35653,73838,Delinquent,30-60
+1945,55,52466,East,Savings,Auto Loan,2017-10-15,739448,0,18533,68479,Current,Current
+1946,31,65976,West,Loan,Credit Card,2019-09-16,734149,10,10582,424270,Delinquent,0-30
+1947,56,112965,South,Credit Card,Auto Loan,2020-02-26,482677,0,27722,399072,Current,Current
+1948,28,50296,North,Credit Card,Personal Loan,2020-05-17,42223,0,2825,335359,Current,Current
+1949,48,176792,North,Current,Credit Card,2021-06-14,160929,0,14000,38139,Current,Current
+1950,58,32150,South,Savings,Mortgage,2025-02-03,284022,0,26569,428763,Current,Current
+1951,21,80994,North,Loan,Mortgage,2022-06-10,523746,10,20731,139587,Delinquent,0-30
+1952,48,167894,West,Savings,Credit Card,2019-01-30,311114,120,29228,415265,Charged-off,90+
+1953,25,140906,South,Savings,Credit Card,2021-07-17,399605,10,27918,480125,Delinquent,0-30
+1954,33,132128,West,Savings,Mortgage,2025-03-09,362190,0,4039,156711,Current,Current
+1955,64,153038,North,Savings,Mortgage,2023-10-28,230368,0,10418,142066,Current,Current
+1956,25,80181,South,Credit Card,Credit Card,2022-08-02,125871,35,46240,40542,Delinquent,30-60
+1957,38,101518,West,Credit Card,Credit Card,2023-02-17,759191,35,4497,21531,Delinquent,30-60
+1958,53,178579,South,Credit Card,Mortgage,2018-08-24,41109,0,48415,148335,Current,Current
+1959,22,139561,South,Credit Card,Personal Loan,2019-08-12,636138,0,44515,403521,Current,Current
+1960,43,85831,West,Loan,Auto Loan,2022-10-10,282239,50,11333,183282,Delinquent,30-60
+1961,23,68871,East,Loan,Mortgage,2023-05-13,74502,95,11996,39269,Charged-off,90+
+1962,37,33992,North,Current,Mortgage,2019-07-23,319466,10,13895,354444,Delinquent,0-30
+1963,50,83620,South,Credit Card,Mortgage,2017-08-06,466899,0,8208,393107,Current,Current
+1964,51,51357,West,Credit Card,Mortgage,2023-01-13,257827,35,36219,260212,Delinquent,30-60
+1965,29,27495,North,Current,Mortgage,2023-12-13,461348,0,40295,442495,Current,Current
+1966,30,135878,West,Current,Mortgage,2018-05-22,276699,0,12561,280423,Current,Current
+1967,29,115054,North,Current,Auto Loan,2022-03-18,617439,0,15721,397052,Current,Current
+1968,50,133946,East,Loan,Auto Loan,2020-05-10,296436,0,26766,83541,Current,Current
+1969,40,141563,West,Savings,Mortgage,2024-03-01,378107,20,13125,246849,Delinquent,0-30
+1970,26,120035,East,Loan,Mortgage,2024-07-10,168599,10,29040,93489,Delinquent,0-30
+1971,58,90185,South,Current,Mortgage,2022-10-30,775171,70,21191,420770,Charged-off,60-90
+1972,52,27110,South,Current,Mortgage,2023-07-01,617019,10,38390,372830,Delinquent,0-30
+1973,41,168207,West,Current,Mortgage,2020-02-27,349193,10,13243,450770,Delinquent,0-30
+1974,46,151893,East,Current,Credit Card,2018-02-27,633659,20,32038,306479,Delinquent,0-30
+1975,40,45947,East,Savings,Credit Card,2022-11-15,44703,35,47319,341812,Delinquent,30-60
+1976,55,45801,South,Savings,Personal Loan,2020-02-27,18316,20,43609,308609,Delinquent,0-30
+1977,32,157606,East,Current,Mortgage,2024-05-02,189130,0,21320,92492,Current,Current
+1978,56,104217,North,Credit Card,Personal Loan,2020-06-28,399930,10,11113,220747,Delinquent,0-30
+1979,51,131900,North,Current,Credit Card,2019-05-06,684972,0,21676,69985,Current,Current
+1980,23,68483,West,Savings,Personal Loan,2022-12-19,292809,50,14743,337418,Delinquent,30-60
+1981,28,199036,West,Savings,Credit Card,2024-05-06,506191,0,32638,159624,Current,Current
+1982,40,157824,East,Current,Personal Loan,2020-12-12,35759,0,28453,482347,Current,Current
+1983,39,116180,West,Savings,Personal Loan,2023-02-18,95336,10,17451,270620,Delinquent,0-30
+1984,26,90509,North,Loan,Personal Loan,2020-11-07,370583,50,49008,301006,Delinquent,30-60
+1985,23,72978,East,Current,Personal Loan,2020-06-10,416543,0,32389,467746,Current,Current
+1986,51,74007,North,Savings,Auto Loan,2024-07-01,601264,0,45627,278788,Current,Current
+1987,50,69743,South,Loan,Mortgage,2023-09-21,406025,35,35476,163682,Delinquent,30-60
+1988,61,175409,North,Savings,Credit Card,2024-03-24,132916,0,49776,68669,Current,Current
+1989,29,41856,East,Savings,Personal Loan,2017-09-29,581356,0,45548,190607,Current,Current
+1990,50,154680,West,Loan,Personal Loan,2023-12-08,497598,35,1986,200041,Delinquent,30-60
+1991,24,168210,West,Current,Credit Card,2024-06-13,151599,10,17470,279909,Delinquent,0-30
+1992,38,153317,South,Current,Auto Loan,2024-04-08,379984,35,41349,203100,Delinquent,30-60
+1993,39,64339,West,Credit Card,Personal Loan,2023-10-06,93449,20,34560,118908,Delinquent,0-30
+1994,34,104895,West,Current,Auto Loan,2017-10-19,120434,50,6651,98076,Delinquent,30-60
+1995,58,193964,East,Credit Card,Credit Card,2023-07-26,739273,35,4281,98329,Delinquent,30-60
+1996,22,180958,West,Loan,Credit Card,2021-06-14,513524,70,33084,434672,Charged-off,60-90
+1997,31,81065,West,Loan,Auto Loan,2019-07-26,600166,0,6325,481534,Current,Current
+1998,49,56028,South,Savings,Auto Loan,2021-04-04,397891,10,21888,388565,Delinquent,0-30
+1999,57,183542,South,Savings,Auto Loan,2024-05-17,580049,0,30473,70924,Current,Current
+2000,62,137140,West,Savings,Mortgage,2018-12-19,160542,0,1878,129058,Current,Current
